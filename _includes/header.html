@@ -1,0 +1,27 @@
+    <header>
+      <img class="logo" alt=""
+        src="{{ "/assets/logo_unoptimised.svg" | relative_url }}"/>
+      <h1 id="top">George Watson</h1>
+      <p class="tagline">
+        <span class="prompt">#</span>
+        <span class="tag-item">
+          Interdisciplinary scientist at the physics–biology interface
+        </span>
+      </p>
+      <nav>
+        <span class="prompt">&gt;</span>
+        {% assign pages_list = (site.pages | sort: 'order') %}
+        {% for node in pages_list %}
+          {% if node.navbar %}
+            {% if page.url == node.url %}
+            <a href="{{node.url}}" class="this-page">{% if node.navtitle %}{{node.navtitle}}{% else %}{{node.title}}{% endif %}</a>
+              <span class="comma">,</span>&nbsp;
+            {% else %}
+            <a href="{{node.url}}">{% if node.navtitle %}{{node.navtitle}}{% else %}{{node.title}}{% endif %}</a>
+              <span class="comma">,</span>&nbsp;
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </nav>
+    </header>
+

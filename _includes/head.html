@@ -1,0 +1,62 @@
+<!--
+MIT LICENSE
+===========
+
+Copyright 2019 George D. Watson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!--
+Other content is made available under a Creative Commons Attribution (CC-BY)
+licence, unless otherwise stated.
+For full licence terms, see <https://creativecommons.org/licenses/by/4.0/>
+-->
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#f38630">
+
+  {%- seo -%}
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Code+Pro"/>
+  <link rel="stylesheet"
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet"
+    href="{{ "/assets/main.css" | relative_url }}"/>
+
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="{{ "/assets/apple-touch-icon.png" | relative_url }}"/>
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="{{ "/assets/favicon-32x32.png" | relative_url }}"/>
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="{{ "/assets/favicon-16x16.png" | relative_url }}"/>
+  <link rel="manifest"
+    href="{{ "/assets/manifest.json" | relative_url }}"/>
+  <link rel="mask-icon" color="#f38630"
+    href="{{ "/assets/safari-pinned-tab.svg" | relative_url }}"/>
+  <link rel="shortcut icon"
+    href="{{ "/favicon.ico" | relative_url }}"/>
+
+  {%- feed_meta -%}
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

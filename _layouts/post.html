@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="blog-post blog-post-post blog-post-content">
+
+    {%- if page.image -%}
+      <div class="thumbnail-container thumbnail-container-single">
+    {%- endif -%}
+
+      {%- if page.image -%}
+        <img width="2306" height="1624"
+          src="{{ page.image | relative_url }}"
+          class="attachment-post-thumbnail size-post-thumbnail
+            wp-post-image"
+          alt=""/>
+      {%- endif -%}
+
+      <header class="post-header
+        {% if page.image %} thumbnail-overlay {% endif %}">
+
+        <div class="the-label">
+          <span class="category label label-{{ page.category }}">
+            <a href="/blog/{{ page.category }}"
+              rel="category tag">{{ page.category | capitalize}}</a>
+          </span>
+        </div>
+        <h2 id="blog-post-title" class="blog-post-title post-title p-name"
+            itemprop="name headline">
+          <span class="overlay-span">
+              {{ page.title | escape }}
+          </span>
+        </h2>
+        <p class="blog-post-info">
+          <span class="overlay-span">
+            <time class="dt-published"
+                datetime="{{ page.date | date_to_xmlschema }}"
+                itemprop="datePublished">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              {{ page.date | date: date_format }}
+            </time>
+          </span>
+        </p>
+
+      </header>
+
+    {%- if page.image -%}
+      </div><!-- /thumbnail-container -->
+    {%- endif -%}
+
+    <div class="post-content post-content-single post-{{ page.category }}
+        post-post e-content" itemprop="articleBody">
+      {{ content }}
+    </div><!-- /post-content -->
+
+    <!--
+    <p class="tags">
+      <i class="fa fa-tags" aria-hidden="true"></i>
+      {%- for tag in page.tags -%}
+        <span class="label label-{{ page.category }}">
+          <a>{{ tag }}</a>
+        </span>
+      {%- endfor -%}
+    </p>
+    -->
+
+  </div><!-- /.blog-post -->
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

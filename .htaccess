@@ -1,0 +1,6 @@
+# pass through if the file exists
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.*)$ - [L]
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html

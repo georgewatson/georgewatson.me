@@ -1,0 +1,69 @@
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+<div class="blog-post blog-post-{{ post.layout }} blog-post-content">
+
+  {%- if post.image and post.layout != "image" -%}
+    <div class="thumbnail-container thumbnail-container-content">
+  {%- endif -%}
+
+    {%- if post.image -%}
+      <img width="2306" height="1624"
+        src="{{ post.image | relative_url }}"
+        class="attachment-post-thumbnail size-post-thumbnail
+          wp-post-image"
+        alt=""/>
+    {%- endif -%}
+
+    {%- if post.image and post.layout != "image" -%}
+      <div class="thumbnail-overlay">
+    {%- endif -%}
+
+      <div class="the-label">
+        <span class="category label label-{{ post.category }}">
+          <a href="/blog/{{ post.category }}"
+            rel="category tag">{{ post.category | capitalize}}</a>
+        </span>
+      </div>
+      <h2 id="blog-post-title" class="blog-post-title">
+        <span class="overlay-span">
+          <a href="{{ post.url | relative_url }}"
+            >{{ post.title | escape }}</a>
+        </span>
+      </h2>
+      <p class="blog-post-info">
+        <span class="overlay-span">
+          {{ post.date | date: date_format }}
+        </span>
+      </p>
+
+  {%- if post.image and post.layout != "image" -%}
+      </div><!-- /thumbnail-overlay -->
+    </div><!-- /thumbnail-container -->
+  {%- endif -%}
+
+  {%- if site.show_excerpts -%}
+    <div class="post-content post-{{ post.category }}
+        post-{{ post.layout }}">
+      {{ post.excerpt }}
+      {%- unless post.hide-show-more -%}
+        <p class="more-link">
+          <a href="{{ post.url | relative_url }}"
+            class="read-more">» Read more...</a>
+        </p>
+      {%- endunless -%}
+    </div><!-- /post-content -->
+  {%- endif -%}
+
+  <!--
+  <p class="tags">
+    <i class="fa fa-tags" aria-hidden="true"></i>
+    {%- for tag in post.tags -%}
+      <span class="label label-{{ post.category }}">
+        <a>{{ tag }}</a>
+      </span>
+    {%- endfor -%}
+  </p>
+  -->
+
+</div><!-- /.blog-post -->
+
