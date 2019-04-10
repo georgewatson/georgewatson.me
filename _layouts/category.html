@@ -5,6 +5,16 @@ layout: default
 
   {{ content }}
 
+  <section>
+    {%- if page.description -%}
+      <p>{{ page.description }}</p>
+    {%- endif -%}
+  </section>
+  <p>
+    <i class="fas fa-rss"></i>
+    Subscribe via <a href="/feed/{{ page.tag }}.xml">Atom feed</a>
+  </p>
+
   {%- if site.posts.size > 0 -%}
     {%- for post in site.categories[page.tag] -%}
       {% include post_preview.html %}
