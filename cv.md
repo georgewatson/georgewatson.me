@@ -7,7 +7,7 @@ order: 20
 ---
 
 {::nomarkdown}
-<img src="/assets/me.jpg" class="float-right"/>
+<img src="/assets/me.jpg" class="float-right" alt=""/>
 {:/}
 
 ## Qualifications, memberships, & awards

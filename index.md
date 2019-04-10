@@ -8,7 +8,7 @@ order: 10
 navtitle: ~Home
 ---
 {::nomarkdown}
-<img src="/assets/plectoneme.png" class="float-right"/>
+<img src="/assets/plectoneme.png" class="float-right" alt=""/>
 {:/}
 
 I'm George Watson, a PhD student and postgraduate research assistant in
@@ -23,55 +23,55 @@ You can find me on:
 
 <ul class="fa-ul">
   <li>
-    <i class="fa-li fa fa-star"></i>
+    <i class="fa-li fas fa-star"></i>
     <a href="https://orcid.org/0000-0002-6524-0828">
       ORCID: 0000-0002-6524-0828
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-google"></i>
+    <i class="fa-li fab fa-google"></i>
     <a href="https://scholar.google.com/citations?user=2vB6ObYAAAAJ">
       Google Scholar
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-user"></i>
+    <i class="fa-li fas fa-user"></i>
     <a href="http://www.researcherid.com/rid/S-6481-2017">
       Researcher ID: S-6481-2017
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-graduation-cap"></i>
+    <i class="fa-li fas fa-graduation-cap"></i>
     <a href="https://york.academia.edu/georgewatson">
       Academia.edu
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-flask"></i>
+    <i class="fa-li fas fa-flask"></i>
     <a href="https://www.mendeley.com/profiles/george-watson4/">
       Mendeley
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-university"></i>
+    <i class="fa-li fas fa-university"></i>
     <a href="https://pure.york.ac.uk/portal/en/researchers/george-watson(5277867b-7496-4b48-8248-a17169943f9b).html">
       University of York Research Database (Pure)
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-linkedin"></i>
+    <i class="fa-li fab fa-linkedin"></i>
     <a href="https://www.linkedin.com/in/georgedwatson/">
       LinkedIn
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-github"></i>
+    <i class="fa-li fab fa-github"></i>
     <a href="https://github.com/georgewatson">
       GitHub: georgewatson
     </a>
   </li>
   <li>
-    <i class="fa-li fa fa-twitter"></i>
+    <i class="fa-li fab fa-twitter"></i>
     <a href="https://twitter.com/GeorgeDWatson">
       Twitter: @GeorgeDWatson
     </a>

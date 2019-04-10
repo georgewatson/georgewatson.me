@@ -2,10 +2,12 @@
     <h2>Related posts</h2>
 {%- endif -%}
 
+<!-- Feel free to play with these -->
 {%- assign maxRelated = 3 -%}
-{%- assign relatedCount = 0 -%}
-
 {%- assign minTags = 2 -%}
+
+<!-- Probably don't play with anything after this point -->
+{%- assign relatedCount = 0 -%}
 
 <!-- Look for posts with at least minTags tags in common -->
 {%- for post in site.posts -%}
