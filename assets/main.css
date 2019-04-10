@@ -187,6 +187,7 @@ abbr {
         position: absolute;
         width: 80vw;
         max-width: 360px;
+        left: 10vw;
     }
 }
 @media screen and (max-width: 400px) {
@@ -198,12 +199,7 @@ abbr {
     .logo {
         position: absolute;
         width: 80vw;
-        max-width: 360px;
-    }
-}
-@media screen and (min-width: 400px) {
-    .logo {
-        max-width: 20%;
+        left: 10vw;
     }
 }
 
@@ -452,14 +448,14 @@ ul li:before {
 ul.fa-ul li:before,
 blockquote p:before,
 .footnotes p:before,
-.recent-posts p:before {
+.blog-post-info:before {
     content: "";
     display: none;
 }
 ul.fa-ul li,
 blockquote p,
 .footnotes p,
-.recent-posts p {
+.blog-post-info {
     padding-left: 0 !important;
     text-indent: 0 !important;
 }
@@ -476,7 +472,9 @@ blockquote p,
     }
 }
 .fa,
-.fab {
+.fab,
+.far,
+.fas {
     display: inline !important;
 }
 
@@ -780,18 +778,10 @@ blockquote p,
     background-color: #5cb85c;
 }*/
 
-.tagcloud {
-    text-align: center;
-}
-.tagcloud a {
-    vertical-align: middle;
-}
-
-.jp-relatedposts {
-    text-align: left;
-}
-.EnlighterJS, .EnlighterJSWrapper {
-    font-family: "Fira Code", monospace !important;
+code {
+    background-color: #eee;
+    padding-left: 0.5ch;
+    padding-right: 0.5ch;
 }
 
 .highlight { background-color: #fff; color: #333 }

@@ -70,21 +70,17 @@ order: 20
   *Institute of Physics &bull; 8 April 2019*\\
   "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
   interaction"\\
-<span>
-  <i class="fa fa-file-pdf-o"></i> <a href="/dl/2019-04-08_poster.pdf">PDF</a> &bull;
-  <a href="/blog/science/2019/04/05/my-poster-at-the-iop-physics-of-microorganisms-ii-conference-london-8-april-2019">
-    Blog
-  </a>
-</span>
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2019-04-08_poster.pdf) &bull;
+  [Blog]({% post_url science/2019-04-05-my-poster-at-the-iop-physics-of-microorganisms-ii-conference-london-8-april-2019 %})
 * **[Physics of Life Summer School: New Approaches to Biomolecular Structure,
   Dynamics and
   Function](http://www.physicsoflife.org.uk/summer-school-new-approaches-to-biomolecular-function-structure-and-dynamics.html)**
   \\
   *Durham University &bull; 16--20 July 2018*\\
   "Atomistic simulation of DNA supercoiling"\\
-<span>
-  <i class="fa fa-file-pdf-o"></i> <a href="/dl/2018-06-28_poster.pdf">PDF</a>
-</span>
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2018-06-28_poster.pdf)
 
 ### Internal
 
@@ -93,15 +89,13 @@ order: 20
   *University of York &bull; 28 June 2018*\\
   "The influence of DNA topology on IHF--DNA interaction unveiled by atomic 
   simulations"\\
-<span>
-  <i class="fa fa-file-pdf-o"></i> <a href="/dl/2018-06-28_poster.pdf">PDF</a>
-</span>
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2018-06-28_poster.pdf)
 * **BPSI Spring Symposium 2018: Digital Healthcare**\\
   *University of York &bull; 28 June 2018*\\
   "Atomistic simulation of DNA supercoiling"\\
-<span>
-  <i class="fa fa-file-pdf-o"></i> <a href="/dl/2018-03-20_poster.pdf">PDF</a>
-</span>
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2018-03-20_poster.pdf)
 
 ## Other conferences attended
 {:#conferences}
@@ -140,6 +134,6 @@ order: 20
 ## Administration
 {:#admin}
 
-* Redesigned and maintain the [Physics of Life Group
-  website](https://www.york.ac.uk/physics/research/physics-of-life) and
-  [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
+* Redesigned and maintain the
+  [Physics of Life Group website](https://www.york.ac.uk/physics/research/physics-of-life)
+  and [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
