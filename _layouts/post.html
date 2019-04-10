@@ -64,10 +64,12 @@ layout: default
     </p>
     -->
 
+    {% include share-buttons.html %}
+
   </div><!-- /.blog-post -->
 
   {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
+    {% include disqus_comments.html %}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

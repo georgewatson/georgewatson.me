@@ -45,7 +45,7 @@
     <div class="post-content post-{{ post.category }}
         post-{{ post.layout }}">
       {{ post.excerpt }}
-      {%- unless post.hide-show-more -%}
+      {%- unless post.hide_read_more -%}
         <p class="more-link">
           <a href="{{ post.url | relative_url }}"
             class="read-more">» Read more...</a>
