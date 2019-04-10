@@ -68,25 +68,7 @@ layout: default
 
   </div><!-- /.blog-post -->
 
-  {%- if site.posts.size > 0 -%}
-      <h2>Related posts</h2>
-  {%- endif -%}
-  {%- assign maxRelated = 3 -%}
-  {%- assign relatedCount = 0 -%}
-  {%- for post in site.posts -%}
-    {%- if relatedCount < maxRelated and page.url != post.url and page.category == post.category -%}
-      {% assign relatedCount = relatedCount | plus: 1 %}
-      {% include post_title.html %}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- if relatedCount < maxRelated -%}
-    {%- for post in site.posts -%}
-      {%- if relatedCount < maxRelated and page.url != post.url and page.category != post.category -%}
-        {% assign relatedCount = relatedCount | plus: 1 %}
-        {% include post_title.html %}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
+  {% include related_posts.html %}
 
   {%- if site.disqus.shortname -%}
     {% include disqus_comments.html %}

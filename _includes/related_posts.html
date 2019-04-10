@@ -1,0 +1,55 @@
+{%- if site.posts.size > 1 -%}
+    <h2>Related posts</h2>
+{%- endif -%}
+
+{%- assign maxRelated = 3 -%}
+{%- assign relatedCount = 0 -%}
+
+{%- assign maxTags = 4 -%}
+{%- assign minTags = 2 -%}
+
+<!-- Look for posts with at least maxTags tags in common -->
+<!-- If there aren't enough, reduce the threshold to a minimum of minTags -->
+{%- for numTags in (minTags..maxTags) reversed -%}
+  {%- for post in site.posts -%}
+    {%- if relatedCount < maxRelated and page.url != post.url -%}
+      {%- assign sharedTags = 0 -%}
+
+      {%- for tag in post.tags -%}
+        {%- if page.tags contains tag -%}
+          {%- assign sharedTags = sharedTags | plus: 1 -%}
+          {%- if sharedTags == numTags -%}{%- break -%}{%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if sharedTags >= numTags -%}
+        {% include post_title.html %}
+        {%- assign relatedCount = relatedCount | plus: 1 -%}
+        {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+
+<!-- If there aren't enough, pick recent posts from the same category -->
+{%- if relatedCount < maxRelated -%}
+  {%- for post in site.posts -%}
+    {%- if relatedCount < maxRelated and page.url != post.url and page.category == post.category -%}
+      {% include post_title.html %}
+      {% assign relatedCount = relatedCount | plus: 1 %}
+      {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+<!-- If there still aren't enough, just pick recent posts -->
+{%- if relatedCount < maxRelated -%}
+  {%- for post in site.posts -%}
+    {%- if relatedCount < maxRelated and page.url != post.url and page.category != post.category -%}
+      {% include post_title.html %}
+      {% assign relatedCount = relatedCount | plus: 1 %}
+      {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}

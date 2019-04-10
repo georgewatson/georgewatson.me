@@ -9,6 +9,9 @@ tags:
 - conferences
 - posters
 - science
+- biophysics
+- personal
+- ihf
 comments: true
 image: /assets/post_images/2019-04-08_poster_cropped.png
 ---

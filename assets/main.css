@@ -811,6 +811,12 @@ code {
     .twitter-embed {
         order: 2
     }
+    section p,
+    .page-content p,
+    .post-content p,
+    dd {
+        width: 95%;
+    }
 }
 @media screen and (max-width: 400px) {
     body {

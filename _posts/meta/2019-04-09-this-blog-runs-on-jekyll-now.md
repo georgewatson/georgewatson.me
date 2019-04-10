@@ -6,6 +6,8 @@ category: meta
 tags:
 - aside
 - meta
+- jekyll
+- tech
 hide_read_more: true
 ---
 
