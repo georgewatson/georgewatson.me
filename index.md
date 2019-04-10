@@ -83,9 +83,17 @@ You can find me on:
 [GPG Public key](/dl/watson_george.pub)
 
 {::nomarkdown}
-  <a class="twitter-timeline" data-width="600" data-link-color="#30b7f3"
-      href="https://twitter.com/GeorgeDWatson?ref_src=twsrc%5Etfw">
-    Tweets by GeorgeDWatson</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-  </script>
+
+  <div style="max-width: 600px; float:right;" class="recent-posts">
+    <h2>Recent posts</h2>
+    {% include recent_posts.html %}
+    <p><a href="/blog/">Full list</a></p>
+  </div>
+  <div style="max-width: 600px; float:left;">
+    <a class="twitter-timeline" data-width="600" data-link-color="#30b7f3"
+        href="https://twitter.com/GeorgeDWatson?ref_src=twsrc%5Etfw">
+      Tweets by GeorgeDWatson</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+    </script>
+  </div>
 {:/}

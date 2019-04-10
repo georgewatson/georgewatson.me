@@ -451,13 +451,15 @@ ul li:before {
 }
 ul.fa-ul li:before,
 blockquote p:before,
-.footnotes p:before {
+.footnotes p:before,
+.recent-posts p:before {
     content: "";
     display: none;
 }
 ul.fa-ul li,
 blockquote p,
-.footnotes p {
+.footnotes p,
+.recent-posts p {
     padding-left: 0 !important;
     text-indent: 0 !important;
 }

@@ -18,23 +18,7 @@
       <div class="thumbnail-overlay">
     {%- endif -%}
 
-      <div class="the-label">
-        <span class="category label label-{{ post.category }}">
-          <a href="/blog/{{ post.category }}"
-            rel="category tag">{{ post.category | capitalize}}</a>
-        </span>
-      </div>
-      <h2 id="blog-post-title" class="blog-post-title">
-        <span class="overlay-span">
-          <a href="{{ post.url | relative_url }}"
-            >{{ post.title | escape }}</a>
-        </span>
-      </h2>
-      <p class="blog-post-info">
-        <span class="overlay-span">
-          {{ post.date | date: date_format }}
-        </span>
-      </p>
+      {% include post_title.html %}
 
   {%- if post.image and post.layout != "image" -%}
       </div><!-- /thumbnail-overlay -->
