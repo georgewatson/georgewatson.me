@@ -119,7 +119,7 @@ footer p {
 }
 section:last-of-type > p:last-of-type:after,
 .page-content > p:last-of-type:after,
-.post-content_single > p:last-of-type:after {
+.post-content-single > p:last-of-type:after {
     content: '_';
     color: #f33051;
     animation: blink-animation 1200ms steps(2, start) infinite;
@@ -382,7 +382,8 @@ a[href*="blog/tech"]:hover,
     color: #f38630;
 }
 hr {
-    border-top: 2px solid #333;
+    border-top: 1px solid #333;
+    border-bottom: 0;
 }
 .post-meta hr,
 .post-meta blockquote {
@@ -449,12 +450,14 @@ ul li:before {
     font-weight: 600;
 }
 ul.fa-ul li:before,
-blockquote p:before {
+blockquote p:before,
+.footnotes p:before {
     content: "";
     display: none;
 }
 ul.fa-ul li,
-blockquote p {
+blockquote p,
+.footnotes p {
     padding-left: 0 !important;
     text-indent: 0 !important;
 }
@@ -462,7 +465,7 @@ blockquote p {
     max-width: 100%;
     height: auto;
 }
-.easy-footnotes-wrapper {
+.footnotes {
     font-size: 80%;
 }
 @media screen and (max-width: 1000px) {

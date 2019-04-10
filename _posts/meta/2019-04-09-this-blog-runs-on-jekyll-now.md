@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This blog runs on Jekyll now
+title: This site runs on Jekyll now
 published: true
 category: meta
 tags:
