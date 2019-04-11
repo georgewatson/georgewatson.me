@@ -53,6 +53,15 @@ For more information, see:
 * ["Privacy and the cfduid cookie" --- CloudFlare
   Support](https://support.cloudflare.com/hc/en-us/articles/360024915491)
 
+A cookie may also be used to store your stylesheet preference.
+This cookie is called `style` and contains your chosen stylesheet,
+if you choose to use the links in the page footer to change between the Default
+and Accessible stylesheets.
+This cookie does not identify you personally and cannot be used to track you.
+This cookie is provided purely for your convenience and will not be set
+unless you choose a stylesheet.
+No cookie will be set if you use your browser's built-in stylesheet selector.
+
 Other cookies may be stored by the following trusted partners.
 Links to their cookie policies are provided below.
 * [CloudFlare](https://www.cloudflare.com/cookie-policy/)

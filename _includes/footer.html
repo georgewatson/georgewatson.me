@@ -16,10 +16,10 @@
   </p>
   <p>
     Set style:
-    <a href="#top" onclick="switchStyle('Default Style');return false;"
+    <a href="#top" onclick="setActiveStyleSheet('Default');return false;"
       name="theme" value="Default Style" id="default-style">Default</a>
     &bull;
-    <a href="#top" onclick="switchStyle('Accessible Style');return false;"
+    <a href="#top" onclick="setActiveStyleSheet('Accessible');return false;"
       name="theme" value="Accessible Style" id="accessible-style">Accessible</a>
   <p>autocommand BufWritePost * !git add . &amp;&amp;
     git commit -m "Update" &amp;&amp;
