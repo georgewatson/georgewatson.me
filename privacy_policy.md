@@ -126,10 +126,13 @@ Every effort has been made to comply with UK and EU law.
 ### Transparency Report
 {:#transparency-report}
 
-I have never received any request for personal information regarding any
-visitor to this website from a government or law enforcement agency.
+* I have never received any request for personal information regarding any
+  visitor to this website from a government or law enforcement agency.
+* I have never been enjoined or otherwise legally prevented from publishing any
+  material on this website.
 
-The above notice is correct as of {{ site.time | date: '%-d %B %Y' }}.
+The above notices are correct as of {{ site.time | date: '%-d %B %Y' }}.
+The largest number of notices ever displayed above is 2.
 <i class="fas fa-crow"></i>
 [What's this?](https://en.wikipedia.org/wiki/Warrant_canary)
 

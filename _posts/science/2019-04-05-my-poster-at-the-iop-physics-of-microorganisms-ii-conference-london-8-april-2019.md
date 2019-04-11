@@ -16,12 +16,12 @@ comments: true
 image: /assets/post_images/2019-04-08_poster_cropped.png
 ---
 
-I will be attending the Institute of Physics \"[Physics of
+I will be attending the Institute of Physics "[Physics of
 Microorganisms
-II](https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=785982&eventID=1271&traceRedir=4)\"
-conference in London on Monday, with my poster entitled \"**Atomistic
+II](https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=785982&eventID=1271&traceRedir=4)"
+conference in London on Monday, with my poster entitled "**Atomistic
 simulations unveil the influence of DNA topology on IHF--DNA
-interaction**\".
+interaction**".
 
 <!--more-->
 
@@ -51,7 +51,7 @@ interaction**\".
 >
 > Watson G D, Leake M C, Noy A
 
-If you\'re attending too, find me at board **P23**.
+If you're attending too, find me at board **P23**.
 
-If you\'re not, you don\'t need to miss out: [A PDF version of my poster
+If you're not, you don't need to miss out: [A PDF version of my poster
 is available online](https://georgewatson.me/dl/2019-04-08_poster.pdf).
