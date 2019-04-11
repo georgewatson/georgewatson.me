@@ -28,8 +28,9 @@ google_analytics: UA-138059441-1
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-git_metadata
+    - jekyll-feed
+    - jekyll-git_metadata
+    - jekyll-sitemap
 
 feed:
   categories:
