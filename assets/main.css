@@ -131,9 +131,6 @@ footer p:last-of-type:after {
     color: #f33051;
     font-weight: 600;
 }
-strong {
-    font-weight: 600;
-}
 section p,
 .page-content p,
 .post-content p,
