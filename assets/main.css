@@ -822,6 +822,12 @@ code {
         padding-top: 100vw;
         background-attachment: scroll;
     }
+    .float-right {
+        float: none;
+    }
+    .float-left {
+        float: none;
+    }
 }
 
 .highlight { background-color: #fff; color: #333 }
