@@ -14,6 +14,13 @@
     I might use cookies or analytics.
     <a href="/privacy_policy">Privacy policy</a>
   </p>
+  <p>
+    Set style:
+    <a href="#top" onclick="switchStyle('Default Style');return false;"
+      name="theme" value="Default Style" id="default-style">Default</a>
+    &bull;
+    <a href="#top" onclick="switchStyle('Accessible Style');return false;"
+      name="theme" value="Accessible Style" id="accessible-style">Accessible</a>
   <p>autocommand BufWritePost * !git add . &amp;&amp;
     git commit -m "Update" &amp;&amp;
     git push --force origin master</p>
@@ -22,3 +29,5 @@
   href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
   crossorigin="anonymous"/>
+
+<script type="text/javascript" src="/assets/style_switcher.js"></script>

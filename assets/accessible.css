@@ -1,0 +1,675 @@
+ ---
+ ---
+
+/*
+Theme Name: George Watson
+Author: George Watson
+Description: A more accessible theme
+Version: 0.0.4
+Tags: custom
+*/
+html {
+    margin-top: 0px !important;
+}
+body {
+    font-family: 'Arial', 'Comic Sans', sans-serif;
+    padding-left: 240px;
+    color: #000;
+    font-size: 200%;
+}
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+h1 {
+    font-size: 400%;
+    margin-top: 0;
+    font-weight: 200;
+    color: #000;
+}
+h2 {
+    font-size: 200%;
+    font-weight: 200;
+    color: #000;
+}
+a {
+    color: #00f;
+}
+nav a {
+    text-decoration: underline;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+blockquote {
+    border-left: 5px solid;
+    padding-left: 15px;
+}
+.this-page {
+    color: green;
+}
+.prompt {
+    display: none;
+}
+.tagline,
+nav {
+    margin-top: -40px;
+    font-size: 200%;
+}
+.tag-item,
+nav a,
+nav .this-page {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+section,
+footer,
+dt {
+    margin-top: 3ex;
+}
+strong {
+    font-weight: 600;
+}
+.hidden {
+    display: none;
+}
+.indent,
+dd {
+    display: inline-block;
+    margin-left: 2ch;
+}
+span.indent {
+    text-indent: 0;
+}
+.p-item strong {
+    color: #000;
+}
+ul.networks {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+ul.networks li {
+    display: inline;
+    margin-left: 30px;
+}
+ul.networks li:first-child {
+    margin-left: 0;
+}
+abbr {
+    cursor: help;
+}
+
+.float-right,
+.img[src$='#float-right'] {
+    width: 300px;
+    float: none;
+}
+header {
+    margin-bottom: 20px;
+}
+body {
+    overflow-y: scroll;
+}
+
+.thumbnail-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+.thumbnail-container-content {
+    height: 360px;
+}
+.thumbnail-container-single {
+    height: 650px;
+}
+.thumbnail-overlay {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    width: 100%;
+}
+
+.overlay-span {
+    background-color: #000;
+    color: #fff;
+}
+.overlay-span a,
+.category a,
+.label a,
+.comments-link {
+    color: #fff;
+    text-decoration: underline;
+}
+.overlay-span a:hover {
+    color: #0f0;
+    text-decoration: underline;
+}
+.blog-post-title {
+    width: 100%;
+    min-width: 100px;
+}
+.blog-post-title,
+.blog-post-info {
+    margin-top: 0;
+}
+.blog-post-title {
+    margin-bottom: 0;
+}
+.blog-post-info {
+    margin-bottom: 3ex;
+}
+.category {
+    font-size: 200%;
+}
+.label {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #fff;
+    background-color: #000;
+}
+.blog-post-image .the-label {
+    margin-top: -5px;
+    margin-right: -10px;
+}
+.blog-post-image .blog-post-title {
+    display: inline;
+}
+.blog-post-info .overlay-span {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.blog-post-title .overlay-span {
+    color: #fff;
+    box-shadow: 0.5em 0 0 #000, -0.5em 0 0 #000;
+    position: relative;
+    left: 0.5em;
+}
+.blog-post-title a {
+    text-decoration: underline;
+}
+.label-meta {
+    background-color: #000;
+}
+.label-politics {
+    background-color: #f00;
+}
+.label-science {
+    background-color: green;
+}
+.label-data {
+    background-color: #00f;
+}
+.label-culture {
+    background-color: brown;
+}
+.label-tech {
+    background-color: orange;
+}
+hr {
+    border-top: 5px solid #000;
+    border-bottom: 0;
+}
+.post-content p {
+    max-width: 50ch !important;
+}
+.label a {
+    text-decoration: underline;
+}
+.post-content,
+.category-description {
+    font-size: 115%;
+}
+
+.post-content a {
+    font-weight: bold;
+}
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1000px) {
+    h2 {
+        font-size: 150%;
+    }
+}
+.fa,
+.fab,
+.far,
+.fas {
+    display: inline !important;
+}
+
+
+
+
+
+
+
+
+/* From PhysSoc */
+.media {
+    margin-top: 0px;
+}
+.media-left {
+    width: 200px;
+    overflow: hidden;
+}
+.media:first-of-type a.media-left {
+    border-top-left-radius: 30px;
+}
+.media:last-of-type a.media-left {
+    border-bottom-left-radius: 30px;
+}
+
+.float-right {
+    float: none;
+}
+.float-left {
+    float: none;
+}
+.attachment-post-thumbnail {
+    max-width: 100%;
+    max-height: 720px;
+    width: auto;
+    height: auto;
+}
+.blog-post:not(.blog-post-image) .attachment-post-thumbnail {
+/* Fallback */
+    min-width: 100%;
+    max-width: 300%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+/* Best fit, poor browser support */
+    -o-object-fit: cover !important;
+    -o-object-position: center center !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+}
+/*
+.thumbnail-overlay {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.thumbnail-overlay a {
+    color: #fff;
+    text-shadow: 0px 0px 10px rgba(  0, 230, 255, 1);
+    transition: all 0.25s;
+}
+.thumbnail-overlay a:hover {
+    color: rgba(  0, 230, 255, 1);
+    text-decoration: none;
+}
+.thumbnail-overlay a:after {
+    content: " »";
+}
+*/
+.comments-link:after {
+    content: "" !important;
+}
+
+.tags {
+    font-size: 150%;
+}
+
+.label a, a .label {
+    color: #fff !important;
+    text-shadow: none;
+}
+.category a:after {
+    content: "";
+}
+
+#author-bio-box {
+    margin-bottom: 20px;
+}
+
+.commentlist, .children {
+    list-style-type: none;
+    margin-left: -40px;
+}
+.comment {
+    border-left: 5px solid #eee;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.bypostauthor {
+    border-color: #d9534f;
+}
+.says {
+    display: none;
+}
+.comment-author .fn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150%;
+    vertical-align: middle;
+}
+.bypostauthor > .comment-body:first-child .comment-author .fn a {
+    color: #d9534f;
+}
+.bypostauthor > .comment-body:first-child .comment-author:after {
+    content: "Post Author";
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #d9534f;
+    margin-left: 10px;
+}
+.reply:before {
+    font-family: FontAwesome;
+    content: "\f112\00a0";
+}
+.comment-edit-link:before {
+    font-family: FontAwesome;
+    content: "\f040\00a0";
+}
+
+.widgets-list-layout-links {
+    position: relative;
+    left: -20px;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+.category.label-uncategorised {
+    display: none;
+}
+
+
+.widget_top-posts {
+    line-height: 1.0;
+}
+.widget_top-posts li {
+    margin-bottom: 0px !important;
+}
+.widget_top-posts li:first-child img {
+    border-top-left-radius: 10px;
+}
+.widget_top-posts li:last-child img {
+    border-bottom-left-radius: 10px;
+}
+
+.widget_categories ul {
+    margin-left: -30px;
+}
+.widget_categories li {
+    display: inline;
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+
+.post-content > h3 {
+    margin-top: 30px;
+}
+
+.row {
+    font-size: 12pt;
+}
+
+.category-page-header {
+    margin-top: 0;
+}
+.category-description {
+    margin-bottom: 50px;
+}
+
+.blog-post {
+    margin-bottom: 50px;
+}
+
+.addthis_ {
+    position: relative;
+    top: -47px;
+    float: right;
+}
+
+.post-content p a img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wp-caption-text {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
+    margin-bottom: 20px;
+}
+.post-meta .wp-caption-text,
+.post-meta .wp-caption-text small a {
+    color: #777;
+    border-color: #777;
+}
+.post-life-in-york .wp-caption-text,
+.post-life-in-york .wp-caption-text small a {
+    color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+.post-focus-on-physics .wp-caption-text,
+.post-focus-on-physics .wp-caption-text small a {
+    color: #5bc0de;
+    border-color: #5bc0de;
+}
+.post-news .wp-caption-text,
+.post-news .wp-caption-text small a {
+    color: #d9534f;
+    border-color: #d9534f;
+}
+.post-physsoc .wp-caption-text,
+.post-physsoc .wp-caption-text small a {
+    color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+
+.tagcloud a:nth-child(even) {
+    color: #6c6c6c;
+}
+
+.aligncenter,
+.wp-caption img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    margin-top: 20px;
+}
+
+.children {
+    margin-left: -20px;
+}
+.depth-1 {
+    margin-bottom: 20px;
+}
+
+.wp-caption-text small {
+    font-size: 70%;
+}
+
+/*.post-single > p:last-of-type::after {
+    content: '';
+    display: block;
+    float: right;
+    position: relative;
+    height: 0.625em;
+    margin-left: 0.3em;
+    top: 0.3em;
+    width: 0.625em;
+}
+.post-meta > p:last-of-type::after {
+    background-color: #777;
+}
+.post-life-in-york > p:last-of-type::after {
+    background-color: #f0ad4e;
+}
+.post-focus-on-physics > p:last-of-type::after {
+    background-color: #5bc0de;
+}
+.post-news > p:last-of-type::after {
+    background-color: #d9534f;
+}
+.post-physsoc > p:last-of-type::after {
+    background-color: #5cb85c;
+}*/
+
+code {
+    padding-left: 0.5ch;
+    padding-right: 0.5ch;
+    font-family: monospace;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-column-left {
+    order: 1;
+    width: 100%;
+    padding-right: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.flex-column-right {
+    order: 2;
+    width: 100%;
+    padding-left: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.recent-posts {
+    order: 1
+}
+.twitter-embed {
+    order: 2
+}
+
+.twitter-embed {
+    max-width: 600px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding-left: 0;
+        padding-top: 400px;
+        background-attachment: scroll;
+    }
+    .logo {
+        position: absolute;
+        width: 80vw;
+        max-width: 360px;
+        left: 10vw;
+    }
+
+    section p,
+    .page-content p,
+    .post-content p,
+    dd {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 400px) {
+    body {
+        padding-top: 100vw;
+        background-attachment: scroll;
+    }
+}
+
+.highlight { background-color: #fff; color: #000 }
+.highlight .c { color: #777 } /* Comment */
+.highlight .err { color: #000 } /* Error */
+.highlight .g { color: #000 } /* Generic */
+.highlight .k { color: green } /* Keyword */
+.highlight .l { color: #000 } /* Literal */
+.highlight .n { color: #000 } /* Name */
+.highlight .o { color: green } /* Operator */
+.highlight .x { color: #000 } /* Other */
+.highlight .p { color: #000 } /* Punctuation */
+.highlight .cm { color: #777 } /* Comment.Multiline */
+.highlight .cp { color: green } /* Comment.Preproc */
+.highlight .c1 { color: #777 } /* Comment.Single */
+.highlight .cs { color: green } /* Comment.Special */
+.highlight .gd { color: #000 } /* Generic.Deleted */
+.highlight .ge { color: #000; font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #f00 } /* Generic.Error */
+.highlight .gh { color: #000 } /* Generic.Heading */
+.highlight .gi { color: green } /* Generic.Inserted */
+.highlight .go { color: #000 } /* Generic.Output */
+.highlight .gp { color: #000 } /* Generic.Prompt */
+.highlight .gs { color: #000; font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #000 } /* Generic.Subheading */
+.highlight .gt { color: #000 } /* Generic.Traceback */
+.highlight .kc { color: #000 } /* Keyword.Constant */
+.highlight .kd { color: #00f } /* Keyword.Declaration */
+.highlight .kn { color: green } /* Keyword.Namespace */
+.highlight .kp { color: green } /* Keyword.Pseudo */
+.highlight .kr { color: #00f } /* Keyword.Reserved */
+.highlight .kt { color: #f00 } /* Keyword.Type */
+.highlight .ld { color: #000 } /* Literal.Date */
+.highlight .m { color: #000 } /* Literal.Number */
+.highlight .s { color: #000 } /* Literal.String */
+.highlight .na { color: #000 } /* Name.Attribute */
+.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nc { color: #00f } /* Name.Class */
+.highlight .no { color: #000 } /* Name.Constant */
+.highlight .nd { color: #00f } /* Name.Decorator */
+.highlight .ni { color: #000 } /* Name.Entity */
+.highlight .ne { color: #000 } /* Name.Exception */
+.highlight .nf { color: #00f } /* Name.Function */
+.highlight .nl { color: #000 } /* Name.Label */
+.highlight .nn { color: #000 } /* Name.Namespace */
+.highlight .nx { color: #000 } /* Name.Other */
+.highlight .py { color: #000 } /* Name.Property */
+.highlight .nt { color: #00f } /* Name.Tag */
+.highlight .nv { color: #00f } /* Name.Variable */
+.highlight .ow { color: green } /* Operator.Word */
+.highlight .w { color: #000 } /* Text.Whitespace */
+.highlight .mf { color: #000 } /* Literal.Number.Float */
+.highlight .mh { color: #000 } /* Literal.Number.Hex */
+.highlight .mi { color: #000 } /* Literal.Number.Integer */
+.highlight .mo { color: #000 } /* Literal.Number.Oct */
+.highlight .sb { color: #777 } /* Literal.String.Backtick */
+.highlight .sc { color: #000 } /* Literal.String.Char */
+.highlight .sd { color: #000 } /* Literal.String.Doc */
+.highlight .s2 { color: #000 } /* Literal.String.Double */
+.highlight .se { color: #000 } /* Literal.String.Escape */
+.highlight .sh { color: #000 } /* Literal.String.Heredoc */
+.highlight .si { color: #000 } /* Literal.String.Interpol */
+.highlight .sx { color: #000 } /* Literal.String.Other */
+.highlight .sr { color: #f00 } /* Literal.String.Regex */
+.highlight .s1 { color: #000 } /* Literal.String.Single */
+.highlight .ss { color: #000 } /* Literal.String.Symbol */
+.highlight .bp { color: #00f } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #00f } /* Name.Variable.Class */
+.highlight .vg { color: #00f } /* Name.Variable.Global */
+.highlight .vi { color: #00f } /* Name.Variable.Instance */
+.highlight .il { color: #000 } /* Literal.Number.Integer.Long */
