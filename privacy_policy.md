@@ -131,7 +131,10 @@ Every effort has been made to comply with UK and EU law.
 * I have never been enjoined or otherwise legally prevented from publishing any
   material on this website.
 
-The above notices are correct as of {{ site.time | date: '%-d %B %Y' }}.
+The above notices are correct as of commit
+[{{ site.git.last_commit.short_sha 
+}}](https://github.com/georgewatson/georgewatson.me/commit/{{ site.git.last_commit.long_sha }})
+on {{ site.time | date: '%-d %B %Y' }}.
 The largest number of notices ever displayed above is 2.
 <i class="fas fa-crow"></i>
 [What's this?](https://en.wikipedia.org/wiki/Warrant_canary)
@@ -139,7 +142,9 @@ The largest number of notices ever displayed above is 2.
 ### Updates and Queries
 {:#updates}
 
-This policy was last updated on 11 April 2019.
+This policy was last updated in commit
+[{{ page.git.last_commit.short_sha }}](https://github.com/georgewatson/georgewatson.me/commit/{{ page.git.last_commit.long_sha }})
+on {{ page.git.last_commit.commit_date | date: '%-d %B %Y' }}.
 All changes to this privacy policy will be recorded in the commit history of the
 [GitHub repository](https://github.com/georgewatson/georgewatson.me)
 associated with this website.

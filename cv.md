@@ -7,7 +7,7 @@ order: 20
 ---
 
 {::nomarkdown}
-<img src="/assets/me.jpg" class="float-right" alt=""/>
+<img src="/assets/me.jpg" class="float-right" alt="George Watson"/>
 {:/}
 
 ## Qualifications, memberships, & awards
@@ -55,7 +55,7 @@ order: 20
 * **Physics Postgraduate Conference 2018**\\
   *University of York &bull; 21 September 2018*\\
   "Molecular dynamics simulation of supercoiled DNA minicircles"\\
-  (**Winner: Best Talk**)
+  **Winner: Best Talk**{:.label}
 * Regular Physics of Life Group & Biological Physics Group meetings\\
   *University of York &bull; 2018--*
 
@@ -125,7 +125,7 @@ order: 20
 * **[York Researchers' Night
   (YorNight)](https://www.york.ac.uk/news-and-events/events/yornight/2018/)**
   \\
-  *University of York &bull; Novermber 2018*\\
+  *University of York &bull; November 2018*\\
   "Meet Your Molecules in VR"\\
   Performed interactive virtual reality demonstrations of biological molecules
   and 3D visualisation techniques in biophysics to members of the public of
