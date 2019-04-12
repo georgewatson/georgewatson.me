@@ -143,3 +143,5 @@ order: 20
 * Redesigned and maintain the
   [Physics of Life Group website](https://www.york.ac.uk/physics/research/physics-of-life)
   and [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
+
+*[BPSI]: Biological Physical Sciences Institute

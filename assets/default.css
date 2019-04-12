@@ -132,9 +132,8 @@ a[href*="blog/meta"]:hover,
     max-width: 80ch;
 }
 
-.post-content:not(.post-aside):not(.post-image) > p:not(:first-of-type) {
-    font-family: "Source Sans Pro",
-    sans-serif !important;
+.post-content:not(.post-image) > p:not(:first-of-type) {
+    font-family: "Source Sans Pro", sans-serif !important;
 }
 
 .post-culture hr,
