@@ -1,0 +1,267 @@
+---
+---
+
+.align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attachment-post-thumbnail {
+    height: auto;
+    max-height: 720px;
+    max-width: 100%;
+    width: auto;
+}
+
+.blog-post {
+    margin-bottom: 50px;
+}
+
+.blog-post img,
+.post-content img {
+    height: auto;
+    max-width: 100%;
+}
+
+.blog-post-image .blog-post-title {
+    display: inline;
+}
+
+.blog-post-image .the-label {
+    margin-right: -10px;
+    margin-top: -5px;
+}
+
+.blog-post-info {
+    margin-bottom: 3ex;
+}
+
+.blog-post-info .overlay-span {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.blog-post-title {
+    margin-bottom: 0;
+    min-width: 100px;
+}
+
+.blog-post-title .overlay-span {
+    color: #fff;
+    left: .5em;
+    position: relative;
+}
+
+.blog-post-title,
+.blog-post-info {
+    margin-top: 0;
+}
+
+.blog-post:not(.blog-post-image) .attachment-post-thumbnail {
+    -ms-transform: translate(-50%, -50%);
+    -o-object-fit: cover !important;
+    -o-object-position: center center !important;
+    -webkit-transform: translate(-50%, -50%);
+    height: auto;
+    left: 50%;
+    max-width: 300%;
+    min-width: 100%;
+    object-fit: cover !important;
+    object-position: center center !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.category {
+    font-size: 200%;
+}
+
+.fa,
+.fab,
+.far,
+.fas {
+    display: inline !important;
+}
+
+.flex-column-left {
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 1;
+}
+
+.flex-column-right {
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 2;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.float-right {
+    width: 300px;
+}
+
+.label {
+    color: #fff;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.label a,
+a .label {
+    color: #fff;
+    text-shadow: none;
+}
+
+.logo {
+    left: 20px;
+    top: 20px;
+    width: 200px;
+}
+
+.overlay-span,
+.overlay-span a,
+.category a,
+.label a,
+.comments-link {
+    color: #fff;
+}
+
+.post-content > h3 {
+    margin-top: 30px;
+}
+
+.post-content a {
+    font-weight: 700;
+}
+
+.post-content,
+.category-description {
+    font-size: 115%;
+}
+
+.tag-item,
+nav a,
+nav .this-page {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.tagline,
+nav {
+    font-size: 200%;
+    margin-top: -40px;
+}
+
+.thumbnail-container {
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.thumbnail-container-content {
+    height: 360px;
+}
+
+.thumbnail-container-single {
+    height: 650px;
+}
+
+.thumbnail-overlay {
+    bottom: 0;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+}
+
+.twitter-embed {
+    max-width: 600px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+abbr {
+    cursor: help;
+}
+
+blockquote {
+    border-left: 5px solid;
+    padding-left: 15px;
+}
+
+body {
+    overflow-y: scroll;
+    padding-left: 240px;
+}
+
+code,
+pre {
+    padding-left: .5ch;
+    padding-right: .5ch;
+}
+
+h1 {
+    font-size: 400%;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 200%;
+    font-weight: 200;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+hr {
+    border-bottom: 0;
+}
+
+section,
+footer,
+dt {
+    margin-top: 3ex;
+}
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        left: 10vw !important;
+        max-width: 360px !important;
+        position: absolute !important;
+        width: 80vw !important;
+    }
+
+    body {
+        background-attachment: scroll !important;
+        padding-left: 0 !important;
+        padding-top: 400px !important;
+    }
+
+    h2 {
+        font-size: 150% !important;
+    }
+
+    section p,
+    .page-content p,
+    .post-content p,
+    dd {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        padding-top: 100vw !important;
+    }
+}

@@ -1,0 +1,422 @@
+---
+---
+
+.blog-post-title .overlay-span {
+    box-shadow: .5em 0 0 #333, -.5em 0 0 #333;
+}
+
+
+.category-page-header-culture,
+a[href*="blog/culture"]:hover,
+.post-culture blockquote cite,
+.post-culture blockquote small {
+    color: #f3df30;
+}
+
+.category-page-header-meta,
+a[href*="blog/meta"]:hover,
+.post-meta blockquote cite,
+.post-meta blockquote small,
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .sb {
+    color: #777;
+}
+
+.comma,
+.hidden {
+    display: none;
+}
+
+.flex-column-left {
+    padding-right: 5px;
+    width: 45%;
+}
+
+.flex-column-right {
+    padding-left: 5px;
+    width: 45%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.footnotes {
+    font-size: 80%;
+}
+
+.highlight {
+    background-color: #eee;
+    color: #333;
+}
+
+.highlight .err,
+.highlight .g,
+.highlight .l,
+.highlight .n,
+.highlight .p,
+.highlight .go,
+.highlight .gp,
+.highlight .gt,
+.highlight .ld,
+.highlight .na,
+.highlight .nl,
+.highlight .nn,
+.highlight .nx,
+.highlight .py,
+.highlight .w,
+.highlight .sd,
+.highlight .sh {
+    color: #333;
+}
+
+.highlight .ge {
+    color: #333;
+    font-style: italic;
+}
+
+.highlight .gs {
+    color: #333;
+    font-weight: 700;
+}
+
+.highlight .nb {
+    color: #B58900;
+}
+
+.label,
+.label-tech {
+    background-color: #f38630;
+}
+
+.label-culture {
+    background-color: #f3df30;
+}
+
+.label-data {
+    background-color: #30b7f3;
+}
+
+.label-meta {
+    background-color: #777;
+}
+
+.label-politics {
+    background-color: #f33051;
+}
+
+.label-science {
+    background-color: #63f330;
+}
+
+.logo {
+    position: fixed;
+}
+
+.overlay-span {
+    background-color: #333;
+}
+
+.overlay-span a:hover {
+    color: #63f330;
+    text-decoration: underline;
+}
+
+.post-content p {
+    max-width: 80ch;
+}
+
+.post-content:not(.post-aside):not(.post-image) > p:not(:first-of-type) {
+    font-family: "Source Sans Pro",
+    sans-serif !important;
+}
+
+.post-culture hr,
+.post-culture blockquote {
+    border-color: #f3df30;
+}
+
+.post-data hr,
+.post-data blockquote {
+    border-color: #30b7f3;
+}
+
+.post-meta hr,
+.post-meta blockquote {
+    border-color: #777;
+}
+
+.post-politics hr,
+.post-politics blockquote {
+    border-color: #f33051;
+}
+
+.post-science hr,
+.post-science blockquote {
+    border-color: #63f330;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+.post-single p:last-of-type:after {
+    -webkit-animation: blink-animation 1200ms steps(2, start) infinite;
+    animation: blink-animation 1200ms steps(2, start) infinite;
+    color: #f33051;
+    content: '_';
+    font-family: "Fira Code";
+    font-weight: 600;
+}
+
+.post-tech hr,
+.post-tech blockquote {
+    border-color: #f38630;
+}
+
+.prompt,
+.category-page-header-politics,
+a[href*="blog/politics"]:hover,
+.post-politics blockquote cite,
+.post-politics blockquote small,
+.highlight .gr,
+.highlight .kt,
+.highlight .sr {
+    color: #f33051;
+}
+
+.read-more {
+    font-family: 'Fira Code', monospace;
+}
+
+.tagline,
+nav {
+    text-transform: lowercase;
+}
+
+.tagline,
+nav,
+section p,
+footer p,
+dd,
+dt,
+.page-content p,
+.post-content p {
+    padding-left: 2ch;
+    text-indent: -2ch;
+}
+
+a,
+.category-page-header-data,
+a[href*="blog/data"]:hover,
+.post-data blockquote cite,
+.post-data blockquote small,
+.highlight .kd,
+.highlight .kr,
+.highlight .nc,
+.highlight .nd,
+.highlight .nf,
+.highlight .nt,
+.highlight .nv,
+.highlight .bp,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+    color: #30b7f3;
+}
+
+a:hover,
+.this-page,
+.category-page-header-science,
+a[href*="blog/science"]:hover,
+.post-science blockquote cite,
+.post-science blockquote small,
+.highlight .k,
+.highlight .o,
+.highlight .cp,
+.highlight .cs,
+.highlight .gi,
+.highlight .kn,
+.highlight .kp,
+.highlight .ow {
+    color: #63f330;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(/assets/pixels.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    color: #333;
+    font-family: 'Fira Code', monospace;
+}
+
+code,
+pre {
+    background-color: #eee;
+    font-family: 'Fira Code', monospace;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p:before {
+    color: #f33051;
+    content: '> ';
+}
+
+footer p:last-of-type:after {
+    color: #f33051;
+    content: '\00a0^D';
+    font-weight: 600;
+}
+
+h1,
+h2,
+.category-page-header-tech,
+a[href*="blog/tech"]:hover,
+.post-tech blockquote cite,
+.post-tech blockquote small,
+.highlight .x,
+.highlight .gd,
+.highlight .gh,
+.highlight .gu,
+.highlight .kc,
+.highlight .m,
+.highlight .s,
+.highlight .no,
+.highlight .ni,
+.highlight .ne,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .sc,
+.highlight .s2,
+.highlight .se,
+.highlight .si,
+.highlight .sx,
+.highlight .s1,
+.highlight .ss,
+.highlight .il {
+    color: #f38630;
+}
+
+hr {
+    border-top: 1px solid #333;
+}
+
+nav a,
+.overlay-span a,
+.category a,
+.label a,
+.comments-link,
+.blog-post-title a,
+.label a {
+    text-decoration: none;
+}
+
+section p,
+.page-content p,
+.post-content p,
+dd,
+.blog-post-title {
+    width: 80%;
+}
+
+section p:before,
+dt:before,
+.page-content p:before,
+.post-content p:before {
+    color: #f33051;
+    content: '$ ';
+    font-family: 'Fira Code', monospace;
+}
+
+section,
+footer,
+dt {
+    margin-top: 3ex;
+}
+
+section:last-of-type > p:last-of-type:after,
+.page-content > p:last-of-type:after,
+.post-content-single > p:last-of-type:after {
+    -webkit-animation: blink-animation 1200ms steps(2, start) infinite;
+    animation: blink-animation 1200ms steps(2, start) infinite;
+    color: #f33051;
+    content: '_';
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    max-width: 50em;
+    padding: 0;
+}
+
+ul li {
+    padding-left: 3ch;
+    text-indent: -2ch;
+}
+
+ul li:before {
+    color: #f33051;
+    content: "> ";
+    font-weight: 600;
+}
+
+ul.fa-ul li,
+blockquote p,
+.footnotes p,
+.blog-post-info {
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+}
+
+ul.fa-ul li:before,
+blockquote p:before,
+.footnotes p:before,
+.blog-post-info:before {
+    content: "";
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-column-left {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .flex-column-right {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .float-right,
+    .float-left {
+        float: none;
+    }
+
+    .recent-posts {
+        order: 1;
+    }
+
+    .twitter-embed {
+        order: 2;
+    }
+}
