@@ -7,7 +7,13 @@ order: 20
 ---
 
 {::nomarkdown}
-<img src="/assets/me.jpg" class="float-right" alt="George Watson"/>
+<img src="/assets/me.jpg" class="float-right"
+  alt="George Watson,
+  a devilishly handsome young man
+  with rectangular, dark-framed glasses
+  and a head of luscious brown curls,
+  sits in his office.
+  He looks like someone you'd take home to meet your mother."/>
 {:/}
 
 ## Qualifications, memberships, & awards
