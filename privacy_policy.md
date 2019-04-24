@@ -29,9 +29,19 @@ and there are no forms for you to fill in.
 Like all websites,
 some information may be stored in my server logs regarding your visit to this
 website.
-This does not identify you personally,
-and is stored securely on a virtual private server hosted by
-[DigitalOcean](https://www.digitalocean.com/).
+These logs include information such as your
+[IP address](https://en.wikipedia.org/wiki/IP_address),
+[User-Agent string](https://en.wikipedia.org/wiki/User_agent),
+the resources on this server you attempt to access,
+the address of the page that referred you to the resource,
+and the status code returned to you by the server,
+along with the date and time.
+This information does not identify you personally,
+and is necessary for the operation and stability of the server.
+The log files are stored securely on a virtual private server hosted by
+[DigitalOcean](https://www.digitalocean.com/),
+and are overwritten daily.
+No copies are ever made of all or part of these logs.
 
 Aggregate information may be collected for analytics purposes,
 but cannot be used to identify you personally.
@@ -43,8 +53,7 @@ See the [Analytics](#analytics) section for more information.
 I may store first-party cookies on your device for the purpose of server
 security.
 This cookie should appear as `__cfduid`, and is provided by CloudFlare.
-This cookie is necessary for server security.
-This cookie consists of a one-way hash of certain values and *cannot* be used to
+It consists of a one-way hash of certain values and cannot be used to
 personally identify you.
 It provides no capability for cross-site tracking.
 For more information, see:
@@ -57,18 +66,20 @@ A cookie may also be used to store your stylesheet preference.
 This cookie is called `style` and contains your chosen stylesheet,
 if you choose to use the links in the page footer to change between the Default
 and Accessible stylesheets.
+The cookie may be automatically set with a value of "Default"
+in the absence of any interaction with the stylesheet chooser.
 This cookie does not identify you personally and cannot be used to track you.
-This cookie is provided purely for your convenience and will not be set
-unless you choose a stylesheet.
-No cookie will be set if you use your browser's built-in stylesheet selector.
+This cookie is provided purely for your convenience.
+The value of this cookie will not be changed if you use your browser's built-in
+stylesheet selector.
 
 Other cookies may be stored by the following trusted partners.
 Links to their cookie policies are provided below.
 * [CloudFlare](https://www.cloudflare.com/cookie-policy/)
 * [Disqus](https://help.disqus.com/user-profile/use-of-cookies)
   (on pages with embedded comments sections)
-* [Google 
-  Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) 
+* [Google
+  Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
   (if you don't send a [Do Not Track header](#opting-out))
 * [Twitter](https://help.twitter.com/en/rules-and-policies/twitter-cookies)
   (on pages with embedded Twitter widgets)
@@ -76,6 +87,7 @@ Links to their cookie policies are provided below.
 You can probably disable cookies on a per-site basis in your browser settings.
 See your browser's help pages for information on how to do this.
 You can also delete cookies at any time.
+See the [Opting Out](#opting-out) section for more information.
 
 ### Analytics
 {:#analytics}
@@ -109,9 +121,20 @@ your HTTPS request.
 You can probably enable this in your browser's settings.
 
 You can disable embedded widgets such as Disqus comments and Twitter timelines
-by disabling JavaScript in your browser.
+by disabling JavaScript in your browser,
+or by using one of the many browser extensions that allow you to block specific
+frames of external content.
 This prevents these companies from tracking you.
 Where it is reasonable to do so, an appropriate fallback will be provided.
+
+Your User-Agent string can probably be changed in your browser.
+Your IP address can be masked by using a web proxy or VPN service,
+many of which are available for free.
+Any referrer information can be removed from your request
+by pasting the URL directly into your address bar,
+rather than by following a hyperlink.
+If you're privacy-conscious enough to care about these things,
+you probably already know what you're doing.
 
 These opt-out mechanisms are simple, standardised, and provide fine-grained
 control across multiple websites.
