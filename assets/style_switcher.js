@@ -48,10 +48,28 @@ function readCookie(name) {
   return null;
 }
 
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
+
 window.onload = function(e) {
-  var cookie = readCookie("style");
-  var title = cookie ? cookie : getPreferredStyleSheet();
-  setActiveStyleSheet(title);
+  const allowedStyles = ['default', 'accessible'];
+  var title;
+  if (allowedStyles.includes(getUrlParameter('style').toLowerCase())) {
+    title = getUrlParameter('style').toLowerCase();
+    createCookie("style", title, 365);
+  } else {
+    var cookie = readCookie("style");
+    title = cookie ? cookie : getPreferredStyleSheet();
+  }
+  if (allowedStyles.includes(title)) {
+    setActiveStyleSheet(title);
+  } else {
+    setActiveStyleSheet('default');
+  }
 }
 
 window.onunload = function(e) {
