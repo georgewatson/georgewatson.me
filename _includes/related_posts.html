@@ -2,14 +2,20 @@
     <h2>Related posts</h2>
 {%- endif -%}
 
-<!-- Feel free to play with these -->
+{% comment %}
+  Feel free to play with these
+{% endcomment %}
 {%- assign maxRelated = 3 -%}
 {%- assign minTags = 2 -%}
 
-<!-- Probably don't play with anything after this point -->
+{% comment %}
+  Probably don't play with anything after this point
+{% endcomment %}
 {%- assign relatedCount = 0 -%}
 
-<!-- Look for posts with at least minTags tags in common -->
+{% comment %}
+  Look for posts with at least minTags tags in common
+{% endcomment %}
 {%- for post in site.posts -%}
   {%- if relatedCount < maxRelated and page.url != post.url -%}
     {%- assign sharedTags = 0 -%}
@@ -29,8 +35,10 @@
 {%- endfor -%}
 {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
 
-<!-- If there aren't enough, pick recent posts from the same category,
-as long as they don't have more than minTags shared tags -->
+{% comment %}
+  If there aren't enough, pick recent posts from the same category,
+  as long as they don't have more than minTags shared tags
+{% endcomment %}
 {%- if relatedCount < maxRelated -%}
   {%- for post in site.posts -%}
     {%- if relatedCount < maxRelated and page.url != post.url and page.category == post.category -%}
@@ -51,8 +59,10 @@ as long as they don't have more than minTags shared tags -->
   {%- endfor -%}
 {%- endif -%}
 
-<!-- If there still aren't enough, just pick recent posts from other categories,
-as long as they don't have more than minTags shared tags -->
+{% comment %}
+  If there still aren't enough, just pick recent posts from other categories,
+  as long as they don't have more than minTags shared tags
+{% endcomment %}
 {%- if relatedCount < maxRelated -%}
   {%- for post in site.posts -%}
     {%- if relatedCount < maxRelated and page.url != post.url and page.category != post.category -%}

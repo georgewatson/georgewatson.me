@@ -118,6 +118,11 @@ a .label {
     text-shadow: none;
 }
 
+.label a:hover,
+a:hover .label {
+    color: #fff;
+}
+
 .logo {
     left: 20px;
     top: 20px;

@@ -124,7 +124,6 @@ a[href*="blog/meta"]:hover,
 }
 
 .overlay-span a:hover {
-    color: #63f330;
     text-decoration: underline;
 }
 
@@ -237,7 +236,11 @@ a[href*="blog/data"]:hover,
 }
 
 a:hover,
-.this-page,
+.this-page {
+    color: #63f330;
+    text-decoration: underline;
+}
+
 .category-page-header-science,
 a[href*="blog/science"]:hover,
 .post-science blockquote cite,
@@ -314,6 +317,10 @@ a[href*="blog/tech"]:hover,
     color: #f38630;
 }
 
+.label a:hover {
+    color: #fff;
+}
+
 hr {
     border-top: 1px solid #333;
 }
@@ -323,8 +330,7 @@ nav a,
 .category a,
 .label a,
 .comments-link,
-.blog-post-title a,
-.label a {
+.blog-post-title a {
     text-decoration: none;
 }
 
@@ -369,7 +375,7 @@ ul {
 }
 
 ul li {
-    padding-left: 3ch;
+    padding-left: 4ch;
     text-indent: -2ch;
 }
 
