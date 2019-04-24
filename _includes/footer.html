@@ -31,3 +31,30 @@
   crossorigin="anonymous"/>
 
 <script type="text/javascript" src="/assets/style_switcher.js"></script>
+<link rel="stylesheet" type="text/css"
+  href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script
+  src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js">
+</script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eeeeee",
+      "text": "#333333"
+    },
+    "button": {
+      "background": "#f38630",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": "I use cookies for security and customisation, but don't track you. You can disable them if you like.",
+    "dismiss": "Okay",
+    "link": "Learn more",
+    "href": "/privacy_policy/#cookies"
+  }
+})});
+</script>

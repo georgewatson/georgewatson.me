@@ -206,6 +206,7 @@ blockquote {
 body {
     overflow-y: scroll;
     padding-left: 240px;
+    padding-bottom: 50px;
 }
 
 code,

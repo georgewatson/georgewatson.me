@@ -235,6 +235,11 @@ a[href*="blog/data"]:hover,
     color: #30b7f3;
 }
 
+.cc-link {
+    font-weight: bold;
+    color: #30b7f3 !important;
+}
+
 a:hover,
 .this-page {
     color: #63f330;
@@ -262,13 +267,19 @@ body {
     background-repeat: no-repeat;
     background-size: 400px;
     color: #333;
+}
+
+body,
+code,
+pre,
+.cc-message,
+.cc-compliance {
     font-family: 'Fira Code', monospace;
 }
 
 code,
 pre {
     background-color: #eee;
-    font-family: 'Fira Code', monospace;
 }
 
 footer p {

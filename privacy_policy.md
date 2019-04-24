@@ -73,6 +73,17 @@ This cookie is provided purely for your convenience.
 The value of this cookie will not be changed if you use your browser's built-in
 stylesheet selector.
 
+A cookie will also be stored to record that you have dismissed the cookie
+notification banner,
+so you don't get bothered with it every time you visit.
+That is all this cookie does.
+This banner uses
+[Cookie Consent by Insites](https://cookieconsent.insites.com/),
+but no information is shared with its developers.
+You can inspect the source code
+[on GitHub](https://github.com/insites/cookieconsent)
+if you'd like to verify that this cookie isn't evil.
+
 Other cookies may be stored by the following trusted partners.
 Links to their cookie policies are provided below.
 * [CloudFlare](https://www.cloudflare.com/cookie-policy/)
