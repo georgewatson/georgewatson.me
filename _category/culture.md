@@ -3,5 +3,5 @@ tag: culture
 permalink: "/blog/culture/"
 ---
 
-# Culture
+## Culture
 {:.category-page-header-culture}

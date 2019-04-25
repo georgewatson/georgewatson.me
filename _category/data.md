@@ -3,5 +3,5 @@ tag: data
 permalink: "/blog/data/"
 ---
 
-# Data
+## Data
 {:.category-page-header-data}

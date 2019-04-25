@@ -3,5 +3,5 @@ tag: politics
 permalink: "/blog/politics/"
 ---
 
-# Politics
+## Politics
 {:.category-page-header-politics}

@@ -3,5 +3,5 @@ tag: tech
 permalink: "/blog/tech/"
 ---
 
-# Technology
+## Technology
 {:.category-page-header-tech}

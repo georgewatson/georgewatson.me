@@ -3,5 +3,5 @@ tag: meta
 permalink: "/blog/meta/"
 ---
 
-# Meta
+## Meta
 {:.category-page-header-meta}

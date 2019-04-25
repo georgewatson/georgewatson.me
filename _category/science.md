@@ -3,5 +3,5 @@ tag: science
 permalink: "/blog/science/"
 ---
 
-# Science
+## Science
 {:.category-page-header-science}
