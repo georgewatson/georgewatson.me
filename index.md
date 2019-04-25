@@ -47,7 +47,7 @@ You can find me on:
     </a>
   </li>
   <li>
-    <i class="fa-li fas fa-flask"></i>
+    <i class="fa-li fab fa-mendeley"></i>
     <a href="https://www.mendeley.com/profiles/george-watson4/">
       Mendeley
     </a>
