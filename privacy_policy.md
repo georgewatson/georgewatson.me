@@ -129,6 +129,8 @@ You can opt out of analytics by sending the
 [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) (`DNT`) header with
 your HTTPS request.
 You can probably enable this in your browser's settings.
+This will prevent the Google Analytics code from being loaded,
+and is also respected by Disqus.
 
 You can disable embedded widgets such as Disqus comments and Twitter timelines
 by disabling JavaScript in your browser,
