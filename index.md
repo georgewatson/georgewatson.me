@@ -95,7 +95,7 @@ You can find me on:
       <a class="twitter-timeline" data-width="600" data-link-color="#30b7f3"
           href="https://twitter.com/GeorgeDWatson?ref_src=twsrc%5Etfw">
         Tweets by GeorgeDWatson</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+      <script async src="https://platform.twitter.com/widgets.js">
       </script>
     </div>
 

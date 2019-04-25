@@ -4,8 +4,6 @@ title: Privacy Policy
 permalink: ../privacy_policy/
 ---
 
-## Privacy policy
-
 ### Connection
 {:#connection}
 
@@ -76,7 +74,8 @@ stylesheet selector.
 A cookie will also be stored to record that you have dismissed the cookie
 notification banner,
 so you don't get bothered with it every time you visit.
-That is all this cookie does.
+This cookie is called `cookieconsent_status`,
+and does nothing else.
 This banner uses
 [Cookie Consent by Insites](https://cookieconsent.insites.com/),
 but no information is shared with its developers.
