@@ -56,7 +56,7 @@ function getUrlParameter(name) {
 };
 
 window.onload = function(e) {
-  const allowedStyles = ['default', 'accessible'];
+  const allowedStyles = ['default', 'accessible', 'dark', 'amoled'];
   var title;
   if (allowedStyles.includes(getUrlParameter('style').toLowerCase())) {
     title = getUrlParameter('style').toLowerCase();

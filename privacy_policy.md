@@ -62,12 +62,11 @@ For more information, see:
 
 A cookie may also be used to store your stylesheet preference.
 This cookie is called `style` and contains your chosen stylesheet,
-if you choose to use the links in the page footer to change between the Default
-and Accessible stylesheets.
-The cookie may be automatically set with a value of "Default"
+if you choose to use the links in the page footer to choose a stylesheet.
+The cookie may be automatically set with a value of `default`
 in the absence of any interaction with the stylesheet chooser.
-This cookie does not identify you personally and cannot be used to track you.
-This cookie is provided purely for your convenience.
+This cookie is provided purely for your convenience,
+does not identify you personally and cannot be used to track you.
 The value of this cookie will not be changed if you use your browser's built-in
 stylesheet selector.
 
