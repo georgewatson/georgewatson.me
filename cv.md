@@ -7,13 +7,15 @@ order: 20
 ---
 
 {::nomarkdown}
-<img src="/assets/me.jpg" class="float-right"
-  alt="George Watson,
-  a devilishly handsome young man
-  with rectangular, dark-framed glasses
-  and a head of luscious brown curls,
-  sits in his office.
-  He looks like someone you'd take home to meet your mother."/>
+<a href="/assets/me.jpg">
+  <img src="/assets/me.jpg" class="float-right"
+    alt="George Watson,
+    a devilishly handsome young man
+    with rectangular, dark-framed glasses
+    and a head of luscious brown curls,
+    sits in his office.
+    He looks like someone you'd take home to meet your mother."/>
+</a>
 {:/}
 
 ## Qualifications, memberships, & awards
@@ -50,8 +52,8 @@ order: 20
   *University of York &bull; 1 May 2019*
 * **Best Talk**,
   Physics Postgraduate Conference 2018\\
-  *University of York &bull; 21 September 2018*
-  (Institute of Physics-sponsored prize)
+  *University of York &bull; 21 September 2018*\\
+  (Prize sponsored by the Institute of Physics)
 
 ## Talks
 {:#talks}

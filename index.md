@@ -8,7 +8,11 @@ order: 10
 navtitle: ~Home
 ---
 {::nomarkdown}
-<img src="/assets/plectoneme.png" class="float-right" alt=""/>
+<img src="/assets/plectoneme.png" class="float-right"
+  alt="A writhed DNA minicircle bridged by a small protein is shown in a van der
+  Waals representation. The circular DNA, of 336 base pairs, is represented in
+  blue, with its backbone highlighted in yellow, while the red protein has two
+  arms placed in the minor grooves."/>
 {:/}
 
 I'm George Watson, a PhD student and postgraduate research assistant in
