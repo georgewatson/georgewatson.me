@@ -80,7 +80,8 @@ order: 20
   interaction"\\
   <i class="far fa-file-pdf"></i>
   [PDF](/dl/2019-04-08_poster.pdf) &bull;
-  [Blog]({% post_url science/2019-04-05-my-poster-at-the-iop-physics-of-microorganisms-ii-conference-london-8-april-2019 %})
+  [Blog]({% post_url 2019-04-05-my-poster-at-the-iop-physics-of-microorganisms-ii-conference-london-8-april-2019 
+  %})
 * **[Physics of Life Summer School: New Approaches to Biomolecular Structure,
   Dynamics and
   Function](http://www.physicsoflife.org.uk/summer-school-new-approaches-to-biomolecular-function-structure-and-dynamics.html)**

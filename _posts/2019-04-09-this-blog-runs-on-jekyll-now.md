@@ -12,7 +12,7 @@ hide_read_more: true
 ---
 
 Following on from my [catastrophic failure to correctly use
-`rsync`]({% post_url meta/2019-04-05-whoops %}),
+`rsync`]({% post_url 2019-04-05-whoops %}),
 accompanied by some frustration with WordPress+MySQL's memory hogging,
 I have decided to make like a bird and migrate&nbsp;---
 to [Jekyll](https://jekyllrb.com/).
