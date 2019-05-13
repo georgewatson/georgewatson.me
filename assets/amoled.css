@@ -1,13 +1,14 @@
 ---
 ---
 
-@import url('/assets/default.css');
+@import url('/assets/dark.css');
 
 body {
-    color: #fff;
     background-color: #000;
 }
 
-code {
-    color: #000;
+code,
+.highlight,
+.highlight code {
+    background-color: #333;
 }

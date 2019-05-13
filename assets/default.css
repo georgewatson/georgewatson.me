@@ -51,9 +51,10 @@ a[href*="blog/meta"]:hover,
     font-size: 80%;
 }
 
-.highlight {
-    background-color: #eee;
-    color: #333;
+.highlight,
+.highlight code {
+    background-color: #333;
+    color: #fff;
 }
 
 .highlight .err,
@@ -73,7 +74,7 @@ a[href*="blog/meta"]:hover,
 .highlight .w,
 .highlight .sd,
 .highlight .sh {
-    color: #333;
+    color: #fff;
 }
 
 .highlight .ge {
@@ -214,6 +215,11 @@ dt,
 .post-content p {
     padding-left: 2ch;
     text-indent: -2ch;
+}
+
+div.highlight {
+    margin-left: 2ch;
+    padding: 1ch;
 }
 
 a,

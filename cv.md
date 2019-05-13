@@ -121,7 +121,8 @@ order: 20
   physical simulation, in a variety of languages including Fortran,
   during third-year computational laboratory; led an experiment in
   single-particle plasma simulation, which included giving a short introductory
-  lecture
+  lecture\\
+  **Nominated: GTA of the Year**{:.label .label-meta}
 * **Molecular Simulation** (practical demonstration)\\
   *University of York &bull; 2018*\\
   Provided support and assistance to third-year students during molecular
@@ -147,3 +148,4 @@ order: 20
   and [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
 
 *[BPSI]: Biological Physical Sciences Institute
+*[GTA]: Graduate Teaching Assistant
