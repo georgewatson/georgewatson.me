@@ -74,21 +74,21 @@ a[href*="blog/meta"]:hover,
 .highlight .w,
 .highlight .sd,
 .highlight .sh {
-    color: #fff;
+    color: #ccc;
 }
 
 .highlight .ge {
-    color: #333;
+    color: #fff;
     font-style: italic;
 }
 
 .highlight .gs {
-    color: #333;
+    color: #fff;
     font-weight: 700;
 }
 
 .highlight .nb {
-    color: #B58900;
+    color: #9e30f3;
 }
 
 .label,
