@@ -39,7 +39,7 @@ and is necessary for the operation and stability of the server.
 The log files are stored securely on a virtual private server hosted by
 [DigitalOcean](https://www.digitalocean.com/),
 and are overwritten daily.
-No copies are ever made of all or part of these logs.
+No copies are ever made of any part of these logs.
 
 Aggregate information may be collected for analytics purposes,
 but cannot be used to identify you personally.
