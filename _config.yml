@@ -39,7 +39,7 @@ feed:
     - meta
     - politics
     - science
-    - tech
+    - technology
 
 disqus:
     shortname: georgewatson

@@ -1,5 +1,6 @@
 _site
 _drafts
+assets/drafts
 tmp
 .sass-cache
 .jekyll-metadata

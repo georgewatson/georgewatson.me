@@ -215,6 +215,10 @@ pre {
     padding-right: .5ch;
 }
 
+.highlight code {
+    padding-left: 0;
+}
+
 h1 {
     font-size: 400%;
     font-weight: 200;

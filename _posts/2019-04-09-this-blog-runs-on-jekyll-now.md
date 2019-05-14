@@ -7,7 +7,7 @@ tags:
 - aside
 - meta
 - jekyll
-- tech
+- technology
 hide_read_more: true
 ---
 

@@ -16,16 +16,13 @@
             {%- if page.url == node.url -%}
               <a href="{{node.url}}" class="this-page"
                 >{%- if node.navtitle -%}{{node.navtitle}}{%- else -%}{{node.title}}{%- endif -%}</a>
-              {%- unless forloop.last -%}
-                <span class="comma">,</span>&nbsp;
-              {% endunless %}
             {%- else -%}
               <a href="{{node.url}}"
                 >{%- if node.navtitle -%}{{node.navtitle}}{%- else -%}{{node.title}}{%- endif -%}</a>
-              {%- unless forloop.last -%}
-                <span class="comma">,</span>&nbsp;
-              {% endunless %}
             {%- endif -%}
+            {%- unless forloop.last -%}
+              <span class="comma">,</span>&nbsp;
+            {% endunless %}
           {%- endif -%}
         {%- endfor -%}
       </nav>

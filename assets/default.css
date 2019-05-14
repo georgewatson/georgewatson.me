@@ -92,7 +92,7 @@ a[href*="blog/meta"]:hover,
 }
 
 .label,
-.label-tech {
+.label-technology {
     background-color: #f38630;
 }
 
@@ -180,8 +180,8 @@ a[href*="blog/meta"]:hover,
     font-weight: 600;
 }
 
-.post-tech hr,
-.post-tech blockquote {
+.post-technology hr,
+.post-technology blockquote {
     border-color: #f38630;
 }
 
@@ -305,10 +305,10 @@ footer p:last-of-type:after {
 
 h1,
 h2,
-.category-page-header-tech,
-a[href*="blog/tech"]:hover,
-.post-tech blockquote cite,
-.post-tech blockquote small,
+.category-page-header-technology,
+a[href*="blog/technology"]:hover,
+.post-technology blockquote cite,
+.post-technology blockquote small,
 .highlight .x,
 .highlight .gd,
 .highlight .gh,
