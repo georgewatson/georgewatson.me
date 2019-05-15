@@ -70,6 +70,19 @@ does not identify you personally and cannot be used to track you.
 The value of this cookie will not be changed if you use your browser's built-in
 stylesheet selector.
 
+On pages with embedded equations,
+your [MathJax](https://www.mathjax.org/) preferences may be stored using a 
+cookie.
+MathJax cookies have the prefix `mjx`,
+are not used to collect any information about you,
+and cannot be used to track you.
+If you disable cookies,
+the equations should still display correctly,
+but some functionality may be lost.
+The MathJax source code is available
+[on GitHub](https://github.com/mathjax/mathjax)
+if you'd like to verify that these cookies aren't evil.
+
 A cookie will also be stored to record that you have dismissed the cookie
 notification banner,
 so you don't get bothered with it every time you visit.
@@ -79,8 +92,7 @@ This banner uses
 [Cookie Consent by Insites](https://cookieconsent.insites.com/),
 but no information is shared with its developers.
 You can inspect the source code
-[on GitHub](https://github.com/insites/cookieconsent)
-if you'd like to verify that this cookie isn't evil.
+[on GitHub](https://github.com/insites/cookieconsent).
 
 Other cookies may be stored by the following trusted partners.
 Links to their cookie policies are provided below.
