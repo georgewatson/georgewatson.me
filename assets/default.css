@@ -10,7 +10,7 @@
 a[href*="blog/culture"]:hover,
 .post-culture blockquote cite,
 .post-culture blockquote small {
-    color: #f3df30;
+    color: #9e30f3;
 }
 
 .category-page-header-meta,
@@ -88,7 +88,7 @@ a[href*="blog/meta"]:hover,
 }
 
 .highlight .nb {
-    color: #9e30f3;
+    color: #f3df30;
 }
 
 .label,
@@ -97,7 +97,7 @@ a[href*="blog/meta"]:hover,
 }
 
 .label-culture {
-    background-color: #f3df30;
+    background-color: #9e30f3;
 }
 
 .label-data {
@@ -138,7 +138,7 @@ a[href*="blog/meta"]:hover,
 
 .post-culture hr,
 .post-culture blockquote {
-    border-color: #f3df30;
+    border-color: #9e30f3;
 }
 
 .post-data hr,
