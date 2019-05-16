@@ -9,6 +9,8 @@ tags:
 - jekyll
 - technology
 hide_read_more: true
+related:
+- /blog/meta/2019/04/05/whoops/
 ---
 
 Following on from my [catastrophic failure to correctly use

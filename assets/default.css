@@ -9,7 +9,8 @@
 .category-page-header-culture,
 a[href*="blog/culture"]:hover,
 .post-culture blockquote cite,
-.post-culture blockquote small {
+.post-culture blockquote small,
+.purple {
     color: #9e30f3;
 }
 
@@ -20,7 +21,8 @@ a[href*="blog/meta"]:hover,
 .highlight .c,
 .highlight .cm,
 .highlight .c1,
-.highlight .sb {
+.highlight .sb,
+.grey {
     color: #777;
 }
 
@@ -73,7 +75,8 @@ a[href*="blog/meta"]:hover,
 .highlight .py,
 .highlight .w,
 .highlight .sd,
-.highlight .sh {
+.highlight .sh,
+.light-grey {
     color: #ccc;
 }
 
@@ -87,37 +90,9 @@ a[href*="blog/meta"]:hover,
     font-weight: 700;
 }
 
-.highlight .nb {
+.highlight .nb,
+.yellow {
     color: #f3df30;
-}
-
-.label,
-.label-technology {
-    background-color: #f38630;
-}
-
-.label-culture {
-    background-color: #9e30f3;
-}
-
-.label-data {
-    background-color: #30b7f3;
-}
-
-.label-meta {
-    background-color: #777;
-}
-
-.label-politics {
-    background-color: #f33051;
-}
-
-.label-science {
-    background-color: #63f330;
-}
-
-.logo {
-    position: fixed;
 }
 
 .overlay-span {
@@ -126,6 +101,41 @@ a[href*="blog/meta"]:hover,
 
 .overlay-span a:hover {
     text-decoration: underline;
+}
+
+.label,
+.label-technology,
+.bg-orange {
+    background-color: #f38630;
+}
+
+.label-culture,
+.bg-purple {
+    background-color: #9e30f3;
+}
+
+.label-data,
+.bg-blue {
+    background-color: #30b7f3;
+}
+
+.label-meta,
+.bg-grey {
+    background-color: #777;
+}
+
+.label-politics,
+.bg-red {
+    background-color: #f33051;
+}
+
+.label-science,
+.bg-green {
+    background-color: #63f330;
+}
+
+.logo {
+    position: fixed;
 }
 
 .post-content p {
@@ -192,7 +202,8 @@ a[href*="blog/politics"]:hover,
 .post-politics blockquote small,
 .highlight .gr,
 .highlight .kt,
-.highlight .sr {
+.highlight .sr,
+.red {
     color: #f33051;
 }
 
@@ -237,7 +248,8 @@ a[href*="blog/data"]:hover,
 .highlight .bp,
 .highlight .vc,
 .highlight .vg,
-.highlight .vi {
+.highlight .vi,
+.blue {
     color: #30b7f3;
 }
 
@@ -263,7 +275,8 @@ a[href*="blog/science"]:hover,
 .highlight .gi,
 .highlight .kn,
 .highlight .kp,
-.highlight .ow {
+.highlight .ow,
+.green {
     color: #63f330;
 }
 
@@ -330,7 +343,8 @@ a[href*="blog/technology"]:hover,
 .highlight .sx,
 .highlight .s1,
 .highlight .ss,
-.highlight .il {
+.highlight .il,
+.orange {
     color: #f38630;
 }
 

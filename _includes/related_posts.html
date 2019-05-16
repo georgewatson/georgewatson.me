@@ -15,72 +15,99 @@
 {%- assign relatedCount = 0 -%}
 
 {% comment %}
+  Allow manual specification of related posts.
+  It is possible to exceed maxRelated here.
+{% endcomment %}
+{%- assign post_note = "Curated" -%}
+{%- assign note_class = "yellow" -%}
+{% for post in site.posts %}
+  {% if page.related contains post.url %}
+    {% include post_title.html %}
+    {%- assign relatedCount = relatedCount | plus: 1 -%}
+  {% endif %}
+{% endfor %}
+{%- assign post_note = nil -%}
+{%- assign note_class = "" -%}
+
+{% comment %}
   Working down from maxTags to minTags,
-  look for posts with the specified number of tags in common.
+  look for posts with the specified number of tags in common,
+  that haven't already been specified manually,
+  until there are maxRelated entries.
 {% endcomment %}
 {%- for numTags in (minTags..maxTags) reversed -%}
   {%- for post in site.posts -%}
-    {%- if relatedCount < maxRelated and page.url != post.url -%}
-      {%- assign sharedTags = 0 -%}
-      {%- for tag in post.tags -%}
-        {%- if page.tags contains tag -%}
-          {%- assign sharedTags = sharedTags | plus: 1 -%}
-          {%- if sharedTags == numTags -%}
-            {% include post_title.html %}
-            {%- assign relatedCount = relatedCount | plus: 1 -%}
-            {%- break -%}
+    {%- unless page.related contains post.url -%}
+      {%- if relatedCount < maxRelated and page.url != post.url -%}
+        {%- assign sharedTags = 0 -%}
+        {%- for tag in post.tags -%}
+          {%- if page.tags contains tag -%}
+            {%- assign sharedTags = sharedTags | plus: 1 -%}
           {%- endif -%}
+        {%- endfor -%}
+
+        {%- if sharedTags == numTags -%}
+          {% include post_title.html %}
+          {%- assign relatedCount = relatedCount | plus: 1 -%}
+          {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
         {%- endif -%}
-      {%- endfor -%}
-      {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
-    {%- endif -%}
+      {%- endif -%}
+    {%- endunless -%}
   {%- endfor -%}
 {%- endfor -%}
 
 {% comment %}
   If there aren't enough, pick recent posts from the same category,
   as long as they don't have more than minTags shared tags
+  and haven't already been specified manually,
+  until there are maxRelated entries.
 {% endcomment %}
 {%- if relatedCount < maxRelated -%}
   {%- for post in site.posts -%}
-    {%- if relatedCount < maxRelated and page.url != post.url and page.category == post.category -%}
-      {%- assign sharedTags = 0 -%}
-      {%- for tag in post.tags -%}
-        {%- if page.tags contains tag -%}
-          {%- assign sharedTags = sharedTags | plus: 1 -%}
-          {%- if sharedTags == minTags -%}{%- break -%}{%- endif -%}
-        {%- endif -%}
-      {%- endfor -%}
+    {%- unless page.related contains post.url -%}
+      {%- if relatedCount < maxRelated and page.url != post.url and page.category == post.category -%}
+        {%- assign sharedTags = 0 -%}
+        {%- for tag in post.tags -%}
+          {%- if page.tags contains tag -%}
+            {%- assign sharedTags = sharedTags | plus: 1 -%}
+            {%- if sharedTags == minTags -%}{%- break -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
 
-      {%- if sharedTags < minTags -%}
-        {% include post_title.html %}
-        {% assign relatedCount = relatedCount | plus: 1 %}
-        {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+        {%- if sharedTags < minTags -%}
+          {% include post_title.html %}
+          {% assign relatedCount = relatedCount | plus: 1 %}
+          {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+        {%- endif -%}
       {%- endif -%}
-    {%- endif -%}
+    {%- endunless -%}
   {%- endfor -%}
 {%- endif -%}
 
 {% comment %}
   If there still aren't enough, just pick recent posts from other categories,
   as long as they don't have more than minTags shared tags
+  and haven't already been specified manually,
+  until there are maxRelated entries.
 {% endcomment %}
 {%- if relatedCount < maxRelated -%}
   {%- for post in site.posts -%}
-    {%- if relatedCount < maxRelated and page.url != post.url and page.category != post.category -%}
-      {%- assign sharedTags = 0 -%}
-      {%- for tag in post.tags -%}
-        {%- if page.tags contains tag -%}
-          {%- assign sharedTags = sharedTags | plus: 1 -%}
-          {%- if sharedTags == minTags -%}{%- break -%}{%- endif -%}
-        {%- endif -%}
-      {%- endfor -%}
+    {%- unless page.related contains post.url -%}
+      {%- if relatedCount < maxRelated and page.url != post.url and page.category != post.category -%}
+        {%- assign sharedTags = 0 -%}
+        {%- for tag in post.tags -%}
+          {%- if page.tags contains tag -%}
+            {%- assign sharedTags = sharedTags | plus: 1 -%}
+            {%- if sharedTags == minTags -%}{%- break -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
 
-      {%- if sharedTags < minTags -%}
-        {% include post_title.html %}
-        {% assign relatedCount = relatedCount | plus: 1 %}
-        {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+        {%- if sharedTags < minTags -%}
+          {% include post_title.html %}
+          {% assign relatedCount = relatedCount | plus: 1 %}
+          {%- if relatedCount == maxRelated -%}{%- break -%}{%- endif -%}
+        {%- endif -%}
       {%- endif -%}
-    {%- endif -%}
+    {%- endunless -%}
   {%- endfor -%}
 {%- endif -%}

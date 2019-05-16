@@ -11,8 +11,10 @@
   </span>
 </h2>
 <p class="blog-post-info">
-  <span class="overlay-span">
-    {{ post.date | date: date_format }}
-  </span>
+  <span class="overlay-span">{{ post.date | date: date_format }}</span>
+  {%- if post_note -%}
+    <br/>
+    <strong class="overlay-span {{ note_class }}">{{ post_note }}</strong>
+  {% endif %}
 </p>
 
