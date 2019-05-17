@@ -53,16 +53,18 @@ layout: default
       {{ content }}
     </div><!-- /post-content -->
 
-    <!--
-    <p class="tags">
-      <i class="fa fa-tags" aria-hidden="true"></i>
-      {%- for tag in page.tags -%}
-        <span class="label label-{{ page.category }}">
-          <a>{{ tag }}</a>
-        </span>
-      {%- endfor -%}
-    </p>
-    -->
+    {% if page.tags != empty %}
+      {% assign tags = page.tags | sort %}
+      <p class="tags">
+        <strong>Tagged:</strong>
+        {% for tag in tags %}
+            {{ tag }}
+            {% unless forloop.last %}
+              &bull;
+            {% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
 
     {% include share-buttons.html %}
 
