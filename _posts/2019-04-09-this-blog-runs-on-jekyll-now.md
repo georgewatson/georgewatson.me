@@ -8,6 +8,7 @@ tags:
 - meta
 - jekyll
 - technology
+- blog
 hide_read_more: true
 related:
 - /blog/meta/2019/04/05/whoops/
