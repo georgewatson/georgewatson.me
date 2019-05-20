@@ -3,6 +3,7 @@
 
 .blog-post-title .overlay-span {
     box-shadow: .5em 0 0 #333, -.5em 0 0 #333;
+    box-decoration-break: clone;
 }
 
 
