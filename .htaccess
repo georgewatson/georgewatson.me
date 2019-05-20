@@ -4,3 +4,9 @@ RewriteRule ^(.*)$ - [L]
 
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
+
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-Xss-Protection "1; mode=block"
+Header always set Referrer-Policy "no-referrer-when-downgrade"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Feature-Policy "geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'; accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; encrypted-media 'none'; picture-in-picture 'none'; usb 'none'; vr 'none'"
