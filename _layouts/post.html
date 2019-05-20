@@ -48,6 +48,18 @@ layout: default
       </div><!-- /thumbnail-container -->
     {%- endif -%}
 
+    {% if page.warnings %}
+      <p class="warnings">
+        <strong>Content warning:</strong>
+        {% for warning in page.warnings %}
+            {{ warning }}
+            {% unless forloop.last %}
+              &bull;
+            {% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
+
     <div class="post-content post-content-single post-{{ page.category }}
         post-post e-content" itemprop="articleBody">
       {{ content }}

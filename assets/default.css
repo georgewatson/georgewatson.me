@@ -352,7 +352,8 @@ a[href*="blog/technology"]:hover,
     color: #fff;
 }
 
-.share {
+.share,
+.warnings {
     color: #777;
     padding-left: 1.8ch;
     text-indent: -2ch;
@@ -365,7 +366,8 @@ a[href*="blog/technology"]:hover,
 }
 
 .share:before,
-.tags:before {
+.tags:before,
+.warnings:before {
     color: #f33051;
     font-family: "Font Awesome 5 Free";
 }
@@ -376,6 +378,10 @@ a[href*="blog/technology"]:hover,
 
 .tags:before {
     content: "\f02c";
+}
+
+.warnings:before {
+    content: "\f071";
 }
 
 hr {

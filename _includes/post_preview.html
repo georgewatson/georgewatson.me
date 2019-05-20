@@ -25,6 +25,18 @@
     </div><!-- /thumbnail-container -->
   {%- endif -%}
 
+  {% if post.warnings %}
+    <p class="warnings">
+      <strong>Content warning:</strong>
+      {% for warning in post.warnings %}
+          {{ warning }}
+          {% unless forloop.last %}
+            &bull;
+          {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+
   {%- if site.show_excerpts -%}
     <div class="post-content post-{{ post.category }}
         post-{{ post.layout }}">
