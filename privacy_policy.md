@@ -48,7 +48,7 @@ Like all websites,
 some information may be stored in my server logs regarding your visit to this
 website.
 These logs include information such as your
-[IP address](https://en.wikipedia.org/wiki/IP_address),
+[IP address](https://en.wikipedia.org/wiki/IP_address) and
 [User-Agent string](https://en.wikipedia.org/wiki/User_agent),
 the resources on this server you attempt to access,
 the address of the page that referred you to the resource,
@@ -58,7 +58,7 @@ This information does not identify you personally,
 and is necessary for the operation and stability of the server.
 The log files are stored securely on a virtual private server hosted by
 [DigitalOcean](https://www.digitalocean.com/),
-and are overwritten daily.
+and are regularly rotated.
 No copies are ever made of any part of these logs.
 
 Aggregate information may be collected for analytics purposes,
@@ -174,12 +174,12 @@ Your User-Agent string can probably be changed in your browser.
 Your IP address can be masked by using a web proxy or VPN service,
 many of which are available for free.
 Any referrer information can be removed from your request
-by pasting the URL directly into your address bar,
-rather than by following a hyperlink.
+by pasting the URL directly into your address bar
+instead of following a hyperlink.
 If you're privacy-conscious enough to care about these things,
 you probably already know what you're doing.
 
-These opt-out mechanisms are simple, standardised, and provide fine-grained
+These opt-out mechanisms are simple and standardised, and provide fine-grained
 control across multiple websites.
 I consider this superior to the deliberately difficult, confusing, and
 non-standard mechanisms provided by most websites in the name of GDPR
@@ -209,7 +209,7 @@ Every effort has been made to comply with UK and EU law.
 The above notices are correct as of commit
 [{{ site.git.last_commit.short_sha 
 }}](https://github.com/georgewatson/georgewatson.me/commit/{{ site.git.last_commit.long_sha }})
-on {{ site.time | date: '%-d %B %Y' }}.
+on {{ site.git.last_commit.commit_date | date: '%-d %B %Y' }}.
 The largest number of notices ever displayed above is 2.
 <i class="fas fa-crow"></i>
 [What's this?](https://en.wikipedia.org/wiki/Warrant_canary)
@@ -238,3 +238,4 @@ or use one of the other contact media listed on the [Contact](/contact) page.
 *[SSL]: Secure Sockets Layer
 *[TLS]: Transport Layer Security
 *[UK]: United Kingdom of Great Britain and Northern Ireland
+*[VPN]: Virtual Private Network

@@ -139,6 +139,39 @@ a[href*="blog/meta"]:hover,
     position: fixed;
 }
 
+.paginator-trail {
+    list-style-type: none;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.paginator-trail li {
+    display: inline;
+    padding: 0 2ch 0ch 2ch;
+    text-indent: 0;
+}
+
+.paginator-trail li:before {
+    content: '';
+    display: none;
+}
+
+.paginator-trail li a {
+    text-decoration: none;
+}
+
+.paginator-trail li a:hover {
+    text-decoration: underline;
+}
+
+.paginator-trail li.selected a {
+    color: #63f330;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .post-content p {
     max-width: 80ch;
 }

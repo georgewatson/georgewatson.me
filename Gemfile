@@ -33,3 +33,5 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-git_metadata'
 
 gem 'jekyll-sitemap'
+
+gem 'jekyll-paginate-v2'
