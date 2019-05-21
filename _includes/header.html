@@ -14,10 +14,11 @@
         {%- for node in pages_list -%}
           {% if node.navbar and node.autogen == nil %}
             {%- if page.url == node.url -%}
-              <a href="{{node.url}}" class="this-page"
+              <a href="{{ node.url | replace: 'index.html', '' }}"
+                class="this-page"
                 >{%- if node.navtitle -%}{{node.navtitle}}{%- else -%}{{node.title}}{%- endif -%}</a>
             {%- else -%}
-              <a href="{{node.url}}"
+              <a href="{{ node.url | replace: 'index.html', '' }}"
                 >{%- if node.navtitle -%}{{node.navtitle}}{%- else -%}{{node.title}}{%- endif -%}</a>
             {% endif %}
             {% unless forloop.last %}
