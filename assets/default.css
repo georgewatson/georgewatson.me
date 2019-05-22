@@ -403,7 +403,7 @@ a[href*="blog/technology"]:hover,
 .tags:before,
 .warnings:before {
     color: #f33051;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
 }
 
 .share:before {

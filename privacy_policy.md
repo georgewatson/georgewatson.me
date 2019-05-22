@@ -207,8 +207,7 @@ Every effort has been made to comply with UK and EU law.
   material on this website.
 
 The above notices are correct as of commit
-[{{ site.git.last_commit.short_sha 
-}}](https://github.com/georgewatson/georgewatson.me/commit/{{ site.git.last_commit.long_sha }})
+[{{ site.git.last_commit.short_sha }}](https://github.com/georgewatson/georgewatson.me/commit/{{ site.git.last_commit.long_sha }}){: title="{{ site.git.last_commit.message }}"}
 on {{ site.git.last_commit.commit_date | date: '%-d %B %Y' }}.
 The largest number of notices ever displayed above is 2.
 <i class="fas fa-crow"></i>
@@ -218,7 +217,7 @@ The largest number of notices ever displayed above is 2.
 {:#updates}
 
 This policy was last updated in commit
-[{{ page.git.last_commit.short_sha }}](https://github.com/georgewatson/georgewatson.me/commit/{{ page.git.last_commit.long_sha }})
+[{{ page.git.last_commit.short_sha }}](https://github.com/georgewatson/georgewatson.me/commit/{{ page.git.last_commit.long_sha }}){: title="{{ page.git.last_commit.message }}"}
 on {{ page.git.last_commit.commit_date | date: '%-d %B %Y' }}.
 All changes to this privacy policy will be recorded in the commit history of the
 [GitHub repository](https://github.com/georgewatson/georgewatson.me)
