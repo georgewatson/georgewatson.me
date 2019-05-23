@@ -27,31 +27,31 @@ You can find me on:
 
 <ul class="fa-ul">
   <li>
-    <i class="fa-li fas fa-star"></i>
+    <i class="ai-li ai ai-orcid"></i>
     <a href="https://orcid.org/0000-0002-6524-0828">
       ORCID: 0000-0002-6524-0828
     </a>
   </li>
   <li>
-    <i class="fa-li fab fa-google"></i>
+    <i class="ai-li ai ai-google-scholar"></i>
     <a href="https://scholar.google.com/citations?user=2vB6ObYAAAAJ">
       Google Scholar
     </a>
   </li>
   <li>
-    <i class="fa-li fas fa-user"></i>
+    <i class="ai-li ai ai-researcherid"></i>
     <a href="http://www.researcherid.com/rid/S-6481-2017">
       Researcher ID: S-6481-2017
     </a>
   </li>
   <li>
-    <i class="fa-li fas fa-graduation-cap"></i>
+    <i class="ai-li ai ai-academia"></i>
     <a href="https://york.academia.edu/georgewatson">
       Academia.edu
     </a>
   </li>
   <li>
-    <i class="fa-li fab fa-mendeley"></i>
+    <i class="ai-li ai ai-mendeley"></i>
     <a href="https://www.mendeley.com/profiles/george-watson4/">
       Mendeley
     </a>
