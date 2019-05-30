@@ -82,7 +82,7 @@ order: 20
   [PDF](/dl/2019-04-08_poster.pdf) &bull;
   [Blog]({% post_url 2019-04-05-my-poster-at-the-iop-physics-of-microorganisms-ii-conference-london-8-april-2019 
   %})
-* **[Physics of Life Summer School: New Approaches to Biomolecular Structure,
+* **[PoLNET2 ECR Summer School: New Approaches to Biomolecular Structure,
   Dynamics and
   Function](http://www.physicsoflife.org.uk/summer-school-new-approaches-to-biomolecular-function-structure-and-dynamics.html)**
   \\
@@ -93,10 +93,25 @@ order: 20
 
 ### Internal
 
-* **[BPSI](https://www.york.ac.uk/physics/bpsi/) Summer Symposium 2018:
+* **[BPSI](https://www.york.ac.uk/physics/bpsi/) Spring Symposium 2019:
+  Light and Life --- A Molecular Perspective**\\
+  *University of York &bull; 19 May 2019*\\
+  "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
+  interaction"\\
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2019-04-08_poster.pdf)
+* **[PoLNET2 2018 Symposium:
+  Molecules, Mechanics, Medicine and
+  More!](http://www.physicsoflife.org.uk/molecules-mechanics-medicine-and-more.html)**\\
+  *University of York &bull; 10 December 2018*\\
+  "The influence of DNA topology on IHF--DNA interaction unveiled by atomic
+  simulations"\\
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2018-06-28_poster.pdf)
+* **BPSI Summer Symposium 2018:
   Business as Usual?**\\
   *University of York &bull; 28 June 2018*\\
-  "The influence of DNA topology on IHF--DNA interaction unveiled by atomic 
+  "The influence of DNA topology on IHF--DNA interaction unveiled by atomic
   simulations"\\
   <i class="far fa-file-pdf"></i>
   [PDF](/dl/2018-06-28_poster.pdf)
@@ -149,4 +164,6 @@ order: 20
   and [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
 
 *[BPSI]: Biological Physical Sciences Institute
+*[ECR]: Early Career Researcher
 *[GTA]: Graduate Teaching Assistant
+*[PoLNET2]: Physics of Life Network, phase 2
