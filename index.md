@@ -1,11 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 navbar: true
 order: 10
 navtitle: ~Home
+academicons: true
 ---
 {::nomarkdown}
 <img src="/assets/plectoneme.png" class="float-right"
