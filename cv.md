@@ -162,6 +162,9 @@ order: 20
 * Redesigned and maintain the
   [Physics of Life Group website](https://www.york.ac.uk/physics/research/physics-of-life)
   and [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
+* Maintain and update the website for the
+  [SynCrop](http://www.syncrop.org/syncrop/) Marie Curie Innovative Training
+  Network; set up and continue to moderate a private area for file hosting
 
 *[BPSI]: Biological Physical Sciences Institute
 *[ECR]: Early Career Researcher
