@@ -147,7 +147,7 @@ correctly formatted PDB record like this one:
 ATOM      1 O5'   DG A-117     186.697 135.541 228.518  1.00757.65           O
 ```
 
-So `map(print, records)` gives you a PDB,
+So `print(*records, sep='\n')` gives you a PDB,
 as long as `records` is a list of objects
 like the one the handy `read_pdb()` function gives you.
 
@@ -176,3 +176,4 @@ You deserve it.
 
 *[AMBER]: Assisted Model Building with Energy Refinement
 *[PDB]: Protein Data Bank
+*[PyPI]: Python Package Index

@@ -6,17 +6,16 @@ navbar: true
 order: 30
 ---
 
-## Scientific, academic, or work-related messages
+## Email
 
-[george.watson@york.ac.uk](mailto:george.watson@york.ac.uk)
+* **Scientific, academic, or work-related messages:**
+  [george.watson@york.ac.uk](mailto:george.watson@york.ac.uk)
+* **Sales and other unsolicited contact:**
+  [spam@georgewatson.me](mailto:spam@georgewatson.me)
+* **Personal messages:**
+  [george@georgewatson.me](mailto:george@georgewatson.me)
 
-## Sales and other unsolicited contact
-
-[spam@georgewatson.me](mailto:spam@georgewatson.me)
-
-## Personal messages
-
-[george@georgewatson.me](mailto:george@georgewatson.me)
+All inboxes are regularly monitored.
 
 ## Post or real life
 
