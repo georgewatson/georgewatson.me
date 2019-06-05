@@ -9,7 +9,8 @@ tags:
 - pdb
 - biophysics
 - object-oriented-programming
-- code
+- projects
+- python-packages
 image: "/assets/post_images/object-oriented-processing-of-pdb-files-in-python.png"
 date: 2019-06-04 20:14 +0100
 ---
@@ -71,18 +72,18 @@ def read_atom(line):
     Reads an ATOM or HETATM from a PDB file into an Atom object
     """
     return Atom(record_type=line[:6].strip(),
-                num=int(line[6:11]),
+                num=maybe_int(line[6:11]),
                 name=line[12:16].strip(),
                 alt_location=line[16:17].strip(),
                 residue=Residue(name=line[17:21].strip(),
                                 chain=line[21:22].strip(),
-                                resid=int(line[22:26]),
+                                resid=maybe_int(line[22:26]),
                                 insertion=line[26:27].strip()),
-                coords={'x': float(line[30:38]),
-                        'y': float(line[38:46]),
-                        'z': float(line[46:54])},
-                occupancy=float(line[54:60]),
-                temp_factor=float(line[60:66]),
+                coords=Coords(x=maybe_float(line[30:38]),
+                              y=maybe_float(line[38:46]),
+                              z=maybe_float(line[46:54])),
+                occupancy=maybe_float(line[54:60]),
+                temp_factor=maybe_float(line[60:66]),
                 segment=line[72:76].strip(),
                 symbol=line[76:78].strip(),
                 charge=line[78:80].strip())
@@ -92,6 +93,8 @@ While I'm sure there are neater ways,
 that's roughly as good as it gets.
 And if I want to manipulate the structure and write out the result,
 I can't really discard very many of those fields.
+It's clearly better to outsource the ugliness to a friendly package
+than to do that every time I want to read a PDB.
 
 The result is an `Atom` object, which looks a bit like this:
 
@@ -115,9 +118,11 @@ The result is an `Atom` object, which looks a bit like this:
 ```
 
 That's much easier to work with.
-You may have also noticed that residues are objects too.
+You may have noticed that residues and coordinates are objects too,
+so these elements can be easily shared across record types
+and a load of powerful and expressive methods can be exposed.
 
-The package currently (v0.1.1) supports the following record types:
+The package currently (v0.1.2) supports the following record types:
 * `ATOM`
 * `HETATM`
 * `TER`
@@ -132,17 +137,19 @@ so two objects representing the same atom/terminator/structural element are
 equal even if their other properties are not (or undefined).
 The `__contains__` method is defined for residues,
 so that `if atom in residue` is a valid construct.
+Coordinates can be added and subtracted together,
+and multiplied or divided by scalars.
 
 Printing any of the objects (or otherwise casting it to a string) results in a
-correctly formatted PDB record:
+correctly formatted PDB record like this one:
 
 ```
 ATOM      1 O5'   DG A-117     186.697 135.541 228.518  1.00757.65           O
 ```
 
 So `map(print, records)` gives you a PDB,
-assuming `records` is a list of objects
-(like the one the handy `read_pdb()` function gives you).
+as long as `records` is a list of objects
+like the one the handy `read_pdb()` function gives you.
 
 This isn't a fully-fledged PDB-manipulating package.
 It's not trying to be.
