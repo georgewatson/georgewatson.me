@@ -157,12 +157,14 @@ But it has made my life a bit easier,
 and maybe it will help you too.
 
 The source code is available
+(under an [MIT license](https://opensource.org/licenses/MIT),
+so you can do whatever you want with it)
 [on GitHub](https://github.com/georgewatson/pdb_objects),
 and the package is [in PyPI](https://pypi.org/project/pdb-objects/),
 so you can just
 
 ```shell
-pip3 install pdb-objects
+$ pip3 install pdb-objects
 ```
 
 then stick
