@@ -10,6 +10,11 @@ body {
 
 code,
 .highlight,
-.highlight code {
-    background-color: #000;
+.highlight code,
+.overlay-span {
+    background-color: #222;
+}
+
+.blog-post-title .overlay-span {
+    box-shadow: #222 0.5em 0px 0px, #222 -0.5em 0px 0px;
 }
