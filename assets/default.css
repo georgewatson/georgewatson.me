@@ -6,6 +6,34 @@
     box-decoration-break: clone;
 }
 
+.blog-post:not(.blog-post-image) .attachment-post-thumbnail {
+    -ms-transform: translate(-50%, -50%);
+    -o-object-fit: cover !important;
+    -o-object-position: center center !important;
+    -webkit-transform: translate(-50%, -50%);
+    height: auto;
+    left: 50%;
+    max-width: 300%;
+    min-width: 100%;
+    object-fit: cover !important;
+    object-position: center center !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thumbnail-overlay {
+    bottom: 0;
+    position: absolute;
+}
+
+.thumbnail-container-content {
+    height: 360px;
+}
+
+.thumbnail-container-single {
+    height: 650px;
+}
 
 .category-page-header-culture,
 a[href*="blog/culture"]:hover,
