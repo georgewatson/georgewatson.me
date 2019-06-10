@@ -177,5 +177,6 @@ at the top of your script and go get a coffee.
 You deserve it.
 
 *[AMBER]: Assisted Model Building with Energy Refinement
+*[MIT]: Massachusetts Institute of Technology
 *[PDB]: Protein Data Bank
 *[PyPI]: Python Package Index

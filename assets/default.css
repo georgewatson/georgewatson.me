@@ -363,6 +363,10 @@ pre {
     background-color: #eee;
 }
 
+pre {
+    overflow-x: auto;
+}
+
 footer p {
     margin: 0;
 }

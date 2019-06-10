@@ -13,7 +13,7 @@ layout: default
           src="{{ page.image | relative_url }}"
           class="attachment-post-thumbnail size-post-thumbnail
             wp-post-image"
-          alt=""/>
+          alt="" itemprop="image"/>
       {%- endif -%}
 
       <header class="post-header
@@ -35,7 +35,7 @@ layout: default
           <span class="overlay-span">
             <time class="dt-published"
                 datetime="{{ page.date | date_to_xmlschema }}"
-                itemprop="datePublished">
+                itemprop="datePublished dateModified">
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
               {{ page.date | date: date_format }}
             </time>
