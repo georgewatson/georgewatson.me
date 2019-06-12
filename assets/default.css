@@ -292,7 +292,10 @@ dt,
 
 div.highlight {
     margin-left: 2ch;
-    padding: 1ch;
+}
+
+pre.highlight {
+    padding: 2ch;
 }
 
 a,
