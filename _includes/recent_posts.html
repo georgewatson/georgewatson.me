@@ -1,5 +1,5 @@
 {%- if site.posts.size > 0 -%}
-  {%- for post in site.posts limit:10 -%}
+  {%- for post in site.posts limit:5 -%}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {% include post_title.html %}
   {%- endfor -%}

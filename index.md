@@ -94,11 +94,18 @@ You can find me on:
     </div>
 
     <div class="flex-column-left twitter-embed">
-      <a class="twitter-timeline" data-width="600" data-link-color="#30b7f3"
+      <h2>Tweets</h2>
+      <a class="twitter-timeline" data-width="600" data-tweet-limit="3"
+          data-link-color="#30b7f3" data-chrome="noheader nofooter noborders"
           href="https://twitter.com/GeorgeDWatson?ref_src=twsrc%5Etfw">
         Tweets by GeorgeDWatson</a>
       <script async src="https://platform.twitter.com/widgets.js">
       </script>
+      <p>
+        <a href="https://twitter.com/GeorgeDWatson">
+          @GeorgeDWatson
+        </a>
+      </p>
     </div>
 
   </div>
