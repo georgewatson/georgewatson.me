@@ -72,6 +72,14 @@ order: 20
 
 ### External
 
+
+* **[6th Molecular Microbiology
+  Meeting](https://conferences.ncl.ac.uk/molmicro2019)**\\
+  *Newcastle University &bull; 17--18 June 2019*
+  "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
+  interaction"\\
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2019-04-08_poster.pdf)
 * **[The Physics of Microorganisms
   II](https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=785982)**
   \\
@@ -120,13 +128,6 @@ order: 20
   "Atomistic simulation of DNA supercoiling"\\
   <i class="far fa-file-pdf"></i>
   [PDF](/dl/2018-03-20_poster.pdf)
-
-## Other conferences attended
-{:#conferences}
-
-* **[6th Molecular Microbiology
-  Meeting](https://conferences.ncl.ac.uk/molmicro2019)**\\
-  *Newcastle University &bull; 17--18 June 2019*
 
 ## Teaching
 {:#teaching}
