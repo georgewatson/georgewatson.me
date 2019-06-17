@@ -75,7 +75,7 @@ order: 20
 
 * **[6th Molecular Microbiology
   Meeting](https://conferences.ncl.ac.uk/molmicro2019)**\\
-  *Newcastle University &bull; 17--18 June 2019*
+  *Newcastle University &bull; 17--18 June 2019*\\
   "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
   interaction"\\
   <i class="far fa-file-pdf"></i>
@@ -148,6 +148,11 @@ order: 20
 ## Outreach
 {:#outreach}
 
+* **York Festival of Ideas Fringe Family Fun Afternoon**\\
+  *University of York &bull; June 2019*\\
+  "DNA Detectives"\\
+  Hosted interactive DNA bracelets and DNA origami activities for children aged 
+  5--11, explaining the structure and function of DNA appropriately
 * **[York Researchers' Night
   (YorNight)](https://www.york.ac.uk/news-and-events/events/yornight/2018/)**
   \\
