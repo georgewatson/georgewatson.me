@@ -14,12 +14,16 @@ academicons: true
 {:/}
 
 I'm George Watson, a PhD student and postgraduate research assistant in
-computational biophysics in the [Physics of Life
-Group](https://www.york.ac.uk/physics/research/physics-of-life/) at the
-[University of York](https://york.ac.uk) under the supervision of [Dr
-Agnes Noy](http://agnesnoy.cat), focusing on molecular dynamics
-simulations of protein-mediated supercoiling in DNA minicircles and its
-influence on gene regulation.
+computational biophysics in
+[Agnes Noy's lab](https://agnesnoylab.wordpress.com/)
+in the
+[Physics of Life Group](https://www.york.ac.uk/physics/research/physics-of-life/)
+at the
+[University of York](https://york.ac.uk),
+focusing on molecular dynamics simulations
+of DNA--protein interactions,
+particularly protein-mediated supercoiling in DNA minicircles
+and its influence on gene regulation.
 
 You can find me on:
 
