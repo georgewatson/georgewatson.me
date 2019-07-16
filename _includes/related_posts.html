@@ -7,11 +7,11 @@
 {% endcomment %}
 {%- assign maxRelated = 3 -%}
 {%- assign minTags = 2 -%}
-{%- assign maxTags = 5 -%}
 
 {% comment %}
   Probably don't play with anything after this point
 {% endcomment %}
+{%- assign maxTags = page.tags | size -%}
 {%- assign relatedCount = 0 -%}
 
 {% comment %}
