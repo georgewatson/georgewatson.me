@@ -22,7 +22,7 @@
 {%- assign note_class = "yellow" -%}
 {% for post in site.posts %}
   {% if page.related contains post.url %}
-    {% include post_title.html %}
+    {% include post_preview.html %}
     {%- assign relatedCount = relatedCount | plus: 1 -%}
   {% endif %}
 {% endfor %}
