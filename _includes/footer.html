@@ -5,7 +5,11 @@
       class="fab fa-creative-commons-by"></i>
     <a rel="license"
       href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>
-    {{ site.time | date: '%Y' }} George D. Watson
+    {{ site.time | date: '%Y' }}
+    <span xmlns:cc="http://creativecommons.org/ns#"
+      data-url="{{site.url}}{{page.url}}"
+      property="cc:attributionName"
+      rel="cc:attributionURL dct:source">George D. Watson</span>
     &bull;
     <i class="fab fa-github"></i>
     <span class="hidden">Git commit</span>

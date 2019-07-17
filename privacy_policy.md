@@ -9,7 +9,7 @@ permalink: ../privacy_policy/
 
 Your connection to this website is end-to-end encrypted using
 [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security).
-This makes it impossible for eavesdroppers to read or interfere with your
+This makes it difficult for eavesdroppers to read or interfere with your
 communications with this website.
 The server supports TLS versions 1.0--1.3; it is recommended that you use a
 browser that supports the latest version of the protocol.

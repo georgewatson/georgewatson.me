@@ -19,6 +19,10 @@
                 >{%- if node.navtitle -%}{{node.navtitle}}{%- else -%}{{node.title}}{%- endif -%}</a>
             {%- else -%}
               <a href="{{ node.url | replace: 'index.html', '' }}"
+                {% if node.title contains 'Contact' %}
+                  xmlns:cc="http://creativecommons.org/ns#"
+                  rel="cc:morePermissions"
+                {% endif %}
                 >{%- if node.navtitle -%}{{node.navtitle}}{%- else -%}{{node.title}}{%- endif -%}</a>
             {% endif %}
             {% unless forloop.last %}
