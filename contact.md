@@ -43,7 +43,7 @@ Except where otherwise stated,
 all content on this website is available under both of the following licences:
 
 * [Creative Commons Attribution (CC-BY) 4.0](https://creativecommons.org/licenses/by/4.0/)
-* [MIT/Expat (MIT)](https://georgewatson.me/LICENSE)
+* [MIT/Expat (MIT)](/LICENSE)
 
 You may choose under which of these licences you wish to use any content.
 
