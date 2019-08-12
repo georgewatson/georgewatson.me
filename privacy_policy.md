@@ -11,8 +11,11 @@ Your connection to this website is end-to-end encrypted using
 [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 This makes it difficult for eavesdroppers to read or interfere with your
 communications with this website.
-The server supports TLS versions 1.0--1.3; it is recommended that you use a
-browser that supports the latest version of the protocol.
+The CDN delivering this website
+(provided by CloudFlare)
+is configured to support only TLS versions 1.2 and 1.3.
+It is recommended that you use a browser that supports the latest version of the
+protocol.
 
 Both `georgewatson.me` and `dendodge.me` have valid SSL certificates issued via
 [CloudFlare](https://www.cloudflare.com/) and
@@ -235,6 +238,7 @@ If you have any queries, contact
 [george@georgewatson.me](mailto:george@georgewatson.me)
 or use one of the other contact media listed on the [Contact](/contact) page.
 
+*[CDN]: Content Delivery Network
 *[DNS]: Domain Name System
 *[DNT]: Do Not Track
 *[EU]: European Union
