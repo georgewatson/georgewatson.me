@@ -2,12 +2,12 @@
 	"name": "George Watson",
 	"icons": [
 		{
-			"src": "\/android-chrome-192x192.png?v=WGaYmv8z0M",
+			"src": "\/assets\/android-chrome-192x192.png?v=WGaYmv8z0M",
 			"sizes": "192x192",
 			"type": "image\/png"
 		},
 		{
-			"src": "\/android-chrome-512x512.png?v=WGaYmv8z0M",
+			"src": "\/assets\/android-chrome-512x512.png?v=WGaYmv8z0M",
 			"sizes": "512x512",
 			"type": "image\/png"
 		}
