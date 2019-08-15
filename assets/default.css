@@ -109,6 +109,10 @@ a[href*="blog/meta"]:hover,
     color: #ccc;
 }
 
+.bg-light-grey {
+    background-color: #ccc;
+}
+
 .highlight .ge {
     color: #fff;
     font-style: italic;
@@ -124,7 +128,12 @@ a[href*="blog/meta"]:hover,
     color: #f3df30;
 }
 
-.overlay-span {
+.bg-yellow {
+    background-color: #f3df30;
+}
+
+.overlay-span,
+.bg-dark {
     background-color: #333;
 }
 
@@ -362,8 +371,13 @@ pre,
 }
 
 code,
-pre {
+pre,
+.bg-light {
     background-color: #eee;
+}
+
+.light {
+    color: #eee;
 }
 
 pre {
@@ -417,7 +431,8 @@ a[href*="blog/technology"]:hover,
     color: #f38630;
 }
 
-.label a:hover {
+.label a:hover,
+.white {
     color: #fff;
 }
 

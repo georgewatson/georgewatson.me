@@ -237,6 +237,15 @@ dt {
     margin-top: 3ex;
 }
 
+.nicetable {
+  border-spacing: 0;
+}
+
+.nicetable td,
+.nicetable th {
+  padding: 5px;
+}
+
 @media screen and (max-width: 1000px) {
     .logo {
         left: 10vw !important;
