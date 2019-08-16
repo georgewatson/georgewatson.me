@@ -350,7 +350,7 @@ permalink: ../colours/
   <col/>
   <col/>
   <tr>
-    <th></th>
+    <th scope="col"></th>
     <th scope="col">Light</th>
     <th scope="col" class="lg">Dark</th>
     <th scope="col">Status</th>

@@ -8,9 +8,8 @@ body {
     background-color: #333;
 }
 
-.force-light {
-    color: #333;
-    background-color: #fff;
+.nicetable * {
+    border-color: #ccc;
 }
 
 code,
@@ -22,4 +21,9 @@ code,
 
 .blog-post-title .overlay-span {
     box-shadow: #222 0.5em 0px 0px, #222 -0.5em 0px 0px;
+}
+
+.force-light {
+    color: #333;
+    background-color: #fff;
 }

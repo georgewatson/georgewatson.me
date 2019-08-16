@@ -303,7 +303,8 @@ dt,
     text-indent: -2ch;
 }
 
-div.highlight {
+div.highlight,
+.nicetable {
     margin-left: 2ch;
 }
 
@@ -558,6 +559,16 @@ blockquote p:before,
 .blog-post-info:before {
     content: "";
     display: none;
+}
+
+.nicetable,
+.nicetable th[scope="col"],
+.nicetable th[scope="colgroup"],
+.nicetable .borders {
+    border-collapse: collapse;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #333;
 }
 
 @media screen and (max-width: 1000px) {
