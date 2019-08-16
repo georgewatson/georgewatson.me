@@ -105,11 +105,11 @@ a[href*="blog/meta"]:hover,
 .highlight .w,
 .highlight .sd,
 .highlight .sh,
-.light-grey {
+.lg {
     color: #ccc;
 }
 
-.bg-light-grey {
+.bg-lg {
     background-color: #ccc;
 }
 
@@ -135,6 +135,10 @@ a[href*="blog/meta"]:hover,
 .overlay-span,
 .bg-dark {
     background-color: #333;
+}
+
+.bg-vd {
+    background-color: #222;
 }
 
 .overlay-span a:hover {
@@ -364,6 +368,10 @@ body {
 
 .dark {
     color: #333;
+}
+
+.vd {
+    color: #222;
 }
 
 body,
