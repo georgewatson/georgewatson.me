@@ -246,6 +246,18 @@ dt {
   padding: 5px;
 }
 
+.align-centre {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
 @media screen and (max-width: 1000px) {
     .logo {
         left: 10vw !important;
