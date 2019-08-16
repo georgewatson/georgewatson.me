@@ -122,7 +122,7 @@ permalink: ../colours/
     <td>#9E30F3</td>
     <td>(158, 48,243)</td>
     <td>(274,89, 57)</td>
-    <td>(35,80 0, 5)</td>
+    <td>(35,80, 0, 5)</td>
     <td style="color:#93f">#9933FF</td>
     <td style="color:#963CBD">7442 C</td>
   </tr>
@@ -357,84 +357,84 @@ permalink: ../colours/
     <th scope="col">Labels</th>
   </tr>
   <tr>
-    <td>#FFFFFF</td>
+    <th scope="row">#FFFFFF</th>
     <td>Background</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td class="bg-light">#EEEEEE</td>
+    <th scope="row" class="bg-light">#EEEEEE</th>
     <td class="bg-light">BG highlights</td>
     <td class="light">FG highlights</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td class="bg-lg">#CCCCCC</td>
+    <th scope="row" class="bg-lg">#CCCCCC</th>
     <td></td>
     <td class="lg">Foreground</td>
     <td></td>
     <td class="bg-lg">None</td>
   </tr>
   <tr>
-    <td class="bg-grey">#777777</td>
+    <th scope="row" class="bg-grey">#777777</th>
     <td class="grey">FG highlights</td>
     <td></td>
     <td class="grey">Low priority</td>
     <td class="white bg-grey">Meta</td>
   </tr>
   <tr>
-    <td class="bg-dark lg">#333333</td>
+    <th scope="row" class="bg-dark lg">#333333</th>
     <td>Foreground</td>
     <td class="lg">Background</td>
     <td>Normal</td>
     <td></td>
   </tr>
   <tr>
-    <td class="lg bg-vd">#222222</td>
+    <th scope="row" class="lg bg-vd">#222222</th>
     <td></td>
     <td class="lg bg-vd">BG highlights</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td class="bg-red">#F33051</td>
+    <th scope="row" class="bg-red">#F33051</th>
     <td class="red">Accent</td>
     <td class="red">Accent</td>
     <td class="red">Fatal</td>
     <td class="white bg-red">Politics</td>
   </tr>
   <tr>
-    <td class="bg-orange">#F38630</td>
+    <th scope="row" class="bg-orange">#F38630</th>
     <td class="orange">Accent</td>
     <td class="orange">Accent</td>
     <td class="orange">Error</td>
     <td class="white bg-orange">Technology</td>
   </tr>
   <tr>
-    <td class="bg-yellow">#F3DF30</td>
+    <th scope="row" class="bg-yellow">#F3DF30</th>
     <td></td>
     <td class="yellow">Accent</td>
     <td class="yellow">Warning</td>
     <td></td>
   </tr>
   <tr>
-    <td class="bg-green">#63F330</td>
+    <th scope="row" class="bg-green">#63F330</th>
     <td class="green">Accent</td>
     <td class="green">Accent</td>
     <td class="green">Success</td>
     <td class="white bg-green">Science</td>
   </tr>
   <tr>
-    <td class="bg-blue">#30B7F3</td>
+    <th scope="row" class="bg-blue">#30B7F3</th>
     <td class="blue">Accent</td>
     <td class="blue">Accent</td>
     <td class="blue">Info</td>
     <td class="white bg-blue">Data</td>
   </tr>
   <tr>
-    <td class="bg-purple">#9E30F3</td>
+    <th scope="row" class="bg-purple">#9E30F3</th>
     <td class="purple">Accent</td>
     <td></td>
     <td></td>

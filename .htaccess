@@ -6,6 +6,7 @@ RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
+ErrorDocument 451 /451.html
 
 Header always set X-Frame-Options "SAMEORIGIN"
 Header always set X-Xss-Protection "1; mode=block"
