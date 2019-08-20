@@ -122,6 +122,8 @@ Links to their cookie policies are provided below.
 * [CloudFlare](https://www.cloudflare.com/cookie-policy/)
 * [Disqus](https://help.disqus.com/user-profile/use-of-cookies)
   (on pages with embedded comments sections)
+* [Google](https://policies.google.com/technologies/cookies)
+  (on pages with embedded content from Google services)
 * [Google
   Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
   (if you don't send a [Do Not Track header](#opting-out))
@@ -132,6 +134,29 @@ You can probably disable cookies on a per-site basis in your browser settings.
 See your browser's help pages for information on how to do this.
 You can also delete cookies at any time.
 See the [Opting Out](#opting-out) section for more information.
+
+### Other organisations
+{:#others}
+
+I may embed content from other organisations.
+This content is subject to those organisations' privacy policies.
+If you do not agree to their terms,
+it may be possible to disable tracking by visiting those websites.
+Otherwise,
+you can always block this content;
+see the [Opting Out](#opting-out) section for details.
+
+For your convenience,
+a non-exhaustive list of such organisations is provided below,
+including links to their privacy policies.
+I recommend that you familiarise yourself with these,
+since these all form core parts of the modern Web infrastructure
+and are widely used across many websites.
+
+* [CloudFlare](https://www.cloudflare.com/privacypolicy/)
+* [Disqus](https://help.disqus.com/en/collections/191787-terms-and-policies)
+* [Google](https://policies.google.com/privacy)
+* [Twitter](https://twitter.com/en/privacy)
 
 ### Analytics
 {:#analytics}
@@ -208,6 +233,19 @@ and it would be both impractical and inappropriate to follow them
 all;[^legal-systems]
 it is your responsibility to ensure that you are not breaking any local laws by
 visiting or interacting with this website.
+
+I am not responsible for the content or policies of most external websites,
+even if I embed or hyperlink to them.
+Linking to,
+embedding,
+discussing,
+or recommending an external website or organisation does not imbue me with
+responsibility for that website or organisation's actions,
+and should not be viewed as an endorsement of their privacy policies.
+Other websites will have privacy policies that differ from this one.
+Nothing in this privacy policy applies to other websites,
+and it is your responsibility to ensure that you agree to the terms of any
+websites or organisations with which you choose to interact.
 
 ### Transparency Report
 {:#transparency-report}
