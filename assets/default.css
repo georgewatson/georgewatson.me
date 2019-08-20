@@ -571,6 +571,23 @@ blockquote p:before,
     border-color: #333;
 }
 
+.google-maps {
+    position: relative;
+    max-width: 600px;
+    max-height: 450px;
+    padding-bottom: 450px;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 @media screen and (max-width: 1000px) {
     .flex-column-left {
         padding-right: 0;
