@@ -129,9 +129,20 @@ order: 20
   <i class="far fa-file-pdf"></i>
   [PDF](/dl/2018-03-20_poster.pdf)
 
+## Other conferences attended
+{:#conferences}
+
+* **[7th Annual CCPBioSim Conference: Frontiers in Biomolecular
+  Simulation](http://www.ccpbiosim.ac.uk/ccpbiosim2019)**\\
+  *University of Bristol &bull; 4--6 September 2019*
+
 ## Teaching
 {:#teaching}
 
+* **Molecular Simulation** (practical demonstration)\\
+  *University of York &bull; 2018--2020*\\
+  Provide support and assistance to third-year students during molecular
+  dynamics workshop sessions
 * **Advanced Computational Laboratory** (practical demonstration)\\
   *University of York &bull; 2018--2019*\\
   Supervised, guided, and assisted students developing various programs for
@@ -140,10 +151,6 @@ order: 20
   single-particle plasma simulation, which included giving a short introductory
   lecture\\
   **Nominated: GTA of the Year**{:.label .label-meta}
-* **Molecular Simulation** (practical demonstration)\\
-  *University of York &bull; 2018*\\
-  Provided support and assistance to third-year students during molecular
-  dynamics workshop sessions
 
 ## Outreach
 {:#outreach}
@@ -173,6 +180,7 @@ order: 20
   Network; set up and continue to moderate a private area for file hosting
 
 *[BPSI]: Biological Physical Sciences Institute
+*[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
 *[ECR]: Early Career Researcher
 *[GTA]: Graduate Teaching Assistant
 *[PoLNET2]: Physics of Life Network, phase 2
