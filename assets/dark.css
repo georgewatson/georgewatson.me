@@ -23,6 +23,12 @@ code,
     box-shadow: #222 0.5em 0px 0px, #222 -0.5em 0px 0px;
 }
 
+:target {
+    background-color: #333;
+    color: #f3df30;
+    outline: 1px solid #f3df30;
+}
+
 .force-light {
     color: #333;
     background-color: #fff;
