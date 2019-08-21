@@ -28,7 +28,9 @@ University of York\\
 York\\
 YO10&nbsp;5DD
 
-53°56′44.9304″N, 1°3′10.6308″W
+53°56′44.9″N, 1°3′10.6″W
+
+[WWWW+8R, Heslington, UK](https://plus.codes/9C5WWWWW+8R)
 
 ///[chimp.green.ended](https://w3w.co/chimp.green.ended)
 </div>
