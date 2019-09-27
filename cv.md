@@ -42,11 +42,11 @@ order: 20
 
 ### Awards
 
-* Nominated:
+* Shortlisted:
   **Graduate Teaching Assistant of the Year**,
   Physics Awards 2019\\
   *University of York &bull; 1 May 2019*
-* Nominated:
+* Shortlisted:
   **Postgraduate Makes a Difference**,
   Physics Awards 2019\\
   *University of York &bull; 1 May 2019*
@@ -101,7 +101,14 @@ order: 20
 
 ### Internal
 
-* **[BPSI](https://www.york.ac.uk/physics/bpsi/) Spring Symposium 2019:
+* **Physics Postgraduate Conference 2019**\\
+  *University of York &bull; 26--27 September 2019*\\
+  "Atomistic simulation of DNA supercoiling"
+* **[BPSI](https://www.york.ac.uk/physics/bpsi/) Autumn Symposium 2019:
+  Modelling the Ecology of Complex Communities**\\
+  *University of York &bull; 26 September 2019*\\
+  "Atomistic simulation of DNA supercoiling"
+* **BPSI Spring Symposium 2019:
   Light and Life --- A Molecular Perspective**\\
   *University of York &bull; 19 May 2019*\\
   "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
@@ -150,7 +157,7 @@ order: 20
   during third-year computational laboratory; led an experiment in
   single-particle plasma simulation, which included giving a short introductory
   lecture\\
-  **Nominated: GTA of the Year**{:.label .label-meta}
+  **Shortlisted: GTA of the Year**{:.label .label-meta}
 
 ## Outreach
 {:#outreach}
