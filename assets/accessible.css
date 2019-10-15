@@ -5,10 +5,6 @@
     width: 100%;
 }
 
-.blog-post-title .overlay-span {
-    box-shadow: .5em 0 0 #000, -.5em 0 0 #000;
-}
-
 .flex-column-left {
     padding-right: 0;
     width: 100%;
@@ -60,7 +56,6 @@
     color: #B58900;
 }
 
-.overlay-span,
 .label,
 .label-meta {
     background-color: #000;
@@ -88,10 +83,6 @@
 
 .logo {
     position: absolute;
-}
-
-.overlay-span a:hover {
-    color: #0f0;
 }
 
 .post-content p {
@@ -139,7 +130,7 @@ a:hover,
 }
 
 body {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 code,
@@ -195,6 +186,11 @@ hr {
     border-top: 5px solid #000;
 }
 
+.overlay-span a {
+    color: #00f;
+    font-weight: 700;
+}
+
 nav a,
 .overlay-span a,
 .category a,
@@ -203,4 +199,9 @@ nav a,
 .blog-post-title a,
 .label a {
     text-decoration: underline;
+}
+
+a:hover,
+.overlay-span a:hover {
+    color: green;
 }
