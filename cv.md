@@ -188,6 +188,12 @@ order: 20
 
 *[BPSI]: Biological Physical Sciences Institute
 *[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
-*[ECR]: Early Career Researcher
-*[GTA]: Graduate Teaching Assistant
+*[DNA]: Deoxyribonucleic acid
+*[Ebor.]: la: Eboracum (en: York)
+*[ECR]: Early-career researcher
+*[GTA]: Graduate teaching assistant
+*[MInstP]: Member of the Institute of Physics
+*[MPhys (Hons)]: Master of Physics (with honours)
+*[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
 *[PoLNET2]: Physics of Life Network, phase 2
+*[VR]: Virtual reality

@@ -27,7 +27,7 @@ and its influence on gene regulation.
 
 You can find me on:
 
-<ul class="fa-ul">
+<ul class="fa-ul compact-list">
   <li>
     <i class="ai-li ai ai-orcid"></i>
     <a href="https://orcid.org/0000-0002-6524-0828">

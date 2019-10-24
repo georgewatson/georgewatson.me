@@ -546,6 +546,14 @@ ul li:before {
     font-weight: 600;
 }
 
+li {
+    margin-bottom: 1em;
+}
+
+.compact-list li {
+    margin-bottom: 0;
+}
+
 ul.fa-ul li,
 blockquote p,
 .footnotes p,
