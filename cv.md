@@ -101,6 +101,12 @@ order: 20
 
 ### Internal
 
+* **Biophysics of Infection & Immunity Symposium:
+  From Molecules to Cells to Tissues**\\
+  *University of York &bull; 22 November 2019*\\
+  "Atomistic simulations reveal modality of IHF--DNA binding"\\
+  <i class="far fa-file-pdf"></i>
+  [PDF](/dl/2019-11_poster.pdf)
 * **Physics Postgraduate Conference 2019**\\
   *University of York &bull; 26--27 September 2019*\\
   "Atomistic simulation of DNA supercoiling"
