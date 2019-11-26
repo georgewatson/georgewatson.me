@@ -16,10 +16,7 @@ academicons: true
 I'm George Watson, a PhD student and postgraduate research assistant in
 computational biophysics in
 [Agnes Noy's lab](https://agnesnoylab.wordpress.com/)
-in the
-[Physics of Life Group](https://www.york.ac.uk/physics/research/physics-of-life/)
-at the
-[University of York](https://york.ac.uk),
+at a UK university[^1],
 focusing on molecular dynamics simulations
 of DNA--protein interactions,
 particularly protein-mediated supercoiling in DNA minicircles
@@ -114,3 +111,12 @@ You can find me on:
 
   </div>
 {:/}
+
+***
+
+[^1]: The university in question is a member of Universities UK,
+    the Universities and Colleges Employers Association,
+    and the Universities Superannuation Scheme,
+    and I shall not provide it with free publicity here until the
+    [University and College Union](https://www.ucu.org.uk/heaction)'s
+    ongoing industrial action is concluded.
