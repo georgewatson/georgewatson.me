@@ -198,6 +198,7 @@ order: 20
 *[Ebor.]: la: Eboracum (en: York)
 *[ECR]: Early-career researcher
 *[GTA]: Graduate teaching assistant
+*[IHF]: Integration host factor
 *[MInstP]: Member of the Institute of Physics
 *[MPhys (Hons)]: Master of Physics (with honours)
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
