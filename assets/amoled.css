@@ -2,14 +2,4 @@
 ---
 
 @import url('/assets/dark.css');
-
-body {
-    background-color: #000;
-}
-/*
-code,
-.highlight,
-.highlight code {
-    background-color: #333;
-}
-*/
+@import url('/assets/amoled_pure.css');

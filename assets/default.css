@@ -6,3 +6,7 @@
 @media (prefers-color-scheme: dark) {
     {% include_relative dark_pure.css %}
 }
+
+@media screen and (max-width: 1000px) and (prefers-color-scheme: dark) {
+    {% include_relative amoled_pure.css %}
+}
