@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url('/assets/base.css');
+
 .blog-post-title {
     width: 100%;
 }
