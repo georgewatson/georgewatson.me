@@ -40,6 +40,17 @@ to resolve domain names.
 Nameservers supporting these protocols include
 [1.1.1.1 by CloudFlare](https://1.1.1.1/dns/).
 
+I can do very little to prevent your internet service provider,
+employer,
+government,
+or parents from tracking your activity.
+If you wish to secure your connection further,
+consider connecting via an anonymous proxy,
+a VPN,
+or the
+[Tor](https://www.torproject.org/)
+network.
+
 ### Data collection
 {:#collection}
 
@@ -71,51 +82,85 @@ See the [Analytics](#analytics) section for more information.
 ### Cookies
 {:#cookies}
 
-I may store first-party cookies on your device for the purpose of server
-security.
-This cookie should appear as `__cfduid`, and is provided by CloudFlare.
-It consists of a one-way hash of certain values and cannot be used to
-personally identify you.
-It provides no capability for cross-site tracking.
-For more information, see:
-* ["What does the Cloudflare cfduid cookie do?" --- CloudFlare
-  Support](https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-Cloudflare-cfduid-cookie-do-)
-* ["Privacy and the cfduid cookie" --- CloudFlare
-  Support](https://support.cloudflare.com/hc/en-us/articles/360024915491)
+I may store the following first-party cookies on your device:
 
-A cookie may also be used to store your stylesheet preference.
-This cookie is called `style` and contains your chosen stylesheet,
-if you choose to use the links in the page footer to choose a stylesheet.
-The cookie may be automatically set with a value of `default`
-in the absence of any interaction with the stylesheet chooser.
-This cookie is provided purely for your convenience,
-does not identify you personally and cannot be used to track you.
-The value of this cookie will not be changed if you use your browser's built-in
-stylesheet selector.
-
-On pages with embedded equations,
-your [MathJax](https://www.mathjax.org/) preferences may be stored using a 
-cookie.
-MathJax cookies have the prefix `mjx`,
-are not used to collect any information about you,
-and cannot be used to track you.
-If you disable cookies,
-the equations should still display correctly,
-but some functionality may be lost.
-The MathJax source code is available
-[on GitHub](https://github.com/mathjax/mathjax)
-if you'd like to verify that these cookies aren't evil.
-
-A cookie will also be stored to record that you have dismissed the cookie
-notification banner,
-so you don't get bothered with it every time you visit.
-This cookie is called `cookieconsent_status`,
-and does nothing else.
-This banner uses
-[Cookie Consent by Insites](https://cookieconsent.insites.com/),
-but no information is shared with its developers.
-You can inspect the source code
-[on GitHub](https://github.com/insites/cookieconsent).
+{:.compact-list}
+* `__cfduid`
+  * **Purpose:**
+    A CloudFlare cookie for the purpose of server security
+  * **Content:**
+    A one-way hash of certain values
+  * **Provider:**
+    [CloudFlare](https://www.cloudflare.com/)
+  * **Tracking:**
+    This cookie cannot be used to identify you personally,
+    and provides no capability for cross-site tracking.
+  * **Effects if disabled:**
+    Disabling or deleting this cookie should not normally cause any issues,
+    but may affect your ability to access this website if your connection is
+    otherwise suspicious.
+  * For more information, see:
+    * ["What does the Cloudflare cfduid cookie do?" --- CloudFlare
+      Support](https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-Cloudflare-cfduid-cookie-do-)
+    * ["Privacy and the cfduid cookie" --- CloudFlare
+      Support](https://support.cloudflare.com/hc/en-us/articles/360024915491)
+* `cookieconsent_status`
+  * **Purpose:**
+    Records that you have dismissed the cookie notification banner
+  * **Content:**
+    A Boolean (true/false) value
+  * **Provider:**
+    [Cookie Consent by Insites](https://cookieconsent.insites.com/)
+  * **Tracking:**
+    This cookie cannot be used to identify you personally,
+    and provides no capability for cross-site tracking.
+  * **Effects if disabled:**
+    Disabling or deleting this cookie might result in you seeing the cookie
+    notification banner every time you visit this website.
+  * **Source code:**
+    The Cookie Consent by Insites source code is available
+    [on GitHub](https://github.com/insites/cookieconsent).
+* `mjx.*`
+  * **Purpose:**
+    Stores your
+    [MathJax](https://www.mathjax.org/)
+    preferences,
+    used on pages with embedded equations
+  * **Content:**
+    Several cookies containing a series of values representing your preferences
+  * **Provider:**
+    [MathJax](https://www.mathjax.org/)
+  * **Tracking:**
+    This cookie cannot be used to identify you personally,
+    and provides no capability for cross-site tracking.
+  * **Effects if disabled:**
+    If you disable or delete this cookie,
+    equations should still display,
+    but some functionality and customisability may be lost.
+  * **Source code:**
+    The MathJax source code is available
+    [on GitHub](https://github.com/mathjax/mathjax).
+* `style`
+  * **Purpose:**
+    Stores your chosen stylesheet,
+    if you choose to interact with the stylesheet selector in this website's 
+    footer
+  * **Content:**
+    The name of your chosen stylesheet;
+    may be automatically set with the value `default`
+  * **Tracking:**
+    This cookie cannot be used to identify you personally,
+    and provides no capability for cross-site tracking.
+  * **Effects if disabled:**
+    Deleting or disabling this cookie will result in the stylesheet being reset
+    to default on every new page load;
+    you can still temporarily change your stylesheet by using the buttons in the
+    footer
+    or your browser's built-in stylesheet chooser.
+  * **Source code:**
+    The source code for this cookie is available in
+    [this website's GitHub
+    repository](https://github.com/georgewatson/georgewatson.me).
 
 Other cookies may be stored by the following trusted partners.
 Links to their cookie policies are provided below.
@@ -221,8 +266,12 @@ My server is hosted in London, UK,
 by [DigitalOcean](https://www.digitalocean.com/),
 a company based in New York, United States.
 
-I am proudly based in the European Union ---
-[for now](https://en.wikipedia.org/wiki/Brexit).
+Sadly, I am
+[no longer](https://en.wikipedia.org/wiki/Brexit)
+located in the European Union.
+However,
+I intend to continue to follow EU law in anticipation of the UK's
+re-entry into the EU.
 
 Every effort has been made to comply with the laws of
 England & Wales,
@@ -241,7 +290,7 @@ embedding,
 discussing,
 or recommending an external website or organisation does not imbue me with
 responsibility for that website or organisation's actions,
-and should not be viewed as an endorsement of their privacy policies.
+and should not be viewed as an endorsement of their policies.
 Other websites will have privacy policies that differ from this one.
 Nothing in this privacy policy applies to other websites,
 and it is your responsibility to ensure that you agree to the terms of any
