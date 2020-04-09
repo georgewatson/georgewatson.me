@@ -9,7 +9,8 @@
 {%- assign minTags = 2 -%}
 
 {% comment %}
-  Probably don't play with anything after this point
+  Probably don't play with anything after this point,
+  except that you may wish to reduce maxTags if compilation is slow
 {% endcomment %}
 {%- assign maxTags = page.tags | size -%}
 {%- assign relatedCount = 0 -%}
@@ -38,7 +39,7 @@
 {%- for numTags in (minTags..maxTags) reversed -%}
   {%- for post in site.posts -%}
     {%- unless page.related contains post.url -%}
-      {%- if relatedCount < maxRelated and page.url != post.url -%}
+      {%- if relatedCount < maxRelated and page.id != post.id -%}
         {%- assign sharedTags = 0 -%}
         {%- for tag in post.tags -%}
           {%- if page.tags contains tag -%}
@@ -65,7 +66,7 @@
 {%- if relatedCount < maxRelated -%}
   {%- for post in site.posts -%}
     {%- unless page.related contains post.url -%}
-      {%- if relatedCount < maxRelated and page.url != post.url and page.category == post.category -%}
+      {%- if relatedCount < maxRelated and page.id != post.id and page.category == post.category -%}
         {%- assign sharedTags = 0 -%}
         {%- for tag in post.tags -%}
           {%- if page.tags contains tag -%}
