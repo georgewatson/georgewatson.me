@@ -54,7 +54,7 @@ almost certainly can.
 But the first thing that came to mind was
 
 ```python
-min((atom for atom in atoms),
+min(atoms,
     key=lambda a: a.distance(point))
 ```
 

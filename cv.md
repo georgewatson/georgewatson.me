@@ -60,6 +60,9 @@ order: 20
 
 ### Internal
 
+* **Biological Physics Seminar Series**\\
+  *University of York &bull; 22 May 2020*\\
+  "Simulating the shape of DNA"
 * **Physics Postgraduate Conference 2018**\\
   *University of York &bull; 21 September 2018*\\
   "Molecular dynamics simulation of supercoiled DNA minicircles"\\
