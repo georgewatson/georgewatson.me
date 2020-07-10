@@ -118,7 +118,7 @@ The result is an `Atom` object, which looks a bit like this:
 ```
 
 That's much easier to work with.
-You may have noticed that residues and coordinates are objects too,
+You may have noticed that residues and coördinates are objects too,
 so these elements can be easily shared across record types
 and a load of powerful and expressive methods can be exposed.
 
@@ -137,7 +137,7 @@ so two objects representing the same atom/terminator/structural element are
 equal even if their other properties are not (or undefined).
 The `__contains__` method is defined for residues,
 so that `if atom in residue` is a valid construct.
-Coordinates can be added and subtracted together,
+Coördinates can be added and subtracted together,
 and multiplied or divided by scalars.
 
 Printing any of the objects (or otherwise casting it to a string) results in a
