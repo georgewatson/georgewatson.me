@@ -55,6 +55,25 @@ order: 20
   *University of York &bull; 21 September 2018*\\
   (Prize sponsored by the Institute of Physics)
 
+## Publications
+{:#publications}
+
+* Yoshua&nbsp;S&nbsp;B<sup>&dagger;</sup>,
+  <u>Watson&nbsp;G&nbsp;D</u><sup>&dagger;</sup>,
+  Howard&nbsp;J&nbsp;A&nbsp;L,
+  Velasco-Berrelleza&nbsp;V,
+  Leake&nbsp;M&nbsp;C,
+  Noy&nbsp;A
+  2020
+  "A nucleoid-associated protein bends and bridges DNA in a multiplicity of
+  topological states with varying specificity"
+  *bioRxiv*
+  [doi:10.1101/2020.04.17.047076](https://doi.org/10.1101/2020.04.17.047076)\\
+  **Preprint**{:.label .label-meta}
+
+Key to symbols:
+* &dagger; These authors contributed equally to this work.
+
 ## Talks
 {:#talks}
 
@@ -194,6 +213,8 @@ order: 20
 * Maintain and update the website for the
   [SynCrop](http://www.syncrop.org/syncrop/) Marie Curie Innovative Training
   Network; set up and continue to moderate a private area for file hosting
+
+END
 
 *[BPSI]: Biological Physical Sciences Institute
 *[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
