@@ -75,10 +75,6 @@ The log files are stored securely on a virtual private server hosted by
 and are regularly rotated.
 No copies are ever made of any part of these logs.
 
-Aggregate information may be collected for analytics purposes,
-but cannot be used to identify you personally.
-See the [Analytics](#analytics) section for more information.
-
 ### Cookies
 {:#cookies}
 
@@ -169,9 +165,6 @@ Links to their cookie policies are provided below.
   (on pages with embedded comments sections)
 * [Google](https://policies.google.com/technologies/cookies)
   (on pages with embedded content from Google services)
-* [Google
-  Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
-  (if you don't send a [Do Not Track header](#opting-out))
 * [Twitter](https://help.twitter.com/en/rules-and-policies/twitter-cookies)
   (on pages with embedded Twitter widgets)
 
@@ -198,6 +191,7 @@ I recommend that you familiarise yourself with these,
 since these all form core parts of the modern Web infrastructure
 and are widely used across many websites.
 
+* [Altmetric](https://www.altmetric.com/privacy-policy/)
 * [CloudFlare](https://www.cloudflare.com/privacypolicy/)
 * [Disqus](https://help.disqus.com/en/collections/191787-terms-and-policies)
 * [Google](https://policies.google.com/privacy)
@@ -206,18 +200,21 @@ and are widely used across many websites.
 ### Analytics
 {:#analytics}
 
-[Google Analytics](https://analytics.google.com/analytics/web/) provide web
+This website does not use web analytics
+beyond the information stored in Apache server logs
+and CloudFlare traffic data.
+
+Prior to 21 July 2020,
+[Google Analytics](https://analytics.google.com/analytics/web/) provided web
 analytics on this website.
-This consists of aggregate data,
+This consisted of aggregate data
 and does not allow me to identify you personally.
 This information is stored on Google's servers.
 See [Google's privacy policy](https://policies.google.com/privacy?hl=en) for
 more information.
 
-The Google Analytics code will not be loaded if your browser sends a
+The Google Analytics code was never loaded if your browser sent a
 [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) (`DNT`) header.
-You can probably enable this in your browser's settings.
-See the [Opting Out](#opting-out) section for more information.
 
 ### Opting Out
 {:#opting-out}
@@ -229,12 +226,12 @@ Existing cookies can be deleted in your browser,
 probably near where your history is stored.
 You could also choose to browse in Private/Incognito mode.
 
-You can opt out of analytics by sending the
+You can opt out of
+some third-party analytics by sending the
 [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) (`DNT`) header with
 your HTTPS request.
 You can probably enable this in your browser's settings.
-This will prevent the Google Analytics code from being loaded,
-and is also respected by Disqus.
+This is respected by some partners such as Disqus.
 
 You can disable embedded widgets such as Disqus comments and Twitter timelines
 by disabling JavaScript in your browser,

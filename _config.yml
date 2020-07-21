@@ -22,7 +22,7 @@ github_username:  georgewatson
 show_excerpts: true
 excerpt_separator: <!--more-->
 permalink: /blog/:categories/:year/:month/:day/:title/
-google_analytics: UA-138059441-1
+# google_analytics: UA-138059441-1
 
 pagination:
     enabled: true

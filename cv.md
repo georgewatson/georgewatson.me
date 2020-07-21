@@ -69,7 +69,11 @@ order: 20
   topological states with varying specificity"
   *bioRxiv*
   [doi:10.1101/2020.04.17.047076](https://doi.org/10.1101/2020.04.17.047076)\\
-  **Preprint**{:.label .label-meta}
+  **Preprint**{:.label .label-meta}&nbsp;&nbsp;
+  <span data-badge-popover="right" data-badge-type="2"
+    data-doi="10.1101/2020.04.17.047076" data-hide-no-mentions="true"
+    class="altmetric-embed">
+  </div>
 
 Key to symbols:
 * &dagger; These authors contributed equally to this work.
@@ -228,3 +232,7 @@ END
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
 *[PoLNET2]: Physics of Life Network, phase 2
 *[VR]: Virtual reality
+
+<script type='text/javascript'
+  src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>
+</script>
