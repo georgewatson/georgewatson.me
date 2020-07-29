@@ -208,6 +208,13 @@ pre {
     padding-right: .5ch;
 }
 
+div.highlight {
+    min-width: 80ch;
+    max-width: 100%;
+    width: fit-content;
+    overflow-x: auto;
+}
+
 .highlight code {
     padding-left: 0;
 }
