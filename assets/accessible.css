@@ -188,6 +188,11 @@ hr {
     border-top: 5px solid #000;
 }
 
+.blog-post-title .overlay-span,
+.overlay-span {
+    color: #000;
+}
+
 .overlay-span a {
     color: #00f;
     font-weight: 700;
