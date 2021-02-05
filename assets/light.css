@@ -222,6 +222,7 @@ a[href*="blog/meta"]:hover,
 
 .post-content:not(.post-image) > p:not(:first-of-type) {
     font-family: "Source Sans Pro", sans-serif !important;
+    text-indent: -2.5ch;
 }
 
 .post-culture hr,
