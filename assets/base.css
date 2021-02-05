@@ -230,7 +230,11 @@ h2 {
     font-weight: 200;
 }
 
-header {
+header#main-header {
+    margin-bottom: 50px;
+}
+
+header.post-header {
     margin-bottom: 20px;
 }
 

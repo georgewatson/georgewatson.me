@@ -307,11 +307,12 @@ a pure
 [coördination game](https://en.wikipedia.org/wiki/Coordination_game)
 with no obvious solution for noncommunicating participants.
 
-The conclusion of all this
+The optimal solution,
+however,
 is relatively obvious:
 If you both want out,
 just get out.
-Write "Leave" on your little card,
+Write "Leave" on your little cards,
 go back to your separate homes
 on opposite sides of Australia
 and never speak to each other again.
