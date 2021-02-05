@@ -132,8 +132,10 @@ In a more generalised form,
 
 For the classic prisoner's dilemma,
 $$y > w > z > x$$,
-but it's at its most interesting when
-$$2w > x + y > 2z$$.
+and it's at its most interesting when
+$$2w > x + y > 2z$$
+so that mutual coöperation maximises the overall returns
+and mutual defection minimises them.
 
 There are
 [lots of alternative versions](http://reasonableapproximation.net/2020/07/04/classifying-games-like-prisoners-dilemma.html)
@@ -247,9 +249,18 @@ and
 $$y > z$$;
 the sign of the difference between $$x$$ and $$z$$
 depends on the value of $$a$$.
+Realistically,
+this is a
+"[Cake Eating](http://reasonableapproximation.net/2020/07/04/classifying-games-like-prisoners-dilemma.html#cake-eating-w------z-two-games)"
+situation---everyone wants cake,
+and there's enough for everyone,
+so the equilibrium solution
+maximises both overall
+and individual happiness
+for both players.
 
 Stay/Stay is the preferred option
-for everyone involved,
+for everyone involved
 and maximises the overall return.
 There's really no reason to pick anything else.
 
@@ -413,13 +424,21 @@ I'd guess they'd value it something like this:
 | **A leaves** | (1, 0) | (*a*, 1) |
 {:.nicetable}
 
-There's no way to really satisfy everyone here.
+The symmetry we saw when incentives aligned
+is gone now.
+To Archie,
+this *looks* like a Cake Eating game;
+to Belinda,
+it looks like "Let's Party".
+Since their perceived optimal strategies are opposed,
+there's no way to really satisfy everyone here.
 Archie would like Stay/Stay,
 but Belinda would prefer Leave/Leave.
 Either of these options
 would maximise the overall return,
 but it's likely they'd find themselves
-stuck in a suboptimal Stay/Leave situation.
+stuck in a suboptimal Stay/Leave situation,
+which is the worst of all worlds.
 
 ### Love is blind
 
@@ -440,11 +459,11 @@ What's the optimal strategy?
 your expected returns are
 $$P(\mathrm{s}) + (1 - a) (1 - P(\mathrm{s}))$$
 if you write "Stay",
-where $$P(\mathrm{s})$$
-is the probability that your partner will also write "Stay",
 and
 $$P(\mathrm{s}) + a (1 - P(\mathrm{s}))$$
-if you write "Leave".
+if you write "Leave",
+where $$P(\mathrm{s})$$
+is the probability that your partner will also write "Stay".
 The difference between these outcomes
 depends entirely on the value you assign to $$a$$:
 How much do you care about not making things awkward?
