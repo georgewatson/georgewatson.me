@@ -18,6 +18,10 @@
     margin-bottom: 50px;
 }
 
+.blog-post-full {
+    margin-bottom: 20px;
+}
+
 .blog-post img,
 .post-content img {
     height: auto;
@@ -79,7 +83,6 @@
     width: 100%;
     height: 100%;
 }
-
 
 .fa,
 .fab,

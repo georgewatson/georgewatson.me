@@ -216,7 +216,8 @@ a[href*="blog/meta"]:hover,
     text-decoration: underline;
 }
 
-.post-content p {
+.post-content p,
+.embed-container-container {
     max-width: 80ch;
 }
 
@@ -466,6 +467,10 @@ a[href*="blog/technology"]:hover,
     text-indent: -2ch;
 }
 
+.dim {
+    color: #777;
+}
+
 .share:before,
 .tags:before,
 .warnings:before {
@@ -598,6 +603,40 @@ blockquote p:before,
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+button,
+.button {
+    font-family: "Fira Code";
+    font-weight: 700;
+    background-color: #F38630;
+    color: #fff;
+    border: 1px solid #F38630;
+    padding: 1ch;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.subscribe-form {
+    text-align: center;
+    margin: auto;
+}
+
+#subscribe-box {
+    font-family: "Fira Code";
+    background-color: #FFF;
+    color: #333;
+    border: 1px solid #333;
+    padding: 1ch;
+    font-size: 150%;
+    width: 500px;
+    max-width: 80%;
+}
+
+input:invalid {
+    color: #F33051 !important;
+    border-color: #F33051 !important;
+    outline: 1px solid #F33051 !important;
 }
 
 @media screen and (max-width: 1000px) {

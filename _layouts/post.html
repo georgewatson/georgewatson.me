@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="blog-post blog-post-post blog-post-content">
+  <div class="blog-post blog-post-post blog-post-content blog-post-full">
 
     {%- if page.image -%}
       <div class="thumbnail-container thumbnail-container-single">
@@ -65,6 +65,13 @@ layout: default
     <div class="post-content post-content-single post-{{ page.category }}
         post-post e-content" itemprop="articleBody">
       {{ content }}
+
+      {% if page.credit %}
+        <div class="footnotes">
+          Header image:
+          {{ page.credit }}
+        </div>
+      {% endif %}
     </div><!-- /post-content -->
 
     {% if page.tags != empty %}
@@ -81,6 +88,8 @@ layout: default
     {% endif %}
 
     {% include share-buttons.html %}
+
+    {% include subscribe.html %}
 
   </div><!-- /.blog-post -->
 
