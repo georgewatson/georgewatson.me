@@ -197,6 +197,7 @@ abbr {
 blockquote {
     border-left: 5px solid;
     padding-left: 15px;
+    max-width: 70ch;
 }
 
 body {

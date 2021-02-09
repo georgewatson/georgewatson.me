@@ -539,7 +539,7 @@ section:last-of-type > p:last-of-type:after,
 ul {
     list-style: none;
     margin: 0;
-    max-width: 50em;
+    max-width: 70ch;
     padding: 0;
 }
 
@@ -639,6 +639,27 @@ input:invalid {
     outline: 1px solid #F33051 !important;
 }
 
+.pull-quote {
+    max-width: 20%;
+    float: right;
+    margin: 50px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 10px 20px;
+    border-left: 0;
+    text-align: right;
+    color: #777;
+    position: absolute;
+    left: 90ch;
+}
+
+@media screen and (max-width: 1300px) {
+    .pull-quote {
+        position: relative;
+        left: 0;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .flex-column-left {
         padding-right: 0;
@@ -661,5 +682,15 @@ input:invalid {
 
     .twitter-embed {
         order: 2;
+    }
+
+    .pull-quote {
+        float: none;
+        max-width: 80%;
+        clear: both;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        left: 0;
     }
 }
