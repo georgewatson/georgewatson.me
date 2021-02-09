@@ -54,9 +54,25 @@ network.
 ### Data collection
 {:#collection}
 
-I don't ask for any of your personal data.
-There is no facility to register a user account on this website,
-and there are no forms for you to fill in.
+I offer the facility to
+[subscribe to new blog posts by email](https://feedburner.google.com/fb/a/mailverify?uri=georgewatson&loc=en_US).
+This service is provided by
+[FeedBurner](https://feedburner.google.com),
+a Google service.
+You are under no obligation to use this service,
+but if you do
+I will be able to see your email address
+and the date on which you subscribed.
+This information is securely stored on Google's servers.
+You can unsubscribe at any time.
+If you prefer not to subscribe by email,
+you can see all new posts
+by checking
+[the blog](/blog)
+regularly
+or subscribing to the
+[Atom feed](/feed.xml)
+using your favourite RSS reader.
 
 Like all websites,
 some information may be stored in my server logs regarding your visit to this
