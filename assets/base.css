@@ -273,6 +273,11 @@ dt {
   text-align: right;
 }
 
+.v-padded {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width: 1000px) {
     .logo {
         left: 10vw !important;

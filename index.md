@@ -96,6 +96,9 @@ You can find me on:
       <h2>Recent posts</h2>
       {% include recent_posts.html %}
       <p><a href="/blog/">Full list</a></p>
+      <div class="v-padded">
+        {% include subscribe.html %}
+      </div>
     </div>
 
     <div class="flex-column-left twitter-embed">
