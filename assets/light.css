@@ -133,6 +133,16 @@ a[href*="blog/meta"]:hover,
 :target,
 .bg-yellow {
     background-color: #f3df30;
+    color: #333;
+}
+
+.bg-yellow a {
+    font-weight: bold;
+    color: #333;
+}
+
+.bg-yellow a:hover {
+    color: #9E30F3;
 }
 
 .overlay-span,
@@ -651,6 +661,13 @@ input:invalid {
     color: #777;
     position: absolute;
     left: 90ch;
+}
+
+.box {
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
 }
 
 @media screen and (max-width: 1300px) {
