@@ -670,6 +670,11 @@ input:invalid {
     border: 1px solid #333;
 }
 
+::selection {
+    background-color: #F38630;
+    color: #fff;
+}
+
 @media screen and (max-width: 1300px) {
     .pull-quote {
         position: relative;
