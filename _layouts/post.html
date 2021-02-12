@@ -22,7 +22,7 @@ layout: default
         <div class="the-label">
           <span class="category label label-{{ page.category }}">
             <a href="/blog/{{ page.category }}"
-              rel="category tag">{{ page.category | capitalize}}</a>
+              rel="p-category category tag">{{ page.category | capitalize}}</a>
           </span>
         </div>
         <h2 id="blog-post-title" class="blog-post-title post-title p-name"
@@ -78,7 +78,7 @@ layout: default
       <p class="tags">
         <strong>Tagged:</strong>
         {% for tag in tags %}
-            {{ tag }}
+            <span class="p-category">{{ tag }}</span>
             {% unless forloop.last %}
               &bull;
             {% endunless %}

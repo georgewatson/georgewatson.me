@@ -8,7 +8,7 @@ order: 20
 
 {::nomarkdown}
 <a href="/assets/me.jpg">
-  <img src="/assets/me.jpg" class="float-right"
+  <img src="/assets/me.jpg" class="u-photo float-right"
     alt="George Watson,
     a devilishly handsome young man
     with rectangular, dark-framed glasses

@@ -31,55 +31,55 @@ You can find me on:
 <ul class="fa-ul compact-list">
   <li>
     <i class="ai-li ai ai-orcid"></i>
-    <a href="https://orcid.org/0000-0002-6524-0828">
+    <a href="https://orcid.org/0000-0002-6524-0828" rel="me">
       ORCID: 0000-0002-6524-0828
     </a>
   </li>
   <li>
     <i class="ai-li ai ai-google-scholar"></i>
-    <a href="https://scholar.google.com/citations?user=2vB6ObYAAAAJ">
+    <a href="https://scholar.google.com/citations?user=2vB6ObYAAAAJ" rel="me">
       Google Scholar
     </a>
   </li>
   <li>
     <i class="ai-li ai ai-researcherid"></i>
-    <a href="http://www.researcherid.com/rid/S-6481-2017">
+    <a href="http://www.researcherid.com/rid/S-6481-2017" rel="me">
       Researcher ID: S-6481-2017
     </a>
   </li>
   <li>
     <i class="ai-li ai ai-academia"></i>
-    <a href="https://york.academia.edu/georgewatson">
+    <a href="https://york.academia.edu/georgewatson" rel="me">
       Academia.edu
     </a>
   </li>
   <li>
     <i class="ai-li ai ai-mendeley"></i>
-    <a href="https://www.mendeley.com/profiles/george-watson4/">
+    <a href="https://www.mendeley.com/profiles/george-watson4/" rel="me">
       Mendeley
     </a>
   </li>
   <li>
     <i class="fa-li fas fa-university"></i>
-    <a href="https://pure.york.ac.uk/portal/en/researchers/george-watson(5277867b-7496-4b48-8248-a17169943f9b).html">
+    <a href="https://pure.york.ac.uk/portal/en/researchers/george-watson(5277867b-7496-4b48-8248-a17169943f9b).html" rel="me">
       University of York Research Database (Pure)
     </a>
   </li>
   <li>
     <i class="fa-li fab fa-linkedin"></i>
-    <a href="https://www.linkedin.com/in/georgedwatson/">
+    <a href="https://www.linkedin.com/in/georgedwatson/" rel="me">
       LinkedIn
     </a>
   </li>
   <li>
     <i class="fa-li fab fa-github"></i>
-    <a href="https://github.com/georgewatson">
+    <a href="https://github.com/georgewatson" rel="me">
       GitHub: georgewatson
     </a>
   </li>
   <li>
     <i class="fa-li fab fa-twitter"></i>
-    <a href="https://twitter.com/GeorgeDWatson">
+    <a href="https://twitter.com/GeorgeDWatson" rel="me">
       Twitter: @GeorgeDWatson
     </a>
   </li>
@@ -87,7 +87,7 @@ You can find me on:
 
 **Email:** <george.watson@york.ac.uk>
 
-[GPG Public key](/dl/watson_george.pub)
+<a href="/dl/watson_george.pub" rel="pgpkey authn">GPG public key</a>
 
 {::nomarkdown}
   <div class="flex-container">

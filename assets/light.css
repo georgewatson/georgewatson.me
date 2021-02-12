@@ -80,7 +80,8 @@ a[href*="blog/meta"]:hover,
     float: right;
 }
 
-.footnotes {
+.footnotes,
+.littlefoot-footnote {
     font-size: 80%;
 }
 
@@ -428,6 +429,8 @@ footer p:last-of-type:after {
 }
 
 h1,
+h1 a,
+h1 a:hover,
 h2,
 .category-page-header-technology,
 a[href*="blog/technology"]:hover,
@@ -572,8 +575,20 @@ li {
     margin-bottom: 0;
 }
 
+.littlefoot-footnote {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 0;
+}
+
+.littlefoot-footnote p {
+    width: 100%;
+    font-family: "Fira Code";
+}
+
 ul.fa-ul li,
 blockquote p,
+.littlefoot-footnote p,
 .footnotes p,
 .blog-post-info {
     padding-left: 0 !important;
@@ -582,6 +597,7 @@ blockquote p,
 
 ul.fa-ul li:before,
 blockquote p:before,
+.littlefoot-footnote p:before,
 .footnotes p:before,
 .blog-post-info:before {
     content: "";
@@ -652,7 +668,7 @@ input:invalid {
 .pull-quote {
     max-width: 20%;
     float: right;
-    margin: 50px;
+    margin: 0px 50px;
     border-top: 2px solid;
     border-bottom: 2px solid;
     padding: 10px 20px;
@@ -679,6 +695,7 @@ input:invalid {
     .pull-quote {
         position: relative;
         left: 0;
+        margin-bottom: 10px;
     }
 }
 

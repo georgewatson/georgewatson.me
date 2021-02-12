@@ -351,8 +351,6 @@ or use one of the other contact media listed on the [Contact](/contact) page.
 *[UK]: United Kingdom of Great Britain and Northern Ireland
 *[VPN]: Virtual Private Network
 
-***
-
 [^legal-systems]: In particular,
     some legal systems prohibit the dissemination of certain factual
     material[,](https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests)
