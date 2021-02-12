@@ -488,7 +488,8 @@ a[href*="blog/technology"]:hover,
 .tags:before,
 .warnings:before {
     color: #f33051;
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
 }
 
 .share:before {
