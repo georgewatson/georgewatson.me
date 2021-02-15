@@ -577,6 +577,7 @@ li {
 }
 
 .littlefoot-footnote {
+    color: #333;
     background-color: #fff;
     border: 1px solid #333;
     border-radius: 0;
@@ -585,6 +586,18 @@ li {
 .littlefoot-footnote p {
     width: 100%;
     font-family: "Fira Code";
+}
+
+.littlefoot-footnote__button {
+    background-color: #ccc;
+}
+
+.littlefoot-footnote__button:hover {
+    background-color: #777;
+}
+
+.littlefoot-footnote__button.is-active {
+    background-color: #F38630;
 }
 
 ul.fa-ul li,
@@ -649,7 +662,7 @@ button,
     margin: auto;
 }
 
-#subscribe-box {
+.subscribe-box {
     font-family: "Fira Code";
     background-color: #FFF;
     color: #333;

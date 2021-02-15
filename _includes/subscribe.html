@@ -6,11 +6,12 @@
       'popupwindow',
       'scrollbars=yes,width=550,height=520');
     return true">
-  <label for="subscribe-box">
+  <label for="subscribe-box{{ include.id }}">
     Get new posts delivered straight to your inbox
   </label>
   <div class="v-padded">
-    <input type="email" name="email" id="subscribe-box"
+    <input type="email" name="email" class="subscribe-box"
+      id="subscribe-box{{ include.id }}"
       placeholder="name@example.com" />
     <input type="hidden" value="georgewatson" name="uri" />
     <input type="hidden" name="loc" value="en_US" />
