@@ -1,0 +1,94 @@
+/*
+MIT License
+
+Copyright (c) 2018-2020 fluffy (https://beesbuzz.biz/)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+#webmentions {
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    line-height: 1.2em;
+}
+
+#webmentions .comments {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 80%;
+}
+
+#webmentions h2 {
+    font-size: medium;
+    margin: 0;
+    padding: 2px;
+}
+
+#webmentions .reacts img {
+    margin: 3px -1ex 1px 0;
+}
+
+#webmentions ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+}
+
+#webmentions li {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+#webmentions a.reaction {
+    color: #F33051;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px white;
+    margin-right: 0;
+    letter-spacing: -1ex;
+    margin-right: 1ex;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+#webmentions a.reaction img {
+    max-height: 1.3em;
+    margin-right: -1ex;
+    border-radius: 25%;
+}
+
+#webmentions a.reaction sub {
+    font-size: 40%;
+}
+
+#webmentions .comments li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#webmentions .comments li .text {
+    color: #555;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#webmentions .comments li .name {
+    color: #111;
+}
