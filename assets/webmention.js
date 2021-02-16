@@ -1,7 +1,8 @@
-/*
-MIT License
+/* webmention.js
 
-Copyright (c) 2018-2020 fluffy (https://beesbuzz.biz/)
+Simple thing for embedding webmentions from webmention.io into a page, client-side.
+
+(c)2018-2020 fluffy (http://beesbuzz.biz)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,5 +21,322 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+GitHub repo (for latest released versions, issue tracking, etc.):
+
+    http://github.com/PlaidWeb/webmention.js
+
+Basic usage:
+
+<script src="/path/to/webmention.js" data-param="val" ... async />
+<div id="webmentions"></div>
+
+Allowed parameters:
+
+    page-url:
+
+        The base URL to use for this page. Defaults to window.location
+
+    add-urls:
+
+        Additional URLs to check, separated by |s
+
+    id:
+
+        The HTML ID for the object to fill in with the webmention data.
+        Defaults to "webmentions"
+
+    wordcount:
+
+        The maximum number of words to render in reply mentions.
+
+    max-webmentions:
+
+        The maximum number of mentions to retrieve. Defaults to 30.
+
+    prevent-spoofing:
+
+        By default, Webmentions render using the mf2 'url' element, which plays
+        nicely with webmention bridges (such as brid.gy and telegraph)
+        but allows certain spoofing attacks. If you would like to prevent
+        spoofing, set this to a non-empty string (e.g. "true").
+
+    sort-by:
+
+        What to order the responses by; defaults to 'published'. See
+        https://github.com/aaronpk/webmention.io#api
+
+    sort-dir:
+
+        The order to sort the responses by; defaults to 'up' (i.e. oldest
+        first). See https://github.com/aaronpk/webmention.io#api
+
+    comments-are-reactions:
+
+        If set to a non-empty string (e.g. "true"), will display comment-type responses
+        (replies/mentions/etc.) as being part of the reactions
+        (favorites/bookmarks/etc.) instead of in a separate comment list.
+
+A more detailed example:
+
+<script src="/path/to/webmention.min.js"
+    data-id="webmentionContainer"
+    data-wordcount="30"
+    data-prevent-spoofing="true"
+    data-comments-are-reactions="true"
+    />
+
 */
-!function(){"use strict";function e(e,t){return document.currentScript.getAttribute("data-"+e)||t}var t=e("page-url",window.location.href.replace(/#.*$/,"")),o=e("add-urls",void 0),n=e("id","webmentions"),r=e("wordcount"),a=e("max-webmentions",30),i=e("prevent-spoofing")?"wm-source":"url",s=e("sort-by","published"),u=e("sort-dir","up"),c=e("comments-are-reactions"),l={"in-reply-to":"replied","like-of":"liked","repost-of":"reposted","bookmark-of":"bookmarked","mention-of":"mentioned",rsvp:"RSVPed","follow-of":"followed"},f={"in-reply-to":"","like-of":"","repost-of":"","bookmark-of":"","mention-of":"",rsvp:"","follow-of":""},p={yes:"",no:"",interested:"",maybe:""};function h(e){return e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}function m(e,t){var o=h(e.author&&e.author.name?e.author.name:e.url.split("/")[2]),n=l[e["wm-property"]]||"reacted";!t&&e.content&&e.content.text&&(n+=": "+g(e));var r='<a class="reaction" rel="nofollow ugc" title="'+o+" "+n+'" href="'+e[i]+'">';return e.author&&e.author.photo&&(r+='<img src="'+h(e.author.photo)+'">'),r+=f[e["wm-property"]]||"💥",e.rsvp&&p[e.rsvp]&&(r+="<sub>"+p[e.rsvp]+"</sub>"),r+="</a>"}function d(e){return e.substr(e.indexOf("//"))}function v(e){var t=[],o={};return e.forEach((function(e){var n=d(e.url);o[n]||(t.push(e),o[n]=!0)})),t}function g(e){var t=h(e.content.text);if(r){var o=t.replace(/\s+/g," ").split(" ",r+1);o.length>r&&(o[r-1]+="&hellip;",t=(o=o.slice(0,r)).join(" "))}return t}window.addEventListener("load",(function(){var e=document.getElementById(n);if(e){var r=[d(t)];o&&o.split("|").forEach((function(e){r.push(d(e))}));var l="https://webmention.io/api/mentions.jf2?per-page="+a+"&sort-by="+s+"&sort-dir="+u;r.forEach((function(e){l+="&target[]="+encodeURIComponent("http:"+e)+"&target[]="+encodeURIComponent("https:"+e)})),function(e,t){if(window.fetch)window.fetch(e).then((function(e){return e.status>=200&&e.status<300?Promise.resolve(e):Promise.reject(new Error(e.statusText))})).then((function(e){return e.json()})).then(t).catch((function(e){console.error("Request failed",e)}));else{var o=new XMLHttpRequest;o.onload=function(e){t(JSON.parse(e))},o.onerror=function(e){console.error("Request failed",e)}}}(l,(function(t){var o="",n=[],r=[];c&&(n=r);var a={"in-reply-to":n,"like-of":r,"repost-of":r,"bookmark-of":r,"mention-of":n,rsvp:n};t.children.forEach((function(e){var t=a[e["wm-property"]];t&&t.push(e)})),n.length>0&&n!==r&&(o+=function(e){var t="<h2>"+e.length+" Response"+(e.length>1?"s":"")+'</h2><ul class="comments">';return e.forEach((function(e){var o,n;t+="<li>",t+=m(e,!0),t+=' <a class="source" rel="nofollow ugc" href="'+e[i]+'">',e.author&&e.author.name?t+=h(e.author.name):t+=h(e.url.split("/")[2]),t+="</a>: ",e.name?(o="name",n=e.name):e.content&&e.content.text?(o="text",n=g(e)):(o="name",n="(mention)"),t+='<span class="'+o+'">'+n+"</span>",t+="</li>"})),t+="</ul>"}(v(n))),r.length>0&&(o+=function(e){var t="<h2>"+e.length+" Reaction"+(e.length>1?"s":"")+'</h2><ul class="reacts">';return e.forEach((function(e){t+=m(e)})),t}(v(r))),e.innerHTML=o}))}}))}();
+
+(function () {
+    "use strict";
+
+    function getCfg(key, dfl) {
+        return document.currentScript.getAttribute("data-" + key) || dfl;
+    }
+
+    var refurl = getCfg('page-url',
+                        window.location.href.replace(/#.*$/, ''));
+    var addurls = getCfg('add-urls', undefined);
+    var containerID = getCfg('id', "webmentions");
+    var textMaxWords = getCfg('wordcount');
+    var maxWebmentions = getCfg('max-webmentions', 30);
+    var mentionSource = getCfg('prevent-spoofing') ? 'wm-source' : 'url';
+    var sortBy = getCfg('sort-by', 'published');
+    var sortDir = getCfg('sort-dir', 'up');
+    var commentsAreReactions = getCfg('comments-are-reactions');
+
+    var reactTitle = {
+        'in-reply-to': 'replied',
+        'like-of': 'liked',
+        'repost-of': 'reposted',
+        'bookmark-of': 'bookmarked',
+        'mention-of': 'mentioned',
+        'rsvp': 'RSVPed',
+        'follow-of': 'followed'
+    };
+
+    var reactEmoji = {
+        'in-reply-to': '',
+        'like-of': '',
+        'repost-of': '',
+        'bookmark-of': '',
+        'mention-of': '',
+        'rsvp': '',
+        'follow-of': ''
+    };
+
+    var rsvpEmoji = {
+        'yes': '',
+        'no': '',
+        'interested': '',
+        'maybe': ''
+    };
+
+    function entities(text) {
+        return text.replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+    }
+
+    function reactImage(r, isComment) {
+        var who = entities((r.author && r.author.name)
+                           ? r.author.name
+                           : r.url.split('/')[2]);
+        var response = reactTitle[r['wm-property']] || 'reacted';
+        if (!isComment && r.content && r.content.text) {
+            response += ": " + extractComment(r);
+        }
+        var html = '<a class="reaction reaction-' +
+            (reactTitle[r['wm-property']] || '') +
+            '" rel="nofollow ugc" title="' + who + ' ' +
+            response + '" href="' + r[mentionSource] + '">';
+        if (r.author && r.author.photo) {
+            html += '<img src="' + entities(r.author.photo) + '">';
+        }
+        html += (reactEmoji[r['wm-property']] || '💥');
+        if (r.rsvp && rsvpEmoji[r.rsvp]) {
+            html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>';
+        }
+        html += '</a>';
+
+        return html;
+    }
+
+    // strip the protocol off a URL
+    function stripurl(url) {
+        return url.substr(url.indexOf('//'));
+    }
+
+    // Deduplicate multiple mentions from the same source URL
+    function dedupe(mentions) {
+        var filtered = [];
+        var seen = {};
+
+        mentions.forEach(function(r) {
+            // Strip off the protocol (i.e. treat http and https the same)
+            var source = stripurl(r.url);
+            if (!seen[source]) {
+                filtered.push(r);
+                seen[source] = true;
+            }
+        });
+
+        return filtered;
+    }
+
+    function extractComment(c) {
+        var text = entities(c.content.text);
+
+        if (textMaxWords) {
+            var words = text.replace(/\s+/g,' ')
+                .split(' ', textMaxWords + 1);
+            if (words.length > textMaxWords) {
+                words[textMaxWords - 1] += '&hellip;';
+                words = words.slice(0, textMaxWords);
+                text = words.join(' ');
+            }
+        }
+
+        return text;
+    }
+
+    function formatComments(comments) {
+        var html = '<h2>' + comments.length + ' Response' +
+            (comments.length > 1 ? 's' : '') +
+            '</h2><ul class="comments">';
+        comments.forEach(function(c) {
+            html += '<li>';
+
+            html += reactImage(c, true);
+
+            html += ' <a class="source" rel="nofollow ugc" href="' +
+                c[mentionSource] + '">';
+            if (c.author && c.author.name) {
+                html += entities(c.author.name);
+            } else {
+                html += entities(c.url.split('/')[2]);
+            }
+            html += '</a>: ';
+
+            var linkclass;
+            var linktext;
+            if (c.name) {
+                linkclass = "name";
+                linktext = c.name;
+            } else if (c.content && c.content.text) {
+                linkclass = "text";
+                linktext = extractComment(c);
+            } else {
+                linkclass = "name";
+                linktext = "(mention)";
+            }
+
+            html += '<span class="' + linkclass + '">' + linktext + '</span>';
+
+            html += '</li>';
+        });
+        html += '</ul>';
+
+        return html;
+    }
+
+    function formatReactions(reacts) {
+        var html = '<h2>' + reacts.length + ' Reaction' +
+            (reacts.length > 1 ? 's' : '') +
+            '</h2><ul class="reacts">';
+
+        reacts.forEach(function(r) {
+            html += reactImage(r);
+        });
+
+        return html;
+    }
+
+    function getData(url, callback) {
+        if (window.fetch) {
+            window.fetch(url).then(function(response) {
+                if (response.status >= 200 && response.status < 300) {
+                    return Promise.resolve(response);
+                } else {
+                    return Promise.reject(new Error(response.statusText));
+                }
+            }).then(function(response) {
+                return response.json();
+            }).then(callback).catch(function(error) {
+                console.error("Request failed", error);
+            });
+        } else {
+            var oReq = new XMLHttpRequest();
+            oReq.onload = function(data) {
+                callback(JSON.parse(data));
+            };
+            oReq.onerror = function(error) {
+                console.error("Request failed", error);
+            };
+        }
+    }
+
+    window.addEventListener("load", function () {
+        var container = document.getElementById(containerID);
+        if (!container) {
+            // no container, so do nothing
+            return;
+        }
+
+        var pages = [stripurl(refurl)];
+        if (!!addurls) {
+            addurls.split('|').forEach(function (url) {
+                pages.push(stripurl(url));
+            })
+        }
+
+        var apiURL = 'https://webmention.io/api/mentions.jf2?per-page=' +
+            maxWebmentions + '&sort-by=' + sortBy + '&sort-dir=' + sortDir;
+
+        pages.forEach(function (path) {
+            apiURL += '&target[]=' + encodeURIComponent('http:' + path) +
+                '&target[]=' + encodeURIComponent('https:' + path);
+        });
+
+        getData(apiURL, function(json) {
+            var html = '';
+
+            var comments = [];
+            var collects = [];
+            if (commentsAreReactions) {
+                comments = collects;
+            }
+
+            var mapping = {
+                "in-reply-to": comments,
+                "like-of": collects,
+                "repost-of": collects,
+                "bookmark-of": collects,
+                "mention-of": comments,
+                "rsvp": comments
+            };
+
+            json.children.forEach(function(c) {
+                var store = mapping[c['wm-property']];
+                if (store) {
+                    store.push(c);
+                }
+            });
+
+            // format the comment-type things
+            if (comments.length > 0 && comments !== collects) {
+                html += formatComments(dedupe(comments));
+            }
+
+            // format the other reactions
+            if (collects.length > 0) {
+                html += formatReactions(dedupe(collects));
+            }
+
+            container.innerHTML = html;
+        });
+    });
+
+}());

@@ -705,9 +705,14 @@ input:invalid {
     color: #fff;
 }
 
+#comments {
+    position: relative;
+    z-index: 10;
+}
+
 #remarkbox-iframe {
     position: relative;
-    top: -70px;
+    top: -50px;
 }
 
 @media screen and (max-width: 1300px) {
