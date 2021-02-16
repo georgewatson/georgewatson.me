@@ -177,10 +177,10 @@ I may store the following first-party cookies on your device:
 Other cookies may be stored by the following trusted partners.
 Links to their cookie policies are provided below.
 * [CloudFlare](https://www.cloudflare.com/cookie-policy/)
-* [Disqus](https://help.disqus.com/user-profile/use-of-cookies)
-  (on pages with embedded comments sections)
 * [Google](https://policies.google.com/technologies/cookies)
   (on pages with embedded content from Google services)
+* [Remarkbox](https://www.remarkbox.com/privacy-policy.html)
+  (on pages with embedded comments sections)
 * [Twitter](https://help.twitter.com/en/rules-and-policies/twitter-cookies)
   (on pages with embedded Twitter widgets)
 
@@ -209,8 +209,8 @@ and are widely used across many websites.
 
 * [Altmetric](https://www.altmetric.com/privacy-policy/)
 * [CloudFlare](https://www.cloudflare.com/privacypolicy/)
-* [Disqus](https://help.disqus.com/en/collections/191787-terms-and-policies)
 * [Google](https://policies.google.com/privacy)
+* [Remarkbox](https://www.remarkbox.com/privacy-policy.html)
 * [Twitter](https://twitter.com/en/privacy)
 
 ### Analytics
@@ -247,9 +247,8 @@ some third-party analytics by sending the
 [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) (`DNT`) header with
 your HTTPS request.
 You can probably enable this in your browser's settings.
-This is respected by some partners such as Disqus.
 
-You can disable embedded widgets such as Disqus comments and Twitter timelines
+You can disable embedded widgets such as comments and Twitter timelines
 by disabling JavaScript in your browser,
 or by using one of the many browser extensions that allow you to block specific
 frames of external content.

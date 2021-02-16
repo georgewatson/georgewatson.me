@@ -53,8 +53,8 @@ feed:
     - science
     - technology
 
-disqus:
-    shortname: georgewatson
+# disqus:
+#     shortname: georgewatson
 
 minima:
     date_format: "%-d %B %Y"
