@@ -21,6 +21,11 @@ All inboxes are regularly monitored.
 <div class="flex-column-left" markdown="block">
 ## Post or real life
 
+**I'm currently working from home
+due to restrictions
+as a result of COVID-19,
+so this address may not be the most useful.**
+
 George D. Watson\\
 Room GEN3/006\\
 Physics of Life Building (Genesis 3)\\
@@ -46,6 +51,7 @@ YO10&nbsp;5DQ
 ## Website and content issues
 
 If you notice an issue with the layout, performance, or content of this website,
+including typographical and factual errors,
 please open an issue or pull request on the
 [georgewatson/georgewatson.me](https://github.com/georgewatson/georgewatson.me)
 GitHub repository
@@ -83,15 +89,13 @@ but you are free to choose either licence for any purpose.
 If you wish to obtain a licence to use any of my intellectual property under a
 different set of terms
 (without attribution,
-including explicit clauses regarding patent rights[^1],
+including explicit clauses regarding patent rights,[^patents]
 etc.),
 please get in touch using one of the contact methods listed above.
 If your request is reasonable,
 I will try to accommodate it.
 
-***
-
-[^1]: Note, however, that no patents are currently claimed on any of my
+[^patents]: Note, however, that no patents are currently claimed on any of my
       intellectual property, and that it is my intent that the
       "without limitation" line in the MIT licence text be considered
       an explicit licence of any relevant patents.

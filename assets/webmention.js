@@ -155,7 +155,7 @@ A more detailed example:
         if (r.author && r.author.photo) {
             html += '<img src="' + entities(r.author.photo) + '">';
         }
-        html += (reactEmoji[r['wm-property']] || '💥');
+        html += (reactEmoji[r['wm-property']] || '');
         if (r.rsvp && rsvpEmoji[r.rsvp]) {
             html += '<sub>' + rsvpEmoji[r.rsvp] + '</sub>';
         }
