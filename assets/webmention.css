@@ -48,11 +48,13 @@ SOFTWARE.
     list-style-type: none;
     margin: 0;
     padding: 4px;
+    max-width: none;
 }
 
 #webmentions li {
     text-indent: -1em;
     padding-left: 1em;
+    max-width: none;
 }
 
 #webmentions a.reaction {
@@ -87,7 +89,6 @@ SOFTWARE.
 }
 
 #webmentions .comments li .text {
-    font-style: italic;
     text-decoration: none;
 }
 
