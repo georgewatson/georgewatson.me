@@ -3,11 +3,46 @@
 
 @import url('/assets/base.css');
 
+@font-face {
+    font-family: 'Recursive';
+    src: url('/assets/Recursive.woff2') format('woff2');
+}
+
+* {
+    font-family: 'Recursive', monospace;
+    font-variation-settings: var(--mono),
+                             var(--casl),
+                             var(--slnt),
+                             var(--crsv);
+    font-feature-settings: var(--features);
+}
+
+body {
+    --mono: 'MONO' 0.5;
+    --casl: 'CASL' 0;
+    --slnt: 'slnt' 0;
+    --crsv: 'CRSV' 0.5;
+    --features: 'dlig' 1,
+                'ss02', /* single-storey g */
+                'ss12'; /* simplified mono @ */
+}
+
+em,
+i {
+    --casl: 'CASL' 0.5;
+    --slnt: 'slnt' -5;
+    --crsv: 'CRSV' 1;
+    --features: var(--features), 'liga' 1;
+}
+
+.cc-banner {
+    font-family: 'Recursive', monospace !important;
+}
+
 .blog-post-title .overlay-span {
     box-shadow: .5em 0 0 #333, -.5em 0 0 #333;
     box-decoration-break: clone;
 }
-
 .blog-post:not(.blog-post-image) .attachment-post-thumbnail {
     -ms-transform: translate(-50%, -50%);
     -o-object-fit: cover !important;
@@ -229,12 +264,22 @@ a[href*="blog/meta"]:hover,
 
 .post-content p,
 .embed-container-container {
-    max-width: 80ch;
+    max-width: 65ch;
 }
 
 .post-content:not(.post-image) > p:not(:first-of-type) {
-    font-family: "Source Sans Pro", sans-serif !important;
-    text-indent: -2.5ch;
+    --mono: 'MONO' 0;
+    --features: var(--features),
+                'ss01' 1, /* single-storey a */
+                'ss02' 1, /* single-storey g */
+                'ss03' 1, /* simplified f */
+                'ss04' 1, /* simplified i */
+                'ss05' 1, /* simplified l */
+                'ss06' 1, /* simplified r */
+                'ss08' 1, /* non-serif L and Z */
+                'liga' 1,
+                'dlig' 1;
+    text-indent: -2ch;
 }
 
 .post-culture hr,
@@ -277,7 +322,7 @@ a[href*="blog/meta"]:hover,
     animation: blink-animation 1200ms steps(2, start) infinite;
     color: #f33051;
     content: '_';
-    font-family: "Fira Code";
+    font-family: "Recursive";
     font-weight: 600;
 }
 
@@ -299,7 +344,7 @@ a[href*="blog/politics"]:hover,
 }
 
 .read-more {
-    font-family: 'Fira Code', monospace;
+    --mono: 'MONO' 0.5;
 }
 
 .tagline,
@@ -391,17 +436,19 @@ body {
     color: #222;
 }
 
-body,
-code,
-pre,
-.cc-message,
-.cc-compliance {
-    font-family: 'Fira Code', monospace;
+header,
+footer,
+h1,
+h2,
+h3,
+h4 {
+    --mono: 'MONO' 1;
 }
 
 code,
 pre,
 .bg-light {
+    --mono: 'MONO' 1;
     background-color: #eee;
 }
 
@@ -531,7 +578,7 @@ dt:before,
 .post-content p:before {
     color: #f33051;
     content: '$ ';
-    font-family: 'Fira Code', monospace;
+    --mono: 'MONO' 1;
 }
 
 section,
@@ -548,6 +595,7 @@ section:last-of-type > p:last-of-type:after,
     color: #f33051;
     content: '_';
     font-weight: 600;
+    --mono: 'MONO' 1;
 }
 
 ul {
@@ -566,6 +614,7 @@ ul li:before {
     color: #f33051;
     content: "> ";
     font-weight: 600;
+    --mono: 'MONO' 1;
 }
 
 li {
@@ -585,7 +634,7 @@ li {
 
 .littlefoot-footnote p {
     width: 100%;
-    font-family: "Fira Code";
+    font-family: "Recursive";
 }
 
 .littlefoot-footnote__button {
@@ -647,8 +696,9 @@ blockquote p:before,
 
 button,
 .button {
-    font-family: "Fira Code";
+    font-family: "Recursive";
     font-weight: 700;
+    --mono: 'MONO' 1;
     background-color: #F38630;
     color: #fff;
     border: 1px solid #F38630;
@@ -663,7 +713,9 @@ button,
 }
 
 .subscribe-box {
-    font-family: "Fira Code";
+    font-family: "Recursive";
+    --mono: 'MONO' 1;
+    font-family-settings: 'MONO' 1;
     background-color: #FFF;
     color: #333;
     border: 1px solid #333;
@@ -690,7 +742,9 @@ input:invalid {
     text-align: right;
     color: #777;
     position: absolute;
-    left: 90ch;
+    left: 75ch;
+    --casl: 'CASL' 1;
+    font-size: 120%;
 }
 
 .box {
@@ -720,6 +774,7 @@ input:invalid {
         position: relative;
         left: 0;
         margin-bottom: 10px;
+        font-size: 100%;
     }
 }
 
