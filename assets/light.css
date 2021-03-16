@@ -17,6 +17,10 @@
     font-feature-settings: var(--features);
 }
 
+[lang="el"] {
+    font-family: sans-serif;
+}
+
 body {
     --mono: 'MONO' 0.5;
     --casl: 'CASL' 0;
@@ -90,6 +94,16 @@ a[href*="blog/meta"]:hover,
 .highlight .sb,
 .grey {
     color: #777;
+}
+
+.highlight .c,
+.highlight .ch,
+.highlight .cm,
+.highlight .cpf,
+.highlight .c1,
+.highlight .cs,
+.highlight .s {
+    --casl: 'CASL' 1;
 }
 
 .comma,
@@ -269,8 +283,7 @@ a[href*="blog/meta"]:hover,
 
 .post-content:not(.post-image) > p:not(:first-of-type) {
     --mono: 'MONO' 0;
-    --features: var(--features),
-                'ss01' 1, /* single-storey a */
+    --features: 'ss01' 1, /* single-storey a */
                 'ss02' 1, /* single-storey g */
                 'ss03' 1, /* simplified f */
                 'ss04' 1, /* simplified i */
@@ -279,7 +292,7 @@ a[href*="blog/meta"]:hover,
                 'ss08' 1, /* non-serif L and Z */
                 'liga' 1,
                 'dlig' 1;
-    text-indent: -2ch;
+    text-indent: -1.5ch;
 }
 
 .post-culture hr,
@@ -321,9 +334,9 @@ a[href*="blog/meta"]:hover,
     -webkit-animation: blink-animation 1200ms steps(2, start) infinite;
     animation: blink-animation 1200ms steps(2, start) infinite;
     color: #f33051;
-    content: '_';
-    font-family: "Recursive";
+    content: '█';
     font-weight: 600;
+    --mono: 'MONO' 1;
 }
 
 .post-technology hr,
@@ -593,7 +606,7 @@ section:last-of-type > p:last-of-type:after,
     -webkit-animation: blink-animation 1200ms steps(2, start) infinite;
     animation: blink-animation 1200ms steps(2, start) infinite;
     color: #f33051;
-    content: '_';
+    content: '█';
     font-weight: 600;
     --mono: 'MONO' 1;
 }
