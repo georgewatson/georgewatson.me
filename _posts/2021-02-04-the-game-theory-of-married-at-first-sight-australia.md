@@ -498,7 +498,7 @@ that is,
 $$P(\mathrm{s}) < \frac{1}{a + 1}.$$
 
 In graphical form:
-![](/assets/post_images/mafs_graph.svg){:.align-center}
+![](/assets/post_images/mafs_graph.svg){:.align-center .dark-invert}
 
 Hopefully this has cleared things up
 for next year's participants.

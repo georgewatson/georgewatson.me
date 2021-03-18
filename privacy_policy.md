@@ -174,7 +174,7 @@ I may store the following first-party cookies on your device:
     [this website's GitHub
     repository](https://github.com/georgewatson/georgewatson.me).
 
-Other cookies may be stored by the following trusted partners.
+Other cookies may be stored by the following organisations.
 Links to their cookie policies are provided below.
 * [CloudFlare](https://www.cloudflare.com/cookie-policy/)
 * [Google](https://policies.google.com/technologies/cookies)
@@ -332,6 +332,10 @@ on {{ page.git.last_commit.commit_date | date: '%-d %B %Y' }}.
 All changes to this privacy policy will be recorded in the commit history of the
 [GitHub repository](https://github.com/georgewatson/georgewatson.me)
 associated with this website.
+You can subscribe to an
+[Atom feed](https://github.com/georgewatson/georgewatson.me/commits/master/privacy_policy.md.atom)
+provided by GitHub
+if you wish to be notified of commits involving changes to this policy.
 
 If you have any queries, contact
 [george@georgewatson.me](mailto:george@georgewatson.me)
