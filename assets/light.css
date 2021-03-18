@@ -31,6 +31,10 @@ body {
                 'ss12'; /* simplified mono @ */
 }
 
+main {
+    line-height: 1.4;
+}
+
 em,
 i {
     --casl: 'CASL' 0.5;
@@ -123,10 +127,12 @@ a[href*="blog/meta"]:hover,
 
 .float-left {
     float: left;
+    margin-right: 10px;
 }
 
 .float-right {
     float: right;
+    margin-left: 10px;
 }
 
 .footnotes,
@@ -456,6 +462,7 @@ h2,
 h3,
 h4 {
     --mono: 'MONO' 1;
+    line-height: 1.1;
 }
 
 code,
@@ -678,6 +685,10 @@ blockquote p:before,
 .blog-post-info:before {
     content: "";
     display: none;
+}
+
+table {
+    --mono: 'MONO' 1;
 }
 
 .nicetable,

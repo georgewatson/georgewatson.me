@@ -420,7 +420,7 @@ I'd guess they'd value it something like this:
 
 | | B stays | B leaves |
 |-------|--------|---------|
-| **A stays** | (1, *a*) | (*1−a*, 0) |
+| **A stays** | (1, *a*) | (1−*a*, 0) |
 | **A leaves** | (1, 0) | (*a*, 1) |
 {:.nicetable}
 
@@ -496,6 +496,9 @@ $$1 - P(\mathrm{s}) > a P(\mathrm{s})$$;
 that is,
 
 $$P(\mathrm{s}) < \frac{1}{a + 1}.$$
+
+In graphical form:
+![](/assets/post_images/mafs_graph.svg){:.align-center}
 
 Hopefully this has cleared things up
 for next year's participants.
