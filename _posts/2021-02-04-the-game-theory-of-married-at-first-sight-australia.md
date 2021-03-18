@@ -497,8 +497,14 @@ that is,
 
 $$P(\mathrm{s}) < \frac{1}{a + 1}.$$
 
-In graphical form:
-![](/assets/post_images/mafs_graph.svg){:.align-center .dark-invert}
+That looks something like this:
+![A graph of P(s) against a,
+with the region above the line labelled 'STAY'
+and the region below the line labelled 'LEAVE'.
+The line begins at a=0, P(s)=1;
+it then decreases
+in a reciprocal manner
+to a final value of a=1, P(s) = 0.5.](/assets/post_images/mafs_graph.svg){:.align-center .dark-invert}
 
 Hopefully this has cleared things up
 for next year's participants.
