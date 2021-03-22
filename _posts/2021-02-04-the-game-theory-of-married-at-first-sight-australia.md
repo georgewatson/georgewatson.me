@@ -231,6 +231,10 @@ that represents the desire
 of each party
 to avoid awkwardness
 as a value between 0 and 1.
+(Note that this does not need to have the same value
+to both participants,
+but we will see that
+any difference doesn't actually affect anything.)
 
 That would give us a payoff matrix
 something like this:
@@ -258,6 +262,10 @@ so the equilibrium solution
 maximises both overall
 and individual happiness
 for both players.
+(If $$a>0.5$$,
+it becomes a
+[Stag Hunt](https://en.wikipedia.org/wiki/Stag_hunt),
+but the optimal solution remains the same.)
 
 Stay/Stay is the preferred option
 for everyone involved
@@ -313,13 +321,14 @@ $$z > w > x = y$$.
 This is a rotated version of the
 "[Let's 
 Party](http://reasonableapproximation.net/2020/07/04/classifying-games-like-prisoners-dilemma.html#lets-party-w--z-----two-games)"
-game,
+game.
+If $$a=1$$,
+this becomes
 a pure
 [coördination game](https://en.wikipedia.org/wiki/Coordination_game)
-with no obvious solution for noncommunicating participants.
-
-The optimal solution,
-however,
+with no obvious solution for noncommunicating participants,[^correction]
+but for any other value of $$a$$
+the optimal solution
 is relatively obvious:
 If you both want out,
 just get out.
@@ -327,6 +336,13 @@ Write "Leave" on your little cards,
 go back to your separate homes
 on opposite sides of Australia
 and never speak to each other again.
+
+[^correction]: **Correction** (2021-03-22):
+               An earlier version of this article
+               suggested that no obvious solution existed
+               for any value of *a*;
+               this is of course false
+               and has now been corrected.
 
 ### Stay/Leave
 
