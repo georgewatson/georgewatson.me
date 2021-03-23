@@ -8,6 +8,10 @@ tags:
 - game-theory
 - culture
 - tv
+image: /assets/post_images/australia.jpg
+credit: |
+  Header image:
+  <a href="https://unsplash.com/photos/jK9dT34TfuI">Photoholgic via Unsplash</a>
 warnings:
 - Minor <i>Married at First Sight Australia</i> (season 6) spoilers
 mathjax: true
