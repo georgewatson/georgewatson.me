@@ -289,10 +289,8 @@ a[href*="blog/meta"]:hover,
 
 .post-content:not(.post-image) > p:not(:first-of-type) {
     --mono: 'MONO' 0;
-    --features: 'ss01' 1, /* single-storey a */
-                'ss02' 1, /* single-storey g */
+    --features: 'ss02' 1, /* single-storey g */
                 'ss03' 1, /* simplified f */
-                'ss04' 1, /* simplified i */
                 'ss05' 1, /* simplified l */
                 'ss06' 1, /* simplified r */
                 'ss08' 1, /* non-serif L and Z */
@@ -768,6 +766,8 @@ input:invalid {
     position: absolute;
     left: 75ch;
     --casl: 'CASL' 1;
+    font-feature-settings: var(--features),
+                'ss01' 1; /* single-storey a */
     font-size: 120%;
 }
 
