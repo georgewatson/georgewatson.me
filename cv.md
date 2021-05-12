@@ -21,20 +21,42 @@ order: 20
 ## Qualifications, memberships, & awards
 {:#qualifications}
 
-**George D. Watson** MPhys (Hons) Ebor., MInstP
+**George D. Watson** MPhys (Hons) (Ebor.), MInstP
 
 ### Academic qualifications
 
 * **PhD Physics**\\
-  *University of York &bull; 2017--2020 (expected)*\\
-  Supervisors: Agnes Noy, Mark Leake
+  *University of York &bull; 2017--2021*\\
+  **Thesis:**
+  "Atomistic simulation of interactions between DNA and integration host factor"\\
+  **Supervisors:** Agnes Noy, Mark Leake
 * **MPhys (Hons) Theoretical Physics**
   (with first-class honours)\\
   *University of York &bull; 2013--2017*\\
-  Dissertation:
+  **Dissertation:**
   "Probing DNA intercalation through targeted molecular dynamics simulation of
   ellipticine and anthracene-derived ligands"\\
-  Supervisor: Robert Greenall
+  **Supervisor:** Robert Greenall
+
+### Certificates & Courses
+
+* **[Introduction to Machine Learning](https://www.coursera.org/account/accomplishments/certificate/GLFW96MPMD8L)**\\
+  *Coursera (Duke University) &bull; 2021*\\
+  **Topics:**
+  Machine learning,
+  Model learning,
+  Image analysis with convolutional neural networks,
+  Recurrent neural networks for natural language processing,
+  Transformer networks,
+  Reinforcement learning
+* **[Managing Big Data with MySQL](https://www.coursera.org/account/accomplishments/certificate/X3HCUK387VT7)**\\
+  *Coursera (Duke University) &bull; 2021*\\
+  **Topics:**
+  Relational databases,
+  Entity--relationship diagrams and relational schemata,
+  Queries,
+  Joins,
+  Addressing business questions
 
 ### Memberships
 
