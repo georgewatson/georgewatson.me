@@ -460,6 +460,36 @@ but it's likely they'd find themselves
 stuck in a suboptimal Stay/Leave situation,
 which is the worst of all worlds.
 
+***
+
+**Addendum** (2021-06-03):
+If both players had sufficient understanding of game theory,
+they might decide to look for
+[Nash equilibria](https://en.wikipedia.org/wiki/Nash_equilibrium),
+the points at which
+neither player can gain anything by changing their strategy.
+There is a Nash equilibrium at Stay/Stay:
+Belinda would lose $$a$$ points of utility by switching to Leave,
+while Archie gets a full point whatever he picks.
+At Stay/Leave,
+Belinda can gain $$a$$ by changing tack;
+at Leave/Stay,
+she can gain 1.
+At Leave/Leave,
+Belinda has nothing to gain
+but Archie would see his reward change
+from $$a$$ to $$1-a$$
+if he were to switch to Stay,
+so this is *also* a Nash equilibrium
+if (and only if)
+$$a \ge 0.5$$.
+If this doesn't make much sense to you,
+feel free to ignore it---it's
+not really central to the thesis of this post.
+
+***
+
+
 ### Love is blind
 
 Of course,
