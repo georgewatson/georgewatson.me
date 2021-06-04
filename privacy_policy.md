@@ -289,9 +289,7 @@ Every effort has been made to comply with the laws of
 England & Wales,
 the wider UK,
 and the EU.
-I am not bound by the laws of any other legal system,
-and it would be both impractical and inappropriate to follow them
-all;[^legal-systems]
+I am not bound by the laws of any other legal system;
 it is your responsibility to ensure that you are not breaking any local laws by
 visiting or interacting with this website.
 
@@ -353,12 +351,3 @@ or use one of the other contact media listed on the [Contact](/contact) page.
 *[TLS]: Transport Layer Security
 *[UK]: United Kingdom of Great Britain and Northern Ireland
 *[VPN]: Virtual Private Network
-
-[^legal-systems]: In particular,
-    some legal systems prohibit the dissemination of certain factual
-    material[,](https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests)
-    or the "promotion" of lifestyles the government of the day considers
-    immoral[.](https://en.wikipedia.org/wiki/Russian_gay_propaganda_law)
-    While I am bound by the laws of my own locality,
-    it would be inappropriate for me to aid oppressive regimes in their
-    persecution of political rivals and minority groups.
