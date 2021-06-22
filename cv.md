@@ -86,9 +86,9 @@ order: 20
   Velasco-Berrelleza&nbsp;V,
   Leake&nbsp;M&nbsp;C,
   Noy&nbsp;A
-  2020
-  "A nucleoid-associated protein bends and bridges DNA in a multiplicity of
-  topological states with varying specificity"
+  2021
+  "Integration host factor bends and bridges DNA in a multiplicity of binding 
+  modes with varying specificity"
   *bioRxiv*
   [doi:10.1101/2020.04.17.047076](https://doi.org/10.1101/2020.04.17.047076)\\
   **Preprint**{:.label .label-meta}&nbsp;&nbsp;
