@@ -46,8 +46,7 @@ order: 20
 
 ### Certificates & Courses
 
-* **[Machine 
-  Learning](https://www.coursera.org/account/accomplishments/certificate/P3P4AWNL7FAJ)**\\
+* **[Machine Learning](https://www.coursera.org/verify/P3P4AWNL7FAJ)**\\
   *Stanford University (Coursera) &bull; 2021*\\
   **Topics:**
   Linear regression,
@@ -64,8 +63,8 @@ order: 20
   Anomaly detection,
   Recommender systems,
   Large scale machine learning
-* **[Introduction to Machine 
-  Learning](https://www.coursera.org/account/accomplishments/certificate/GLFW96MPMD8L)**\\
+* **[Introduction to Machine
+  Learning](https://www.coursera.org/verify/GLFW96MPMD8L)**\\
   *Duke University (Coursera) &bull; 2021*\\
   **Topics:**
   Machine learning,
@@ -74,7 +73,8 @@ order: 20
   Recurrent neural networks for natural language processing,
   Transformer networks,
   Reinforcement learning
-* **[Managing Big Data with MySQL](https://www.coursera.org/account/accomplishments/certificate/X3HCUK387VT7)**\\
+* **[Managing Big Data with
+  MySQL](https://www.coursera.org/verify/X3HCUK387VT7)**\\
   *Duke University (Coursera) &bull; 2021*\\
   **Topics:**
   Relational databases,
