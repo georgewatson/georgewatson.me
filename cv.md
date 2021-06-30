@@ -21,14 +21,20 @@ order: 20
 ## Qualifications, memberships, & awards
 {:#qualifications}
 
-**George D. Watson** MPhys (Hons) (Ebor.), MInstP
+**George D. Watson** MPhys (Hons)[^PhD] (Ebor.), MInstP
+
+[^PhD]: The award of my PhD has been confirmed,
+        but it would be improper to use the postonominal
+        prior to the official conferment of the award
+        at a graduation ceremony.
 
 ### Academic qualifications
 
 * **PhD Physics**\\
   *University of York &bull; 2017--2021*\\
   **Thesis:**
-  "Atomistic simulation of interactions between DNA and integration host factor"\\
+  ["Atomistic simulation of interactions between DNA and integration host
+  factor"](https://etheses.whiterose.ac.uk/28874/)\\
   **Supervisors:** Agnes Noy, Mark Leake
 * **MPhys (Hons) Theoretical Physics**
   (with first-class honours)\\
@@ -40,8 +46,27 @@ order: 20
 
 ### Certificates & Courses
 
-* **[Introduction to Machine Learning](https://www.coursera.org/account/accomplishments/certificate/GLFW96MPMD8L)**\\
-  *Coursera (Duke University) &bull; 2021*\\
+* **[Machine 
+  Learning](https://www.coursera.org/account/accomplishments/certificate/P3P4AWNL7FAJ)**\\
+  *Stanford University (Coursera) &bull; 2021*\\
+  **Topics:**
+  Linear regression,
+  Linear algebra,
+  Octave/MATLAB,
+  Logistic regression,
+  Regularisation,
+  Neural networks,
+  Applying machine learning,
+  Machine learning system design,
+  Support vector machines,
+  Unsupervised learning,
+  Dimensionality reduction,
+  Anomaly detection,
+  Recommender systems,
+  Large scale machine learning
+* **[Introduction to Machine 
+  Learning](https://www.coursera.org/account/accomplishments/certificate/GLFW96MPMD8L)**\\
+  *Duke University (Coursera) &bull; 2021*\\
   **Topics:**
   Machine learning,
   Model learning,
@@ -50,7 +75,7 @@ order: 20
   Transformer networks,
   Reinforcement learning
 * **[Managing Big Data with MySQL](https://www.coursera.org/account/accomplishments/certificate/X3HCUK387VT7)**\\
-  *Coursera (Duke University) &bull; 2021*\\
+  *Duke University (Coursera) &bull; 2021*\\
   **Topics:**
   Relational databases,
   Entity--relationship diagrams and relational schemata,
@@ -77,9 +102,24 @@ order: 20
   *University of York &bull; 21 September 2018*\\
   (Prize sponsored by the Institute of Physics)
 
+## Employment
+{:#employment}
+
+* **University of York**
+  (*2017--2021*)\\
+  Research Assistant in Molecular Dynamics Simulations (2021)\\
+  Postgraduate Research Assistant in Biophysics (2017--2021)\\
+  *Graduate Teaching Assistant (casual work, 2018--2020)*
+
 ## Publications
 {:#publications}
 
+* <u>Watson&nbsp;G&nbsp;D</u>
+  2021
+  ["Atomistic simulation of interactions between DNA and integration host
+  factor"](https://etheses.whiterose.ac.uk/28874/)
+  (*PhD thesis*)
+  University of York
 * Yoshua&nbsp;S&nbsp;B<sup>&dagger;</sup>,
   <u>Watson&nbsp;G&nbsp;D</u><sup>&dagger;</sup>,
   Howard&nbsp;J&nbsp;A&nbsp;L,
@@ -113,7 +153,7 @@ Key to symbols:
   "Molecular dynamics simulation of supercoiled DNA minicircles"\\
   **Winner: Best Talk**{:.label}
 * Regular Physics of Life Group & Biological Physics Group meetings\\
-  *University of York &bull; 2018--*
+  *University of York &bull; 2018--2021*
 
 ## Poster presentations
 {:#posters}
@@ -233,7 +273,7 @@ Key to symbols:
 ## Administration
 {:#admin}
 
-* Redesigned and maintain the
+* Redesigned and maintained the
   [Physics of Life Group website](https://www.york.ac.uk/physics/research/physics-of-life)
   and [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
 * Maintain and update the website for the
