@@ -55,7 +55,7 @@ network.
 {:#collection}
 
 I offer the facility to
-subscribe to new blog posts by email.
+[subscribe to new blog posts by email](https://follow.it/georgewatson).
 This service is provided by
 [follow.it](https://follow.it).
 You are under no obligation to use this service,
