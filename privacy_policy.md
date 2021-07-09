@@ -55,7 +55,8 @@ network.
 {:#collection}
 
 I offer the facility to
-[subscribe to new blog posts by email](https://follow.it/georgewatson).
+[subscribe to new blog posts by
+email](https://follow.it/georgewatson?action=followPub).
 This service is provided by
 [follow.it](https://follow.it).
 You are under no obligation to use this service,
@@ -277,17 +278,9 @@ My server is hosted in London, UK,
 by [DigitalOcean](https://www.digitalocean.com/),
 a company based in New York, United States.
 
-Sadly, I am
-[no longer](https://en.wikipedia.org/wiki/Brexit)
-located in the European Union.
-However,
-I intend to continue to follow EU law in anticipation of the UK's
-re-entry into the EU.
-
 Every effort has been made to comply with the laws of
-England & Wales,
-the wider UK,
-and the EU.
+England & Wales
+and the wider United Kingdom.
 I am not bound by the laws of any other legal system;
 it is your responsibility to ensure that you are not breaking any local laws by
 visiting or interacting with this website.
