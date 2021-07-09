@@ -1,11 +1,7 @@
-<form action="https://feedburner.google.com/fb/a/mailverify"
-    class="subscribe-form"
+<form
+    action="https://api.follow.it/subscription-form/OVVkdCtHSDZwSTcwbGwzdzRpS3Q2R3JVVEJ4Z2hVYTQ0MXc1L212WWtyekROM21PYkFNSjJpQmtIUHZDL0FTZWZpRXJDczJRWXp2VXAwWHc3OE5TVTRYTm9kdHlHQmoyb0dOem1hVzhjVG1lMGJKZEJPL2lnckNWZGxKMVNmVXh8ZnJDS3VaUDRrQkovamlrR1lQZXoxcm10dWNtRHFoV3BnbllkSTY1N1ZkST0=/8"
     method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=georgewatson',
-      'popupwindow',
-      'scrollbars=yes,width=550,height=520');
-    return true">
+    class="subscribe-form">
   <label for="subscribe-box{{ include.id }}">
     Get new posts delivered straight to your inbox
   </label>
@@ -13,12 +9,6 @@
     <input type="email" name="email" class="subscribe-box"
       id="subscribe-box{{ include.id }}"
       placeholder="name@example.com" />
-    <input type="hidden" value="georgewatson" name="uri" />
-    <input type="hidden" name="loc" value="en_US" />
     <input type="submit" value="Subscribe" class="button" />
   </div>
-  <span class="dim">
-    Delivered by
-    <a href="https://feedburner.google.com">FeedBurner</a>
-  </span>
 </form>

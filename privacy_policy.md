@@ -55,15 +55,14 @@ network.
 {:#collection}
 
 I offer the facility to
-[subscribe to new blog posts by email](https://feedburner.google.com/fb/a/mailverify?uri=georgewatson&loc=en_US).
+subscribe to new blog posts by email.
 This service is provided by
-[FeedBurner](https://feedburner.google.com),
-a Google service.
+[follow.it](https://follow.it).
 You are under no obligation to use this service,
 but if you do
 I will be able to see your email address
 and the date on which you subscribed.
-This information is securely stored on Google's servers.
+This information is securely stored on follow.it's servers.
 You can unsubscribe at any time.
 If you prefer not to subscribe by email,
 you can see all new posts
