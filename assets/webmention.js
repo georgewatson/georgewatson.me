@@ -100,7 +100,7 @@ A more detailed example:
     var addurls = getCfg('add-urls', undefined);
     var containerID = getCfg('id', "webmentions");
     var textMaxWords = getCfg('wordcount');
-    var maxWebmentions = getCfg('max-webmentions', 30);
+    var maxWebmentions = getCfg('max-webmentions', 100);
     var mentionSource = getCfg('prevent-spoofing') ? 'wm-source' : 'url';
     var sortBy = getCfg('sort-by', 'published');
     var sortDir = getCfg('sort-dir', 'up');
