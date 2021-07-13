@@ -120,6 +120,7 @@ order: 20
   factor"](https://etheses.whiterose.ac.uk/28874/)
   (*PhD thesis*)
   University of York
+  [uk.bl.ethos.832618](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.832618)
 * Yoshua&nbsp;S&nbsp;B<sup>&dagger;</sup>,
   <u>Watson&nbsp;G&nbsp;D</u><sup>&dagger;</sup>,
   Howard&nbsp;J&nbsp;A&nbsp;L,
@@ -129,12 +130,15 @@ order: 20
   2021
   "Integration host factor bends and bridges DNA in a multiplicity of binding 
   modes with varying specificity"
+  *Nucleic&nbsp;Acids&nbsp;Research*
+  (in&nbsp;press)\\
+  **Preprint:**
   *bioRxiv*
   [doi:10.1101/2020.04.17.047076](https://doi.org/10.1101/2020.04.17.047076)\\
-  **Preprint**{:.label .label-meta}&nbsp;&nbsp;
   <span data-badge-popover="right" data-badge-type="2"
     data-doi="10.1101/2020.04.17.047076" data-hide-no-mentions="true"
-    class="altmetric-embed">
+    class="altmetric-embed"
+    style="text-indent: 0;">
   </div>
 
 Key to symbols:

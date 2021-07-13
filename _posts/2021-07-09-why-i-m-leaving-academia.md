@@ -296,7 +296,7 @@ but I would be interested in seeing some better statistics on this.
 Of course,
 much of this is probably field-dependent---it
 is quite possible that
-that I would have it easier,
+I would have it easier,
 in the sciences,
 than do my colleagues in the humanities,
 or *vice versa*.
