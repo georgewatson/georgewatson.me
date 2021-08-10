@@ -15,6 +15,7 @@ credit: |
 warnings:
 - Minor <i>Married at First Sight Australia</i> (season 6) spoilers
 mathjax: true
+toc: true
 date: 2021-02-04 15:11 +0000
 ---
 The surprise hit of Lockdown III

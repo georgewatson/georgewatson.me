@@ -37,3 +37,5 @@ gem 'jekyll-sitemap'
 gem 'jekyll-paginate-v2'
 
 gem 'kramdown-parser-gfm'
+
+gem 'jekyll-toc'

@@ -12,6 +12,7 @@ image: "/assets/post_images/signpost.jpg"
 credit: |
   Header image:
   <a href="https://unsplash.com/photos/aKE1gZ0_dgU">Adam Ling via Unsplash</a>
+toc: true
 date: 2021-07-09 19:07 +0100
 ---
 I love science.

@@ -43,6 +43,7 @@ plugins:
     - jekyll-git_metadata
     - jekyll-sitemap
     - jekyll-paginate-v2
+    - jekyll-toc
 
 feed:
   categories:
