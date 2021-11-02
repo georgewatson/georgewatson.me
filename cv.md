@@ -112,13 +112,6 @@ Dr **George D. Watson** MPhys (Hons) PhD (Ebor.), MInstP
 ## Publications
 {:#publications}
 
-* <u>Watson&nbsp;G&nbsp;D</u>
-  2021
-  ["Atomistic simulation of interactions between DNA and integration host
-  factor"](https://etheses.whiterose.ac.uk/28874/)
-  (*PhD thesis*)
-  University of York
-  [uk.bl.ethos.832618](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.832618)
 * Yoshua&nbsp;S&nbsp;B<sup>&dagger;</sup>,
   <u>Watson&nbsp;G&nbsp;D</u><sup>&dagger;</sup>,
   Howard&nbsp;J&nbsp;A&nbsp;L,
@@ -126,18 +119,24 @@ Dr **George D. Watson** MPhys (Hons) PhD (Ebor.), MInstP
   Leake&nbsp;M&nbsp;C,
   Noy&nbsp;A
   2021
-  "Integration host factor bends and bridges DNA in a multiplicity of binding 
-  modes with varying specificity"
+  "Integration host factor bends and bridges DNA in a multiplicity of binding
+  modes with varying specificity"\\
   *Nucleic&nbsp;Acids&nbsp;Research*
-  (in&nbsp;press)\\
-  **Preprint:**
-  *bioRxiv*
-  [doi:10.1101/2020.04.17.047076](https://doi.org/10.1101/2020.04.17.047076)\\
+  **49**
+  8684--98\\
+  [doi:10.1093/nar/gkab641](https://doi.org/10.1093/nar/gkab641)\\
   <span data-badge-popover="right" data-badge-type="2"
-    data-doi="10.1101/2020.04.17.047076" data-hide-no-mentions="true"
+    data-doi="10.1093/nar/gkab641" data-hide-no-mentions="true"
     class="altmetric-embed"
     style="text-indent: 0;">
   </div>
+* <u>Watson&nbsp;G&nbsp;D</u>
+  2021
+  ["Atomistic simulation of interactions between DNA and integration host
+  factor"](https://etheses.whiterose.ac.uk/28874/)
+  (*PhD thesis*)
+  University of York
+  [uk.bl.ethos.832618](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.832618)
 
 Key to symbols:
 * &dagger; These authors contributed equally to this work.
@@ -286,6 +285,7 @@ END
 
 *[BPSI]: Biological Physical Sciences Institute
 *[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
+*[Dr]: Doctor
 *[DNA]: Deoxyribonucleic acid
 *[Ebor.]: la: Eboracum (en: York)
 *[ECR]: Early-career researcher
