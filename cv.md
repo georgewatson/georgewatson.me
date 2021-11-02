@@ -21,12 +21,7 @@ order: 20
 ## Qualifications, memberships, & awards
 {:#qualifications}
 
-**George D. Watson** MPhys (Hons)[^PhD] (Ebor.), MInstP
-
-[^PhD]: The award of my PhD has been confirmed,
-        but it would be improper to use the postonominal
-        prior to the official conferment of the award
-        at a graduation ceremony.
+Dr **George D. Watson** MPhys (Hons) PhD (Ebor.), MInstP
 
 ### Academic qualifications
 
@@ -105,6 +100,9 @@ order: 20
 ## Employment
 {:#employment}
 
+* **Department for Environment, Food and Rural Affairs**
+  (*2021--*)\\
+  Statistical Officer
 * **University of York**
   (*2017--2021*)\\
   Research Assistant in Molecular Dynamics Simulations (2021)\\

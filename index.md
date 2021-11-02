@@ -18,16 +18,19 @@ academicons: true
 {:/}
 
 Hi, I'm George.
-I'm currently finishing off
-a PhD
-in computational biophysics
-in
+I'm a statistician
+with R and Python expertise
+and experience in government administration
+living and working in Yorkshire.
+
+I used to do science:
+I have a PhD in computational biophysics from
 [Agnes Noy's lab](https://agnesnoylab.wordpress.com/),
 part of the
 [Physics of Life Group](https://www.york.ac.uk/physics/research/physics-of-life/)
 at the
 [University of York](https://www.york.ac.uk/),
-where I've been performing
+where I performed
 advanced all-atom molecular dynamics simulations
 of interactions between proteins and DNA.
 These are really cool and important interactions
