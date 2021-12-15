@@ -18,6 +18,18 @@ order: 20
 </a>
 {:/}
 
+## Employment
+{:#employment}
+
+* **Department for Environment, Food and Rural Affairs**
+  (*2021--*)\\
+  Statistical Officer
+* **University of York**
+  (*2017--2021*)\\
+  Research Assistant in Molecular Dynamics Simulations (2021)\\
+  Postgraduate Research Assistant in Biophysics (2017--2021)\\
+  *Graduate Teaching Assistant (casual work, 2018--2020)*
+
 ## Qualifications, memberships, & awards
 {:#qualifications}
 
@@ -96,18 +108,6 @@ Dr **George D. Watson** MPhys (Hons) PhD (Ebor.), MInstP
   Physics Postgraduate Conference 2018\\
   *University of York &bull; 21 September 2018*\\
   (Prize sponsored by the Institute of Physics)
-
-## Employment
-{:#employment}
-
-* **Department for Environment, Food and Rural Affairs**
-  (*2021--*)\\
-  Statistical Officer
-* **University of York**
-  (*2017--2021*)\\
-  Research Assistant in Molecular Dynamics Simulations (2021)\\
-  Postgraduate Research Assistant in Biophysics (2017--2021)\\
-  *Graduate Teaching Assistant (casual work, 2018--2020)*
 
 ## Publications
 {:#publications}
