@@ -9,7 +9,7 @@ order: 20
 {::nomarkdown}
 <a href="/assets/me.jpg">
   <img src="/assets/me.jpg" class="u-photo float-right"
-    alt="George Watson,
+    alt="George Watson-Hyde,
     a devilishly handsome young man
     with rectangular, dark-framed glasses
     and a head of luscious brown curls,
@@ -33,7 +33,7 @@ order: 20
 ## Qualifications, memberships, & awards
 {:#qualifications}
 
-Dr **George D. Watson** MPhys (Hons) PhD (Ebor.), MInstP
+Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 
 ### Academic qualifications
 
