@@ -112,13 +112,29 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 ## Publications
 {:#publications}
 
+* <u>Watson&nbsp;G&nbsp;D</u>,
+  Chan&nbsp;E&nbsp;W,
+  Leake&nbsp;M&nbsp;C,
+  Noy&nbsp;A
+  2022\\
+  "Structural interplay between DNA-shape protein recognition and supercoiling: 
+  the case of IHF"\\
+  *bioRxiv*
+  2022.03.31.486518\\
+  [doi:10.1101/2022.03.31.486518](https://doi.org/10.1101/2022.03.31.486518)\\
+  **Preprint**{:.label .label-meta}&nbsp;
+  <span data-badge-popover="right" data-badge-type="2"
+    data-doi="10.1101/2022.03.31.486518" data-hide-no-mentions="true"
+    class="altmetric-embed"
+    style="text-indent: 0;">
+  </div>
 * Yoshua&nbsp;S&nbsp;B<sup>&dagger;</sup>,
   <u>Watson&nbsp;G&nbsp;D</u><sup>&dagger;</sup>,
   Howard&nbsp;J&nbsp;A&nbsp;L,
   Velasco-Berrelleza&nbsp;V,
   Leake&nbsp;M&nbsp;C,
   Noy&nbsp;A
-  2021
+  2021\\
   "Integration host factor bends and bridges DNA in a multiplicity of binding
   modes with varying specificity"\\
   *Nucleic&nbsp;Acids&nbsp;Research*
