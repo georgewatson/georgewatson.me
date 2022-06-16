@@ -53,6 +53,16 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 
 ### Certificates & Courses
 
+* **[Certified Professional Data
+  Scientist](https://www.datacamp.com/certificate/DS0012246607119)**\\
+  *DataCamp* &bull; 2022 (exp. 2024)\\
+  **Assessed:**
+  Data management,
+  Exploratory analysis,
+  Statistical experimentation,
+  Model development,
+  Coding for production environments,
+  Communication and reporting
 * **[Machine Learning](https://www.coursera.org/verify/P3P4AWNL7FAJ)**\\
   *Stanford University (Coursera) &bull; 2021*\\
   **Topics:**
@@ -112,12 +122,24 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 ## Publications
 {:#publications}
 
+* <u>Watson&nbsp;G</u>,
+  Velasco-Berrelleza V,
+  Noy A
+  2022\\
+  "Atomistic Molecular Dynamics Simulations of DNA in Complex 3D Arrangements
+  for Comparison with Lower Resolution Structural Experiments"\\
+  in
+  Leake M C (ed.)
+  Chromosome Architecture,
+  *Meth. Mol. Biol.*
+  **2476**\\
+  [doi:10.1007/978-1-0716-2221-6_8](https://doi.org/10.1007/978-1-0716-2221-6_8)
 * <u>Watson&nbsp;G&nbsp;D</u>,
   Chan&nbsp;E&nbsp;W,
   Leake&nbsp;M&nbsp;C,
   Noy&nbsp;A
   2022\\
-  "Structural interplay between DNA-shape protein recognition and supercoiling: 
+  "Structural interplay between DNA-shape protein recognition and supercoiling:
   the case of IHF"\\
   *bioRxiv*
   2022.03.31.486518\\
@@ -305,6 +327,8 @@ END
 *[DNA]: Deoxyribonucleic acid
 *[Ebor.]: la: Eboracum (en: York)
 *[ECR]: Early-career researcher
+*[ed.]: editor
+*[exp.]: expires
 *[GTA]: Graduate teaching assistant
 *[IHF]: Integration host factor
 *[MInstP]: Member of the Institute of Physics

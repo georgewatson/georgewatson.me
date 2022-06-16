@@ -8,7 +8,7 @@ academicons: true
 {::nomarkdown}
 <a href="/assets/me.jpg">
   <img src="/assets/me.jpg" class="u-photo float-right"
-    alt="George Watson,
+    alt="George Watson-Hyde,
     a devilishly handsome young man
     with rectangular, dark-framed glasses
     and a head of luscious brown curls,
@@ -19,8 +19,9 @@ academicons: true
 
 Hi, I'm George.
 I'm a statistician
+and certified Professional Data Scientist
 with R and Python expertise
-and experience in government administration
+and experience delivering in the public sector
 living and working in Yorkshire.
 
 I used to do science:
@@ -56,8 +57,8 @@ You can find me on:
   <li>
     <i class="fa-li fab fa-twitter"></i>
     Twitter:
-    <a href="https://twitter.com/GeorgeDWatson" rel="me">
-      @GeorgeDWatson
+    <a href="https://twitter.com/GeorgeWatsonHyde" rel="me">
+      @GeorgeWatsonHyde
     </a>
   </li>
   <li>
@@ -70,8 +71,8 @@ You can find me on:
   <li>
     <i class="fa-li fab fa-linkedin"></i>
     LinkedIn:
-    <a href="https://www.linkedin.com/in/georgedwatson/" rel="me">
-      georgedwatson
+    <a href="https://www.linkedin.com/in/georgewatsonhyde/" rel="me">
+      georgewatsonhyde
     </a>
   </li>
   <li>
