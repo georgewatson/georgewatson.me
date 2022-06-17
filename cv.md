@@ -129,10 +129,11 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   "Atomistic Molecular Dynamics Simulations of DNA in Complex 3D Arrangements
   for Comparison with Lower Resolution Structural Experiments"\\
   in
-  Leake M C (ed.)
+  Leake M C (ed.)\\
   Chromosome Architecture,
-  *Meth. Mol. Biol.*
-  **2476**\\
+  *Methods in Molecular Biology*
+  **2476**
+  95--109\\
   [doi:10.1007/978-1-0716-2221-6_8](https://doi.org/10.1007/978-1-0716-2221-6_8)
 * <u>Watson&nbsp;G&nbsp;D</u>,
   Chan&nbsp;E&nbsp;W,
@@ -172,7 +173,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   2021
   ["Atomistic simulation of interactions between DNA and integration host
   factor"](https://etheses.whiterose.ac.uk/28874/)
-  (*PhD thesis*)
+  (PhD thesis)
   University of York
   [uk.bl.ethos.832618](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.832618)
 
