@@ -57,8 +57,8 @@ You can find me on:
   <li>
     <i class="fa-li fab fa-twitter"></i>
     Twitter:
-    <a href="https://twitter.com/GeorgeWatsonHyde" rel="me">
-      @GeorgeWatsonHyde
+    <a href="https://twitter.com/GWatsonHyde" rel="me">
+      @GWatsonHyde
     </a>
   </li>
   <li>

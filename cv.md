@@ -22,10 +22,10 @@ order: 20
 {:#employment}
 
 * **Department for Environment, Food and Rural Affairs**
-  (*2021--*)\\
+  (2021--)\\
   Statistical Officer
 * **University of York**
-  (*2017--2021*)\\
+  (2017--2021)\\
   Research Assistant in Molecular Dynamics Simulations (2021)\\
   Postgraduate Research Assistant in Biophysics (2017--2021)\\
   *Graduate Teaching Assistant (casual work, 2018--2020)*
@@ -38,14 +38,14 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 ### Academic qualifications
 
 * **PhD Physics**\\
-  *University of York &bull; 2017--2021*\\
+  *University of York* &bull; 2017--2021\\
   **Thesis:**
   ["Atomistic simulation of interactions between DNA and integration host
   factor"](https://etheses.whiterose.ac.uk/28874/)\\
   **Supervisors:** Agnes Noy, Mark Leake
 * **MPhys (Hons) Theoretical Physics**
   (with first-class honours)\\
-  *University of York &bull; 2013--2017*\\
+  *University of York* &bull; 2013--2017\\
   **Dissertation:**
   "Probing DNA intercalation through targeted molecular dynamics simulation of
   ellipticine and anthracene-derived ligands"\\
@@ -64,7 +64,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   Coding for production environments,
   Communication and reporting
 * **[Machine Learning](https://www.coursera.org/verify/P3P4AWNL7FAJ)**\\
-  *Stanford University (Coursera) &bull; 2021*\\
+  *Stanford University (Coursera)* &bull; 2021\\
   **Topics:**
   Linear regression,
   Linear algebra,
@@ -82,7 +82,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   Large scale machine learning
 * **[Introduction to Machine
   Learning](https://www.coursera.org/verify/GLFW96MPMD8L)**\\
-  *Duke University (Coursera) &bull; 2021*\\
+  *Duke University (Coursera)* &bull; 2021\\
   **Topics:**
   Machine learning,
   Model learning,
@@ -92,7 +92,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   Reinforcement learning
 * **[Managing Big Data with
   MySQL](https://www.coursera.org/verify/X3HCUK387VT7)**\\
-  *Duke University (Coursera) &bull; 2021*\\
+  *Duke University (Coursera)* &bull; 2021\\
   **Topics:**
   Relational databases,
   Entity--relationship diagrams and relational schemata,
@@ -109,14 +109,14 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 * Shortlisted:
   **Graduate Teaching Assistant of the Year**,
   Physics Awards 2019\\
-  *University of York &bull; 1 May 2019*
+  *University of York* &bull; 1 May 2019
 * Shortlisted:
   **Postgraduate Makes a Difference**,
   Physics Awards 2019\\
-  *University of York &bull; 1 May 2019*
+  *University of York* &bull; 1 May 2019
 * **Best Talk**,
   Physics Postgraduate Conference 2018\\
-  *University of York &bull; 21 September 2018*\\
+  *University of York* &bull; 21 September 2018\\
   (Prize sponsored by the Institute of Physics)
 
 ## Publications
