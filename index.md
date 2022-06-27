@@ -129,7 +129,7 @@ My publications are available via:
 
 **Email:** <george.watson@york.ac.uk>
 
-<a href="/dl/watson_george.pub" rel="pgpkey authn">GPG public key</a>
+<a href="/dl/watson-hyde_george.pub" rel="pgpkey authn">GPG public key</a>
 
 {::nomarkdown}
   <div class="flex-container">
