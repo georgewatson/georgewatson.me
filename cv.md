@@ -53,6 +53,16 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 
 ### Certificates & Courses
 
+<div>
+  <a href="https://www.datacamp.com/certificate/DS0012246607119">
+    <img
+      class="float-right"
+      style="margin-right:30%; width:200px;"
+      src="/assets/data_scientist_professional_badge.svg"
+      alt="Certified Data Scientist Professional"
+    />
+  </a>
+</div>
 * **[Certified Professional Data
   Scientist](https://www.datacamp.com/certificate/DS0012246607119)**\\
   *DataCamp* &bull; 2022 (exp. 2024)\\
@@ -116,12 +126,28 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   *University of York* &bull; 1 May 2019
 * **Best Talk**,
   Physics Postgraduate Conference 2018\\
-  *University of York* &bull; 21 September 2018\\
+  *University of York* &bull; 21 September 2017\\
   (Prize sponsored by the Institute of Physics)
 
 ## Publications
 {:#publications}
 
+* <u>Watson&nbsp;G&nbsp;D</u>,
+  Chan&nbsp;E&nbsp;W,
+  Leake&nbsp;M&nbsp;C,
+  Noy&nbsp;A
+  2022\\
+  "Structural interplay between DNA-shape protein recognition and supercoiling:
+  the case of IHF"\\
+  *Computational&nbsp;and&nbsp;Structural&nbsp;Biotechnology&nbsp;Journal*
+  **20**
+  5264--74\\
+  [doi:10.1016/j.csbj.2022.09.020](https://doi.org/10.1016/j.csbj.2022.09.020)\\
+  <span data-badge-popover="right" data-badge-type="2"
+    data-doi="10.1016/j.csbj.2022.09.020" data-hide-no-mentions="true"
+    class="altmetric-embed"
+    style="text-indent: 0;">
+  </div>
 * <u>Watson&nbsp;G</u>,
   Velasco-Berrelleza V,
   Noy A
@@ -135,22 +161,6 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   **2476**
   95--109\\
   [doi:10.1007/978-1-0716-2221-6_8](https://doi.org/10.1007/978-1-0716-2221-6_8)
-* <u>Watson&nbsp;G&nbsp;D</u>,
-  Chan&nbsp;E&nbsp;W,
-  Leake&nbsp;M&nbsp;C,
-  Noy&nbsp;A
-  2022\\
-  "Structural interplay between DNA-shape protein recognition and supercoiling:
-  the case of IHF"\\
-  *bioRxiv*
-  2022.03.31.486518\\
-  [doi:10.1101/2022.03.31.486518](https://doi.org/10.1101/2022.03.31.486518)\\
-  **Preprint**{:.label .label-meta}&nbsp;
-  <span data-badge-popover="right" data-badge-type="2"
-    data-doi="10.1101/2022.03.31.486518" data-hide-no-mentions="true"
-    class="altmetric-embed"
-    style="text-indent: 0;">
-  </div>
 * Yoshua&nbsp;S&nbsp;B<sup>&dagger;</sup>,
   <u>Watson&nbsp;G&nbsp;D</u><sup>&dagger;</sup>,
   Howard&nbsp;J&nbsp;A&nbsp;L,
@@ -309,16 +319,6 @@ Key to symbols:
   Performed interactive virtual reality demonstrations of biological molecules
   and 3D visualisation techniques in biophysics to members of the public of
   various ages and backgrounds at a well attended event
-
-## Administration
-{:#admin}
-
-* Redesigned and maintained the
-  [Physics of Life Group website](https://www.york.ac.uk/physics/research/physics-of-life)
-  and [@PhysLifeYork](https://twitter.com/PhysLifeYork) Twitter account
-* Maintain and update the website for the
-  [SynCrop](http://www.syncrop.org/syncrop/) Marie Curie Innovative Training
-  Network; set up and continue to moderate a private area for file hosting
 
 END
 
