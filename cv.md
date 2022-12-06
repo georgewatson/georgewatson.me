@@ -21,7 +21,7 @@ order: 20
 ## Employment
 {:#employment}
 
-* **Department for Work and Pensions
+* **Department for Work and Pensions**
   (2022--)\\
   Associate Data Scientist
 * **Department for Environment, Food and Rural Affairs**
