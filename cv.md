@@ -21,8 +21,11 @@ order: 20
 ## Employment
 {:#employment}
 
+* **Department for Work and Pensions
+  (2022--)\\
+  Associate Data Scientist
 * **Department for Environment, Food and Rural Affairs**
-  (2021--)\\
+  (2021--2022)\\
   Statistical Officer
 * **University of York**
   (2017--2021)\\

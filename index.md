@@ -18,8 +18,8 @@ academicons: true
 {:/}
 
 Hi, I'm George.
-I'm a statistician
-and certified Professional Data Scientist
+I'm a
+certified Professional Data Scientist
 with R and Python expertise
 and experience delivering in the public sector
 living and working in Yorkshire.
