@@ -23,7 +23,8 @@ order: 20
 
 * **Department for Work and Pensions**
   (2022--)\\
-  Associate Data Scientist
+  Data Scientist (TDA, 2023--2024)
+  Associate Data Scientist (2022--)
 * **Department for Environment, Food and Rural Affairs**
   (2021--2022)\\
   Statistical Officer
@@ -142,7 +143,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   2022\\
   "Structural interplay between DNA-shape protein recognition and supercoiling:
   the case of IHF"\\
-  *Computational&nbsp;and&nbsp;Structural&nbsp;Biotechnology&nbsp;Journal*
+  *Computational and Structural Biotechnology Journal*
   **20**
   5264--74\\
   [doi:10.1016/j.csbj.2022.09.020](https://doi.org/10.1016/j.csbj.2022.09.020)\\
@@ -339,6 +340,7 @@ END
 *[MPhys (Hons)]: Master of Physics (with honours)
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
 *[PoLNET2]: Physics of Life Network, phase 2
+*[TDA]: Temporary duties allowance
 *[VR]: Virtual reality
 
 <script type='text/javascript'
