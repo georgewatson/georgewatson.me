@@ -23,7 +23,7 @@ order: 20
 
 * **Department for Work and Pensions**
   (2022--)\\
-  Data Scientist (TDA, 2023--2024)
+  Data Scientist (TDA, 2023--2024)\\
   Associate Data Scientist (2022--)
 * **Department for Environment, Food and Rural Affairs**
   (2021--2022)\\
@@ -58,10 +58,36 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 ### Certificates & Courses
 
 <div>
+  <a href="https://www.credly.com/badges/27a10692-a059-456d-a996-abf860f22658/public_url">
+    <img
+      class="float-right"
+      style="margin-right:30%; max-width:200px;"
+      src="/assets/deep-learning-specialization.png"
+      alt="DeepLearning.AI Deep Learning Specialization - certificate of completion"
+    />
+  </a>
+</div>
+* **[Deep Learning
+  Specialization](https://coursera.org/share/f0abdfebc5e6e8f3f0909bda99e92cfc)**
+  *DeepLearning.AI (Coursera)* &bull; 2023\\
+  **Courses:**
+  Structuring Machine Learning Projects,
+  Improving Deep Neural Networks,
+  Convolutional Neural Networks,
+  Sequence Models,
+  Neural Networks and Deep Learning
+* **[Machine Learning
+  Specialization](https://coursera.org/share/faae5738a01974fddcdc08a392c616e1)**
+  *DeepLearning.AI &amp; Stanford University (Coursera)* &bull; 2023\\
+  **Courses:**
+  Supervised Machine Learning,
+  Advanced Learning Algorithms,
+  Unsupervised Learning, Recommenders, Reinforcement Learning
+<div>
   <a href="https://www.datacamp.com/certificate/DS0012246607119">
     <img
       class="float-right"
-      style="margin-right:30%; width:200px;"
+      style="margin-right:30%; max-width:200px;"
       src="/assets/data_scientist_professional_badge.svg"
       alt="Certified Data Scientist Professional"
     />
@@ -69,7 +95,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 </div>
 * **[Certified Professional Data
   Scientist](https://www.datacamp.com/certificate/DS0012246607119)**\\
-  *DataCamp* &bull; 2022 (exp. 2024)\\
+  *DataCamp* &bull; 2022 (expires 2024)\\
   **Assessed:**
   Data management,
   Exploratory analysis,
