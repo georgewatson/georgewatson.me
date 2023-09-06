@@ -68,7 +68,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   </a>
 </div>
 * **[Deep Learning
-  Specialization](https://coursera.org/share/f0abdfebc5e6e8f3f0909bda99e92cfc)**
+  Specialization](https://coursera.org/share/f0abdfebc5e6e8f3f0909bda99e92cfc)**\\
   *DeepLearning.AI (Coursera)* &bull; 2023\\
   **Courses:**
   Structuring Machine Learning Projects,
@@ -77,7 +77,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   Sequence Models,
   Neural Networks and Deep Learning
 * **[Machine Learning
-  Specialization](https://coursera.org/share/faae5738a01974fddcdc08a392c616e1)**
+  Specialization](https://coursera.org/share/faae5738a01974fddcdc08a392c616e1)**\\
   *DeepLearning.AI &amp; Stanford University (Coursera)* &bull; 2023\\
   **Courses:**
   Supervised Machine Learning,
@@ -106,39 +106,27 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 * **[Machine Learning](https://www.coursera.org/verify/P3P4AWNL7FAJ)**\\
   *Stanford University (Coursera)* &bull; 2021\\
   **Topics:**
-  Linear regression,
-  Linear algebra,
-  Octave/MATLAB,
   Logistic regression,
-  Regularisation,
-  Neural networks,
-  Applying machine learning,
-  Machine learning system design,
-  Support vector machines,
-  Unsupervised learning,
-  Dimensionality reduction,
-  Anomaly detection,
-  Recommender systems,
-  Large scale machine learning
+  Artificial neural networks,
+  Machine learning algorithms,
+  Machine learning
 * **[Introduction to Machine
   Learning](https://www.coursera.org/verify/GLFW96MPMD8L)**\\
   *Duke University (Coursera)* &bull; 2021\\
   **Topics:**
+  Natural language processing,
+  Convolutional neural networks,
   Machine learning,
-  Model learning,
-  Image analysis with convolutional neural networks,
-  Recurrent neural networks for natural language processing,
-  Transformer networks,
-  Reinforcement learning
+  Python programming,
+  PyTorch
 * **[Managing Big Data with
   MySQL](https://www.coursera.org/verify/X3HCUK387VT7)**\\
   *Duke University (Coursera)* &bull; 2021\\
   **Topics:**
-  Relational databases,
-  Entity--relationship diagrams and relational schemata,
-  Queries,
-  Joins,
-  Addressing business questions
+  Data analysis,
+  MySQL,
+  Teradata,
+  SQL
 
 ### Memberships
 
