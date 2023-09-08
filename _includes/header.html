@@ -1,6 +1,6 @@
     <header id="main-header" class="h-card">
       <img class="logo" alt=""
-        src="{{ "/assets/logo_unoptimised.svg" | relative_url }}"/>
+        src="{{ "/assets/logo_new.svg" | relative_url }}"/>
       <h1 id="top">
         <a
           class="p-author p-name u-url u-uid"
@@ -13,11 +13,13 @@
           Data Scientist
         </span>
       </p>
-      <nav>
+      <nav {% if page.bignav %} class="big-nav" {% endif %}>
         <span class="prompt">&gt;</span>
+        <ul>
         {% assign pages_list = (site.pages | sort: 'order') %}
         {%- for node in pages_list -%}
           {% if node.navbar and node.autogen == nil %}
+            <li>
             {%- if page.url == node.url -%}
               <a href="{{ node.url | replace: 'index.html', '' }}"
                 class="this-page"
@@ -33,6 +35,7 @@
             {% unless forloop.last %}
               <span class="comma">&bull;</span>&nbsp;
             {% endunless %}
+            </li>
           {%- endif -%}
         {%- endfor -%}
       </nav>

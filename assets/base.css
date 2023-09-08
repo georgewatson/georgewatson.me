@@ -157,7 +157,8 @@ a:hover .label {
 }
 
 .tag-item,
-nav a,
+nav ul,
+nav li,
 nav .this-page {
     display: inline;
     margin: 0;
@@ -168,6 +169,25 @@ nav .this-page {
 nav {
     font-size: 200%;
     margin-top: -1ch;
+}
+
+.big-nav {
+    margin-top: 2ch;
+    margin-left: 5ch;
+}
+
+.big-nav .prompt {
+    display: none;
+}
+
+.big-nav li {
+    display: block;
+    font-size: 200%;
+}
+
+.big-nav li:before {
+    content: ">";
+    color: "#F33051";
 }
 
 .thumbnail-container {
