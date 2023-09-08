@@ -3,7 +3,6 @@ layout: page
 navbar: true
 order: 10
 navtitle: ~Home
-bignav: true
 ---
 
 {::nomarkdown}
