@@ -23,8 +23,9 @@ order: 20
 
 * **Department for Work and Pensions**
   (2022--)\\
+  Senior Data Scientist (2024--)\\
   Data Scientist (TDA, 2023--2024)\\
-  Associate Data Scientist (2022--)
+  Associate Data Scientist (2022--2024)
 * **Department for Environment, Food and Rural Affairs**
   (2021--2022)\\
   Statistical Officer
@@ -37,7 +38,7 @@ order: 20
 ## Qualifications, memberships, & awards
 {:#qualifications}
 
-Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
+Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
 
 ### Academic qualifications
 
@@ -83,19 +84,9 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
   Supervised Machine Learning,
   Advanced Learning Algorithms,
   Unsupervised Learning, Recommenders, Reinforcement Learning
-<div>
-  <a href="https://www.datacamp.com/certificate/DS0012246607119">
-    <img
-      class="float-right"
-      style="margin-right:30%; max-width:200px;"
-      src="/assets/data_scientist_professional_badge.svg"
-      alt="Certified Data Scientist Professional"
-    />
-  </a>
-</div>
 * **[Certified Professional Data
   Scientist](https://www.datacamp.com/certificate/DS0012246607119)**\\
-  *DataCamp* &bull; 2022 (expires 2024)\\
+  *DataCamp* &bull; 2022 (expired 2024)\\
   **Assessed:**
   Data management,
   Exploratory analysis,
@@ -130,7 +121,8 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MInstP
 
 ### Memberships
 
-* **Member**, Institute of Physics (MInstP)
+* **Member**, British Computer Society (MBCS)
+* Former Member, Institute of Physics (MInstP)
 
 ### Awards
 
