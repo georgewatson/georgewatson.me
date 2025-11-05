@@ -152,12 +152,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
   *Computational and Structural Biotechnology Journal*
   **20**
   5264--74\\
-  [doi:10.1016/j.csbj.2022.09.020](https://doi.org/10.1016/j.csbj.2022.09.020)\\
-  <span data-badge-popover="right" data-badge-type="2"
-    data-doi="10.1016/j.csbj.2022.09.020" data-hide-no-mentions="true"
-    class="altmetric-embed"
-    style="text-indent: 0;">
-  </div>
+  [doi:10.1016/j.csbj.2022.09.020](https://doi.org/10.1016/j.csbj.2022.09.020)
 * <u>Watson&nbsp;G</u>,
   Velasco-Berrelleza V,
   Noy A
@@ -183,12 +178,7 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
   *Nucleic&nbsp;Acids&nbsp;Research*
   **49**
   8684--98\\
-  [doi:10.1093/nar/gkab641](https://doi.org/10.1093/nar/gkab641)\\
-  <span data-badge-popover="right" data-badge-type="2"
-    data-doi="10.1093/nar/gkab641" data-hide-no-mentions="true"
-    class="altmetric-embed"
-    style="text-indent: 0;">
-  </div>
+  [doi:10.1093/nar/gkab641](https://doi.org/10.1093/nar/gkab641)
 * <u>Watson&nbsp;G&nbsp;D</u>
   2021
   ["Atomistic simulation of interactions between DNA and integration host

@@ -11,14 +11,9 @@ Your connection to this website is end-to-end encrypted using
 [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 This makes it difficult for eavesdroppers to read or interfere with your
 communications with this website.
-The CDN delivering this website
-(provided by CloudFlare)
-is configured to support only TLS versions 1.2 and 1.3.
-It is recommended that you use a browser that supports the latest version of the
-protocol.
 
 Both `georgewatson.me` and `dendodge.me` have valid SSL certificates issued via
-[CloudFlare](https://www.cloudflare.com/) and
+[Netlify](https://www.netlify.com/) and
 [Let's Encrypt](https://letsencrypt.org/).
 The `georgewatson.me` domain,
 including all its subdomains,
@@ -27,12 +22,6 @@ supports [HTTP Strict Transport Security
 and has been submitted to the Chrome preload list.
 This domain receives an [A+ rating from SSL
 Labs](https://www.ssllabs.com/ssltest/analyze.html?d=georgewatson.me).
-The `dendodge.me` domain is deliberately preserved as a backup in case of an
-issue with the HTTPS/HSTS configuration,
-but still fully supports HTTPS and receives an
-[A rating](https://www.ssllabs.com/ssltest/analyze.html?d=dendodge.me).
-The canonical domain for this website is `georgewatson.me`.
-It is strongly recommended that you use this domain to access this website.
 
 I recommend also using a private DNS protocol
 such as DNS over HTTPS or DNS over TLS
@@ -65,7 +54,7 @@ such as your name or email address.
 You may choose to consume this Atom feed using your RSS/Atom reader of choice.
 
 Like all websites,
-some information may be stored in my server logs regarding your visit to this
+some information may be stored in the server logs regarding your visit to this
 website.
 These logs include information such as your
 [IP address](https://en.wikipedia.org/wiki/IP_address) and
@@ -76,10 +65,9 @@ and the status code returned to you by the server,
 along with the date and time.
 This information does not identify you personally,
 and is necessary for the operation and stability of the server.
-The log files are stored securely on a virtual private server hosted by
-[DigitalOcean](https://www.digitalocean.com/),
-and are regularly rotated.
-No copies are ever made of any part of these logs.
+These logs are handled by [Netlify](https://www.netlify.com/),
+and I have no access to them;
+[their privacy policy](https://www.netlify.com/privacy/) applies.
 
 ### Cookies
 {:#cookies}
@@ -87,25 +75,6 @@ No copies are ever made of any part of these logs.
 I may store the following first-party cookies on your device:
 
 {:.compact-list}
-* `__cfduid`
-  * **Purpose:**
-    A CloudFlare cookie for the purpose of server security
-  * **Content:**
-    A one-way hash of certain values
-  * **Provider:**
-    [CloudFlare](https://www.cloudflare.com/)
-  * **Tracking:**
-    This cookie cannot be used to identify you personally,
-    and provides no capability for cross-site tracking.
-  * **Effects if disabled:**
-    Disabling or deleting this cookie should not normally cause any issues,
-    but may affect your ability to access this website if your connection is
-    otherwise suspicious.
-  * For more information, see:
-    * ["What does the Cloudflare cfduid cookie do?" --- CloudFlare
-      Support](https://support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-Cloudflare-cfduid-cookie-do-)
-    * ["Privacy and the cfduid cookie" --- CloudFlare
-      Support](https://support.cloudflare.com/hc/en-us/articles/360024915491)
 * `cookieconsent_status`
   * **Purpose:**
     Records that you have dismissed the cookie notification banner
@@ -166,7 +135,6 @@ I may store the following first-party cookies on your device:
 
 Other cookies may be stored by the following organisations.
 Links to their cookie policies are provided below.
-* [CloudFlare](https://www.cloudflare.com/cookie-policy/)
 * [Google](https://policies.google.com/technologies/cookies)
   (on pages with embedded content from Google services such as YouTube)
 
@@ -189,22 +157,13 @@ see the [Opting Out](#opting-out) section for details.
 For your convenience,
 a non-exhaustive list of such organisations is provided below,
 including links to their privacy policies.
-I recommend that you familiarise yourself with these,
-since these all form core parts of the modern Web infrastructure
-and are widely used across many websites.
 
-* [Altmetric](https://www.altmetric.com/privacy-policy/)
-* [CloudFlare](https://www.cloudflare.com/privacypolicy/)
 * [Google](https://policies.google.com/privacy)
-* [Remarkbox](https://www.remarkbox.com/privacy-policy.html)
-* [Twitter](https://twitter.com/en/privacy)
 
 ### Analytics
 {:#analytics}
 
-This website does not use web analytics
-beyond the information stored in Apache server logs
-and CloudFlare traffic data.
+This website does not use web analytics.
 
 Prior to 21 July 2020,
 [Google Analytics](https://analytics.google.com/analytics/web/) provided web
@@ -218,6 +177,10 @@ more information.
 The Google Analytics code was never loaded if your browser sent a
 [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) (`DNT`) header.
 
+[Netlify](https://www.netlify.com/) may record and analyse your traffic for their own purposes,
+but this information is not currently available to me.
+[Their privacy policy](https://www.netlify.com/privacy/) applies.
+
 ### Opting Out
 {:#opting-out}
 
@@ -228,13 +191,7 @@ Existing cookies can be deleted in your browser,
 probably near where your history is stored.
 You could also choose to browse in Private/Incognito mode.
 
-You can opt out of
-some third-party analytics by sending the
-[Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) (`DNT`) header with
-your HTTPS request.
-You can probably enable this in your browser's settings.
-
-You can disable embedded widgets such as comments and Twitter timelines
+You can disable embedded widgets such as YouTube videos
 by disabling JavaScript in your browser,
 or by using one of the many browser extensions that allow you to block specific
 frames of external content.
@@ -260,15 +217,14 @@ compliance.
 {:#jurisdiction}
 
 I reside in England, in the United Kingdom.
-My server is hosted in London, UK,
-by [DigitalOcean](https://www.digitalocean.com/),
-a company based in New York, United States.
+Hosting is provided by [Netlify](https://www.netlify.com/),
+a company based in San Francisco, California, in the United States.
 
 Every effort has been made to comply with the laws of
 England & Wales
 and the wider United Kingdom.
-I am not bound by the laws of any other legal system;
-it is your responsibility to ensure that you are not breaking any local laws by
+I am not bound by the laws of any other legal system,
+and it is your responsibility to ensure that you are not breaking any local laws by
 visiting or interacting with this website.
 
 I am not responsible for the content or policies of most external websites,
@@ -280,8 +236,7 @@ or recommending an external website or organisation does not imbue me with
 responsibility for that website or organisation's actions,
 and should not be viewed as an endorsement of their policies.
 Other websites will have privacy policies that differ from this one.
-Nothing in this privacy policy applies to other websites,
-and it is your responsibility to ensure that you agree to the terms of any
+It is your responsibility to ensure that you agree to the terms of any
 websites or organisations with which you choose to interact.
 
 ### Transparency Report
