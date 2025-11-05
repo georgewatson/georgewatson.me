@@ -15,12 +15,6 @@ layout: default
 
   {% for post in paginator.posts %}
     {% include post_preview.html %}
-
-    {% if forloop.index0 == 1 %}
-      <div class="blog-post">
-        {% include subscribe.html id="1" %}
-      </div>
-    {% endif %}
   {% endfor %}
 
   {% if paginator.page_trail %}
@@ -37,7 +31,6 @@ layout: default
     </ul>
   {% endif %}
 
-  {% include subscribe.html %}
   <p>
     <i class="fas fa-rss"></i>
     Subscribe via <a href="/feed.xml">Atom feed</a>

@@ -59,9 +59,6 @@ navtitle: ~Home
         </a>
       </p>
 
-      <div class="v-padded">
-        {% include subscribe.html %}
-      </div>
     </div>
 
   </div>

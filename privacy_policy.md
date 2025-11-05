@@ -55,24 +55,14 @@ network.
 {:#collection}
 
 I offer the facility to
-[subscribe to new blog posts by
-email](https://follow.it/georgewatson?action=followPub).
-This service is provided by
-[follow.it](https://follow.it).
-You are under no obligation to use this service,
-but if you do
-I will be able to see your email address
-and the date on which you subscribed.
-This information is securely stored on follow.it's servers.
-You can unsubscribe at any time.
-If you prefer not to subscribe by email,
-you can see all new posts
-by checking
-[the blog](/blog)
-regularly
-or subscribing to the
+subscribe to new blog posts via an
 [Atom feed](/feed.xml)
 using your favourite RSS reader.
+This does not involve giving me,
+nor any third party,
+any of your personal details
+such as your name or email address.
+You may choose to consume this Atom feed using your RSS/Atom reader of choice.
 
 Like all websites,
 some information may be stored in my server logs regarding your visit to this
@@ -178,11 +168,7 @@ Other cookies may be stored by the following organisations.
 Links to their cookie policies are provided below.
 * [CloudFlare](https://www.cloudflare.com/cookie-policy/)
 * [Google](https://policies.google.com/technologies/cookies)
-  (on pages with embedded content from Google services)
-* [Remarkbox](https://www.remarkbox.com/privacy-policy.html)
-  (on pages with embedded comments sections)
-* [Twitter](https://help.twitter.com/en/rules-and-policies/twitter-cookies)
-  (on pages with embedded Twitter widgets)
+  (on pages with embedded content from Google services such as YouTube)
 
 You can probably disable cookies on a per-site basis in your browser settings.
 See your browser's help pages for information on how to do this.
@@ -306,9 +292,6 @@ websites or organisations with which you choose to interact.
 * I have never been enjoined or otherwise legally prevented from publishing any
   material on this website.
 
-The above notices are correct as of commit
-[{{ site.git.last_commit.short_sha }}](https://github.com/georgewatson/georgewatson.me/commit/{{ site.git.last_commit.long_sha }}){: title="{{ site.git.last_commit.message }}"}
-on {{ site.git.last_commit.commit_date | date: '%-d %B %Y' }}.
 The largest number of notices ever displayed above is 2.
 <i class="fas fa-crow"></i>
 [What's this?](https://en.wikipedia.org/wiki/Warrant_canary)
@@ -316,9 +299,6 @@ The largest number of notices ever displayed above is 2.
 ### Updates and Queries
 {:#updates}
 
-This policy was last updated in commit
-[{{ page.git.last_commit.short_sha }}](https://github.com/georgewatson/georgewatson.me/commit/{{ page.git.last_commit.long_sha }}){: title="{{ page.git.last_commit.message }}"}
-on {{ page.git.last_commit.commit_date | date: '%-d %B %Y' }}.
 All changes to this privacy policy will be recorded in the commit history of the
 [GitHub repository](https://github.com/georgewatson/georgewatson.me)
 associated with this website.
