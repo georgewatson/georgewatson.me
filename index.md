@@ -30,20 +30,6 @@ navtitle: ~Home
             georgewatson
           </a>
         </li>
-        <li>
-          <i class="fa-li fab fa-twitter"></i>
-          Twitter:
-          <a href="https://twitter.com/GWatsonHyde" rel="me">
-            @GWatsonHyde
-          </a>
-        </li>
-        <li>
-          <i class="fa-li fab fa-mastodon"></i>
-          Mastodon:
-          <a href="https://mastodon.technology/@gdw" rel="me">
-            @gdw@mastodon.technology
-          </a>
-        </li>
       </ul>
 
       <p>

@@ -238,8 +238,8 @@ pre {
 }
 
 div.highlight {
-    min-width: 80ch;
-    max-width: 100%;
+    min-width: min(80ch, calc(100% - 4ch));
+    max-width: calc(100% - 4ch);
     width: fit-content;
     overflow-x: auto;
 }

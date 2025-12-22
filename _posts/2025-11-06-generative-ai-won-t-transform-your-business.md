@@ -5,7 +5,9 @@ category: data
 tags:
 - data
 - data-science
+- data-strategy
 - generative-ai
+- technology
 image: "/assets/post_images/dinosaur_meme.jpg"
 credit: |
   Image:
