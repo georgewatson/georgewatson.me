@@ -30,6 +30,13 @@ navtitle: ~Home
             georgewatson
           </a>
         </li>
+        <li>
+          <i class="fa-li fab fa-strava"></i>
+          Strava:
+          <a href="https://www.strava.com/athletes/150450354" rel="me">
+            George Watson-Hyde
+          </a>
+        </li>
       </ul>
 
       <p>
