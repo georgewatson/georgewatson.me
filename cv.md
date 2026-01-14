@@ -56,13 +56,28 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
   ellipticine and anthracene-derived ligands"\\
   **Supervisor:** Robert Greenall
 
-### Certificates & Courses
+### Certificates
+
+### Memberships
+
+<div>
+  <a href="https://www.bcs.org/">
+    <img
+      class="float-right floating-badge"
+      src="/assets/bcs_pin_professional.jpg"
+      alt="MBCS - Professional Member - BCS, The Chartered Institute for IT"
+    />
+  </a>
+</div>
+* **Professional Member**, BCS, The Chartered Institute for IT (MBCS)
+* Former Member, Institute of Physics (MInstP)
+
+### Courses
 
 <div>
   <a href="https://www.credly.com/badges/27a10692-a059-456d-a996-abf860f22658/public_url">
     <img
-      class="float-right"
-      style="margin-right:30%; max-width:200px;"
+      class="float-right floating-badge"
       src="/assets/deep-learning-specialization.png"
       alt="DeepLearning.AI Deep Learning Specialization - certificate of completion"
     />
@@ -118,11 +133,6 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
   MySQL,
   Teradata,
   SQL
-
-### Memberships
-
-* **Member**, British Computer Society (MBCS)
-* Former Member, Institute of Physics (MInstP)
 
 ### Awards
 
@@ -322,6 +332,7 @@ Key to symbols:
 
 END
 
+*[BCS]: The Chartered Institute for IT (formerly British Computer Society)
 *[BPSI]: Biological Physical Sciences Institute
 *[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
 *[Dr]: Doctor
@@ -332,6 +343,7 @@ END
 *[exp.]: expires
 *[GTA]: Graduate teaching assistant
 *[IHF]: Integration host factor
+*[MBCS]: Member of BCS, The Chartered Institute for IT (originally British Computer Society)
 *[MInstP]: Member of the Institute of Physics
 *[MPhys (Hons)]: Master of Physics (with honours)
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)

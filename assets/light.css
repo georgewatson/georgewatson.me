@@ -136,6 +136,11 @@ a[href*="blog/meta"]:hover,
     margin-left: 10px;
 }
 
+.floating-badge {
+    margin-right: 30%;
+    clear: right;
+}
+
 .footnotes,
 .littlefoot-footnote {
     font-size: 80%;

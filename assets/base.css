@@ -112,6 +112,10 @@
     width: 300px;
 }
 
+.floating-badge {
+    max-width:200px;
+}
+
 .label {
     color: #fff;
     padding-left: .5em;
