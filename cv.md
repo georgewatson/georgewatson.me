@@ -56,7 +56,9 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
   ellipticine and anthracene-derived ligands"\\
   **Supervisor:** Robert Greenall
 
+<!--
 ### Certificates
+-->
 
 ### Memberships
 
