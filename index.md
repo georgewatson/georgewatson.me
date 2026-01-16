@@ -31,6 +31,13 @@ navtitle: ~Home
           </a>
         </li>
         <li>
+          <i class="fa-li fab fa-google"></i>
+          Google Scholar:
+          <a href="https://scholar.google.com/citations?user=2vB6ObYAAAAJ" rel="me">
+            George D. Watson
+          </a>
+        </li>
+        <li>
           <i class="fa-li fab fa-strava"></i>
           Strava:
           <a href="https://www.strava.com/athletes/150450354" rel="me">
