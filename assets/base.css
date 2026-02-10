@@ -311,24 +311,25 @@ dt {
     .logo {
         float: left;
         position: absolute !important;
-        width: min(220px, 18vw);
+        width: min(220px, 20vw);
     }
 
     body {
         background-attachment: scroll !important;
         padding-left: 0 !important;
-        background-size: 220px !important;
+        background-size: 40% !important;
     }
 
     h1,
     nav,
     .tagline {
-        margin-left: min(240px, calc(18vw + 40px));
+        margin-left: min(240px, calc(20vw + 20px));
     }
 
     h1 {
         font-size: min(400%, calc(100cqw / 18));
         font-weight: 400;
+        margin-top: 10px;
         white-space: nowrap;
     }
 
