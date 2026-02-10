@@ -210,6 +210,7 @@ a[href*="blog/meta"]:hover,
 .overlay-span,
 .bg-dark {
     background-color: #333;
+    border: 1px solid #333;
 }
 
 .bg-vd {
@@ -223,32 +224,38 @@ a[href*="blog/meta"]:hover,
 .label,
 .label-technology,
 .bg-orange {
+    border: 1px solid #f38630;
     background-color: #f38630;
 }
 
 .label-culture,
 .bg-purple {
     background-color: #9e30f3;
+    border: 1px solid #9e30f3;
 }
 
 .label-data,
 .bg-blue {
     background-color: #30b7f3;
+    border: 1px solid #30b7f3;
 }
 
 .label-meta,
 .bg-grey {
     background-color: #777;
+    border: 1px solid #777;
 }
 
 .label-politics,
 .bg-red {
     background-color: #f33051;
+    border: 1px solid #f33051;
 }
 
 .label-science,
 .bg-green {
     background-color: #63f330;
+    border: 1px solid #63f330;
 }
 
 .logo {

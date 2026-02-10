@@ -309,20 +309,45 @@ dt {
 
 @media screen and (max-width: 1000px) {
     .logo {
-        left: 10vw !important;
-        max-width: 360px !important;
+        float: left;
         position: absolute !important;
-        width: 80vw !important;
+        width: min(220px, 18vw);
     }
 
     body {
         background-attachment: scroll !important;
         padding-left: 0 !important;
-        padding-top: 400px !important;
+        background-size: 220px !important;
+    }
+
+    h1,
+    nav,
+    .tagline {
+        margin-left: min(240px, calc(18vw + 40px));
+    }
+
+    h1 {
+        font-size: min(400%, calc(100cqw / 18));
+        font-weight: 400;
+        white-space: nowrap;
     }
 
     h2 {
         font-size: 150% !important;
+        font-weight: 400;
+    }
+
+    header {
+        container-type: inline-size;
+    }
+
+    .tagline,
+    nav {
+        font-size: max(min(200%, calc(100cqw / 32)), 14pt);
+    }
+
+    main {
+        clear: both;
     }
 
     section p,
@@ -330,11 +355,5 @@ dt {
     .post-content p,
     dd {
         width: 95% !important;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    body {
-        padding-top: 100vw !important;
     }
 }
