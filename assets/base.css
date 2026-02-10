@@ -260,7 +260,7 @@ h1 {
 
 h2 {
     font-size: 200%;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 header#main-header {
@@ -335,7 +335,6 @@ dt {
 
     h2 {
         font-size: 150% !important;
-        font-weight: 400;
     }
 
     header {
