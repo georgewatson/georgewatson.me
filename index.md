@@ -31,12 +31,21 @@ navtitle: ~Home
           </a>
         </li>
         <li>
+          <!-- TODO: Better icon available in latest Font Awesome version -->
           <i class="fa-li fab fa-google"></i>
           Google Scholar:
           <a href="https://scholar.google.com/citations?user=2vB6ObYAAAAJ" rel="me">
             George D. Watson
           </a>
         </li>
+        <li>
+          <!-- TODO: Better icon available in latest Font Awesome version -->
+          <i class="fa-li fas fa-globe"></i>
+          ORCID:
+          <a href="https://orcid.org/0000-0002-6524-0828" rel="me">
+            0000-0002-6524-0828
+          </a>
+        </li> 
         <li>
           <i class="fa-li fab fa-strava"></i>
           Strava:
