@@ -147,6 +147,11 @@ a:hover .label {
     color: #fff;
 }
 
+.overlay-span a {
+    position: relative;
+    z-index: 1000;
+}
+
 .post-content > h3 {
     margin-top: 30px;
 }
