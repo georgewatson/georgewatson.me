@@ -187,9 +187,15 @@ a[href*="blog/meta"]:hover,
     font-weight: 700;
 }
 
+.curated,
 .highlight .nb,
 .yellow {
     color: #f3df30;
+}
+
+.curated {
+    position: relative;
+    top: -2px;
 }
 
 :target,

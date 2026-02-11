@@ -20,7 +20,7 @@
   It is possible to exceed maxRelated here.
 {% endcomment %}
 {%- assign post_note = "<i class='fas fa-star'></i> Curated" -%}
-{%- assign note_class = "yellow" -%}
+{%- assign note_class = "curated" -%}
 {% for post in site.posts %}
   {% if page.related contains post.url %}
     {% include post_preview.html %}
