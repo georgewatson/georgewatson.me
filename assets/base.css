@@ -136,7 +136,7 @@ a:hover .label {
 .logo {
     left: 20px;
     top: 20px;
-    width: 200px;
+    width: min(200px, 20vw);
 }
 
 .overlay-span,
@@ -171,7 +171,7 @@ nav .this-page {
 
 .tagline,
 nav {
-    font-size: 200%;
+    font-size: max(min(200%, calc(100cqw / 32)), 14pt);
     margin-top: -1ch;
 }
 
@@ -253,9 +253,9 @@ div.highlight {
 }
 
 h1 {
-    font-size: 400%;
+    font-size: min(400%, calc(100cqw / 18));
     font-weight: 200;
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 h2 {
@@ -309,15 +309,12 @@ dt {
 
 @media screen and (max-width: 1000px) {
     .logo {
-        float: left;
         position: absolute !important;
-        width: min(220px, 20vw);
     }
 
     body {
         background-attachment: scroll !important;
         padding-left: 0 !important;
-        background-size: 40% !important;
     }
 
     h1,
@@ -327,27 +324,11 @@ dt {
     }
 
     h1 {
-        font-size: min(400%, calc(100cqw / 18));
         font-weight: 400;
-        margin-top: 10px;
-        white-space: nowrap;
     }
 
     h2 {
         font-size: 150% !important;
-    }
-
-    header {
-        container-type: inline-size;
-    }
-
-    .tagline,
-    nav {
-        font-size: max(min(200%, calc(100cqw / 32)), 14pt);
-    }
-
-    main {
-        clear: both;
     }
 
     section p,
