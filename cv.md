@@ -52,7 +52,6 @@ Technical leadership
 [LinkedIn](https://www.linkedin.com/in/georgewatsonhyde/)
 
 ## Employment
-{:#employment}
 
 * **Department for Work and Pensions**
   (2022--)\\
@@ -88,7 +87,6 @@ Technical leadership
   {:.compact-list}
 
 ## Education
-{:#education}
 
 * **PhD Physics**\\
   University of York &bull; 2017--2021\\
@@ -105,7 +103,6 @@ Technical leadership
   **Dissertation supervisor:** Robert Greenall
 
 ## Publications
-{:#publications}
 
 * <u>Watson&nbsp;G&nbsp;D</u>,
   Chan&nbsp;E&nbsp;W,
@@ -156,9 +153,9 @@ Key to symbols:
 * &dagger; These authors contributed equally to this work.
 
 ## Talks &amp; Posters
-{:#talks-and-posters}
 
 ### Talks
+{:.no_toc}
 
 * **Biological Physics Seminar Series**\\
   *University of York &bull; 22 May 2020*\\
@@ -169,7 +166,7 @@ Key to symbols:
   **Winner: Best Talk**{:.label}
 
 ### Poster Presentations
-{:#posters}
+{:.no_toc}
 
 * **6th Molecular Microbiology Meeting**
   &bull;
@@ -193,10 +190,9 @@ Key to symbols:
   [PDF](/dl/2018-06-28_poster.pdf))
 
 ## Teaching &amp; Outreach
-{:#teaching-and-outreach}
 
 ### Teaching
-{:#teaching}
+{:.no_toc}
 
 * **Advanced Computational Laboratory** (practical demonstration)\\
   *University of York &bull; 2018--2019*
@@ -213,7 +209,7 @@ Key to symbols:
     during molecular dynamics workshop sessions
 
 ### Outreach
-{:#outreach}
+{:.no_toc}
 
 * **York Festival of Ideas Fringe Family Fun Afternoon**\\
   *University of York &bull; June 2019*\\
@@ -232,7 +228,6 @@ Key to symbols:
     at a well attended event
 
 ## Professional Development
-{:#professional-development}
 
 * **[Deep Learning
   Specialization](https://coursera.org/share/f0abdfebc5e6e8f3f0909bda99e92cfc)**
@@ -259,10 +254,9 @@ Key to symbols:
   *Duke University (Coursera)* &bull; 2021
 
 ## Memberships &amp; Awards
-{:#memberships-and-awards}
 
 ### Memberships
-{:#memberships}
+{:.no_toc}
 
 <div>
   <a href="https://www.bcs.org/">
@@ -276,7 +270,7 @@ Key to symbols:
 * **Professional Member**, BCS, The Chartered Institute for IT (MBCS)
 
 ### Awards
-{:#awards}
+{:.no_toc}
 
 * **Best Talk**,
   Physics Postgraduate Conference 2018\\

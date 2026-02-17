@@ -80,7 +80,7 @@ jekyll_compose:
 
 toc:
     min_level: 2
-    max_level: 2
+    max_level: 3
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
