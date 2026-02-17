@@ -4,19 +4,52 @@ title: CV
 permalink: ../cv/
 navbar: true
 order: 20
+toc: true
 ---
 
 {::nomarkdown}
 <a href="/assets/me.jpg">
-  <img src="/assets/me.jpg" class="u-photo float-right"
-    alt="George Watson-Hyde,
-    a devilishly handsome young man
-    with rectangular, dark-framed glasses
-    and a head of luscious brown curls,
-    sits in his office.
-    He looks like someone you'd take home to meet your mother."/>
+  <img
+    src="/assets/me.jpg"
+    class="u-photo float-right"
+    alt="George Watson-Hyde"
+  />
 </a>
 {:/}
+
+Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
+
+I'm a Senior Data Scientist
+with over 8 years of experience of
+applying machine learning, statistics, and computational modelling
+to complex research and development problems
+across academia and the public sector.
+I have a background in biological physics,
+including a PhD from the University of York,
+with a focus on DNA–protein interactions.
+
+I specialise in
+building robust, interpretable machine learning (ML) models and tooling
+to empower decision-making in uncertain environments.
+I also provide technical leadership, mentoring, and recruitment expertise,
+and have experience developing new data and ML capability
+within complex organisations.
+
+**Skills:**
+Machine learning in Python and R
+&bull;
+Computational biology &amp; biophysics
+&bull;
+Deep learning
+&bull;
+Technical leadership
+
+**Contact:**
+<i class="fas fa-envelope"></i>
+[hello@georgewatson.me](mailto:hello@georgewatson.me)
+&bull;
+<i class="fab fa-linkedin"></i>
+[LinkedIn](https://www.linkedin.com/in/georgewatsonhyde/)
 
 ## Employment
 {:#employment}
@@ -26,130 +59,50 @@ order: 20
   Senior Data Scientist (2024--)\\
   Data Scientist (TDA, 2023--2024)\\
   Associate Data Scientist (2022--2024)
+  * Developed and applied new data science &amp; machine learning techniques,
+    including a novel Bayesian matching algorithm
+    and custom deep-learning models to understand messy event data
+  * Managed other data scientists
+    and offered support for career development
+  * Enhanced capability across the Department
+    by leading popular data science learning & development sessions
+  {:.compact-list}
 * **Department for Environment, Food and Rural Affairs**
   (2021--2022)\\
   Statistical Officer
+  * Led on production of high-profile government publications
+  * Developed reproducible analytical pipelines in R
+    to speed up production of statistical reports and reduce error
+  {:.compact-list}
 * **University of York**
   (2017--2021)\\
   Research Assistant in Molecular Dynamics Simulations (2021)\\
   Postgraduate Research Assistant in Biophysics (2017--2021)\\
   *Graduate Teaching Assistant (casual work, 2018--2020)*
+  * Performed research into DNA--protein interactions
+    using molecular dynamics simulations
+  * Applied machine learning
+    to extract information from large scientific datasets
+  * Taught molecular simulation and scientific programming
+    to undergraduate students via interactive workshop sessions
+  {:.compact-list}
 
-## Qualifications, memberships, & awards
-{:#qualifications}
-
-Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
-
-### Academic qualifications
+## Education
+{:#education}
 
 * **PhD Physics**\\
-  *University of York* &bull; 2017--2021\\
+  University of York &bull; 2017--2021\\
   **Thesis:**
   ["Atomistic simulation of interactions between DNA and integration host
   factor"](https://etheses.whiterose.ac.uk/28874/)\\
   **Supervisors:** Agnes Noy, Mark Leake
 * **MPhys (Hons) Theoretical Physics**
   (with first-class honours)\\
-  *University of York* &bull; 2013--2017\\
+  University of York &bull; 2013--2017\\
   **Dissertation:**
   "Probing DNA intercalation through targeted molecular dynamics simulation of
   ellipticine and anthracene-derived ligands"\\
-  **Supervisor:** Robert Greenall
-
-<!--
-### Certificates
--->
-
-### Memberships
-
-<div>
-  <a href="https://www.bcs.org/">
-    <img
-      class="float-right floating-badge"
-      src="/assets/bcs_pin_professional.jpg"
-      alt="MBCS - Professional Member - BCS, The Chartered Institute for IT"
-    />
-  </a>
-</div>
-* **Professional Member**, BCS, The Chartered Institute for IT (MBCS)
-* Former Member, Institute of Physics (MInstP)
-
-### Courses
-
-<div>
-  <a href="https://www.credly.com/badges/27a10692-a059-456d-a996-abf860f22658/public_url">
-    <img
-      class="float-right floating-badge"
-      src="/assets/deep-learning-specialization.png"
-      alt="DeepLearning.AI Deep Learning Specialization - certificate of completion"
-    />
-  </a>
-</div>
-* **[Deep Learning
-  Specialization](https://coursera.org/share/f0abdfebc5e6e8f3f0909bda99e92cfc)**\\
-  *DeepLearning.AI (Coursera)* &bull; 2023\\
-  **Courses:**
-  Structuring Machine Learning Projects,
-  Improving Deep Neural Networks,
-  Convolutional Neural Networks,
-  Sequence Models,
-  Neural Networks and Deep Learning
-* **[Machine Learning
-  Specialization](https://coursera.org/share/faae5738a01974fddcdc08a392c616e1)**\\
-  *DeepLearning.AI &amp; Stanford University (Coursera)* &bull; 2023\\
-  **Courses:**
-  Supervised Machine Learning,
-  Advanced Learning Algorithms,
-  Unsupervised Learning, Recommenders, Reinforcement Learning
-* **[Certified Professional Data
-  Scientist](https://www.datacamp.com/certificate/DS0012246607119)**\\
-  *DataCamp* &bull; 2022 (expired 2024)\\
-  **Assessed:**
-  Data management,
-  Exploratory analysis,
-  Statistical experimentation,
-  Model development,
-  Coding for production environments,
-  Communication and reporting
-* **[Machine Learning](https://www.coursera.org/verify/P3P4AWNL7FAJ)**\\
-  *Stanford University (Coursera)* &bull; 2021\\
-  **Topics:**
-  Logistic regression,
-  Artificial neural networks,
-  Machine learning algorithms,
-  Machine learning
-* **[Introduction to Machine
-  Learning](https://www.coursera.org/verify/GLFW96MPMD8L)**\\
-  *Duke University (Coursera)* &bull; 2021\\
-  **Topics:**
-  Natural language processing,
-  Convolutional neural networks,
-  Machine learning,
-  Python programming,
-  PyTorch
-* **[Managing Big Data with
-  MySQL](https://www.coursera.org/verify/X3HCUK387VT7)**\\
-  *Duke University (Coursera)* &bull; 2021\\
-  **Topics:**
-  Data analysis,
-  MySQL,
-  Teradata,
-  SQL
-
-### Awards
-
-* Shortlisted:
-  **Graduate Teaching Assistant of the Year**,
-  Physics Awards 2019\\
-  *University of York* &bull; 1 May 2019
-* Shortlisted:
-  **Postgraduate Makes a Difference**,
-  Physics Awards 2019\\
-  *University of York* &bull; 1 May 2019
-* **Best Talk**,
-  Physics Postgraduate Conference 2018\\
-  *University of York* &bull; 21 September 2017\\
-  (Prize sponsored by the Institute of Physics)
+  **Dissertation supervisor:** Robert Greenall
 
 ## Publications
 {:#publications}
@@ -202,10 +155,10 @@ Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
 Key to symbols:
 * &dagger; These authors contributed equally to this work.
 
-## Talks
-{:#talks}
+## Talks &amp; Posters
+{:#talks-and-posters}
 
-### Internal
+### Talks
 
 * **Biological Physics Seminar Series**\\
   *University of York &bull; 22 May 2020*\\
@@ -214,125 +167,133 @@ Key to symbols:
   *University of York &bull; 21 September 2018*\\
   "Molecular dynamics simulation of supercoiled DNA minicircles"\\
   **Winner: Best Talk**{:.label}
-* Regular Physics of Life Group & Biological Physics Group meetings\\
-  *University of York &bull; 2018--2021*
 
-## Poster presentations
+### Poster Presentations
 {:#posters}
 
-### External
-
-
-* **[6th Molecular Microbiology
-  Meeting](https://conferences.ncl.ac.uk/molmicro2019)**\\
-  *Newcastle University &bull; 17--18 June 2019*\\
-  "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
-  interaction"\\
-  <i class="far fa-file-pdf"></i>
-  [PDF](/dl/2019-04-08_poster.pdf)
+* **6th Molecular Microbiology Meeting**
+  &bull;
+  *Newcastle University &bull; 17--18 June 2019*
+  (<i class="far fa-file-pdf"></i>
+  [PDF](/dl/2019-04-08_poster.pdf))
 * **[The Physics of Microorganisms
   II](https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=785982)**
-  \\
-  *Institute of Physics &bull; 8 April 2019*\\
-  "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
-  interaction"\\
-  <i class="far fa-file-pdf"></i>
+  &bull;
+  *Institute of Physics &bull; 8 April 2019*
+  (<i class="far fa-file-pdf"></i>
   [PDF](/dl/2019-04-08_poster.pdf) &bull;
   [Blog]({% post_url 2019-04-05-my-poster-at-the-iop-physics-of-microorganisms-ii-conference-london-8-april-2019 
-  %})
+  %}))
 * **[PoLNET2 ECR Summer School: New Approaches to Biomolecular Structure,
   Dynamics and
   Function](http://www.physicsoflife.org.uk/summer-school-new-approaches-to-biomolecular-function-structure-and-dynamics.html)**
-  \\
-  *Durham University &bull; 16--20 July 2018*\\
-  "Atomistic simulation of DNA supercoiling"\\
-  <i class="far fa-file-pdf"></i>
-  [PDF](/dl/2018-06-28_poster.pdf)
+  &bull;
+  *Durham University &bull; 16--20 July 2018*
+  (<i class="far fa-file-pdf"></i>
+  [PDF](/dl/2018-06-28_poster.pdf))
 
-### Internal
+## Teaching &amp; Outreach
+{:#teaching-and-outreach}
 
-* **Biophysics of Infection & Immunity Symposium:
-  From Molecules to Cells to Tissues**\\
-  *University of York &bull; 22 November 2019*\\
-  "Atomistic simulations reveal modality of IHF--DNA binding"\\
-  <i class="far fa-file-pdf"></i>
-  [PDF](/dl/2019-11_poster.pdf)
-* **Physics Postgraduate Conference 2019**\\
-  *University of York &bull; 26--27 September 2019*\\
-  "Atomistic simulation of DNA supercoiling"
-* **[BPSI](https://www.york.ac.uk/physics/bpsi/) Autumn Symposium 2019:
-  Modelling the Ecology of Complex Communities**\\
-  *University of York &bull; 26 September 2019*\\
-  "Atomistic simulation of DNA supercoiling"
-* **BPSI Spring Symposium 2019:
-  Light and Life --- A Molecular Perspective**\\
-  *University of York &bull; 19 May 2019*\\
-  "Atomistic simulations unveil the influence of DNA topology on IHF--DNA
-  interaction"\\
-  <i class="far fa-file-pdf"></i>
-  [PDF](/dl/2019-04-08_poster.pdf)
-* **[PoLNET2 2018 Symposium:
-  Molecules, Mechanics, Medicine and
-  More!](http://www.physicsoflife.org.uk/molecules-mechanics-medicine-and-more.html)**\\
-  *University of York &bull; 10 December 2018*\\
-  "The influence of DNA topology on IHF--DNA interaction unveiled by atomic
-  simulations"\\
-  <i class="far fa-file-pdf"></i>
-  [PDF](/dl/2018-06-28_poster.pdf)
-* **BPSI Summer Symposium 2018:
-  Business as Usual?**\\
-  *University of York &bull; 28 June 2018*\\
-  "The influence of DNA topology on IHF--DNA interaction unveiled by atomic
-  simulations"\\
-  <i class="far fa-file-pdf"></i>
-  [PDF](/dl/2018-06-28_poster.pdf)
-* **BPSI Spring Symposium 2018: Digital Healthcare**\\
-  *University of York &bull; 28 June 2018*\\
-  "Atomistic simulation of DNA supercoiling"\\
-  <i class="far fa-file-pdf"></i>
-  [PDF](/dl/2018-03-20_poster.pdf)
-
-## Other conferences attended
-{:#conferences}
-
-* **[7th Annual CCPBioSim Conference: Frontiers in Biomolecular
-  Simulation](http://www.ccpbiosim.ac.uk/ccpbiosim2019)**\\
-  *University of Bristol &bull; 4--6 September 2019*
-
-## Teaching
+### Teaching
 {:#teaching}
 
-* **Molecular Simulation** (practical demonstration)\\
-  *University of York &bull; 2018--2020*\\
-  Provide support and assistance to third-year students during molecular
-  dynamics workshop sessions
 * **Advanced Computational Laboratory** (practical demonstration)\\
-  *University of York &bull; 2018--2019*\\
-  Supervised, guided, and assisted students developing various programs for
-  physical simulation, in a variety of languages including Fortran,
-  during third-year computational laboratory; led an experiment in
-  single-particle plasma simulation, which included giving a short introductory
-  lecture\\
-  **Shortlisted: GTA of the Year**{:.label .label-meta}
+  *University of York &bull; 2018--2019*
+  * Supervised, guided, and assisted students developing various programs for
+    physical simulation, in a variety of languages including Fortran,
+    during third-year computational laboratory
+  * Led an experiment in single-particle plasma simulation,
+    which included delivering a short introductory lecture
+  * **Shortlisted: GTA of the Year**{:.label .label-meta}
+  {:.compact-list}
+* **Molecular Simulation** (practical demonstration)\\
+  *University of York &bull; 2018--2020*
+  * Provided support and assistance to third-year students
+    during molecular dynamics workshop sessions
 
-## Outreach
+### Outreach
 {:#outreach}
 
 * **York Festival of Ideas Fringe Family Fun Afternoon**\\
   *University of York &bull; June 2019*\\
-  "DNA Detectives"\\
-  Hosted interactive DNA bracelets and DNA origami activities for children aged 
-  5--11, explaining the structure and function of DNA appropriately
+  "DNA Detectives"
+  * Hosted interactive DNA bracelets and DNA origami activities
+    for children aged 5--11,
+    explaining the structure and function of DNA appropriately
 * **[York Researchers' Night
   (YorNight)](https://www.york.ac.uk/news-and-events/events/yornight/2018/)**
   \\
   *University of York &bull; November 2018*\\
-  "Meet Your Molecules in VR"\\
-  Performed interactive virtual reality demonstrations of biological molecules
-  and 3D visualisation techniques in biophysics to members of the public of
-  various ages and backgrounds at a well attended event
+  "Meet Your Molecules in VR"
+  * Performed interactive virtual reality demonstrations of biological molecules
+    and 3D visualisation techniques in biophysics
+    for members of the public of various ages and backgrounds
+    at a well attended event
 
-END
+## Professional Development
+{:#professional-development}
+
+* **[Deep Learning
+  Specialization](https://coursera.org/share/f0abdfebc5e6e8f3f0909bda99e92cfc)**
+  &bull;
+  *DeepLearning.AI (Coursera)* &bull; 2023
+* **[Machine Learning
+  Specialization](https://coursera.org/share/faae5738a01974fddcdc08a392c616e1)**
+  &bull;
+  *DeepLearning.AI &amp; Stanford University (Coursera)* &bull; 2023
+* **[Certified Professional Data
+  Scientist](https://www.datacamp.com/certificate/DS0012246607119)**
+  &bull;
+  *DataCamp* &bull; 2022 (expired 2024)
+* **[Machine Learning](https://www.coursera.org/verify/P3P4AWNL7FAJ)**
+  &bull;
+  *Stanford University (Coursera)* &bull; 2021
+* **[Introduction to Machine
+  Learning](https://www.coursera.org/verify/GLFW96MPMD8L)**
+  &bull;
+  *Duke University (Coursera)* &bull; 2021
+* **[Managing Big Data with
+  MySQL](https://www.coursera.org/verify/X3HCUK387VT7)**
+  &bull;
+  *Duke University (Coursera)* &bull; 2021
+
+## Memberships &amp; Awards
+{:#memberships-and-awards}
+
+### Memberships
+{:#memberships}
+
+<div>
+  <a href="https://www.bcs.org/">
+    <img
+      class="floating-badge"
+      src="/assets/bcs_pin_professional.jpg"
+      alt="MBCS - Professional Member - BCS, The Chartered Institute for IT"
+    />
+  </a>
+</div>
+* **Professional Member**, BCS, The Chartered Institute for IT (MBCS)
+
+### Awards
+{:#awards}
+
+* **Best Talk**,
+  Physics Postgraduate Conference 2018\\
+  *University of York &bull; 21 September 2018*\\
+  (Prize sponsored by the Institute of Physics)
+* Shortlisted:
+  **Graduate Teaching Assistant of the Year**,
+  Physics Awards 2019
+  &bull;
+  *University of York &bull; 1 May 2019*
+* Shortlisted:
+  **Postgraduate Makes a Difference**,
+  Physics Awards 2019
+  &bull;
+  *University of York &bull; 1 May 2019*
+
+Further details available on request.
 
 *[BCS]: The Chartered Institute for IT (formerly British Computer Society)
 *[BPSI]: Biological Physical Sciences Institute
@@ -347,6 +308,7 @@ END
 *[IHF]: Integration host factor
 *[MBCS]: Member of BCS, The Chartered Institute for IT (originally British Computer Society)
 *[MInstP]: Member of the Institute of Physics
+*[ML]: machine learning
 *[MPhys (Hons)]: Master of Physics (with honours)
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
 *[PoLNET2]: Physics of Life Network, phase 2
