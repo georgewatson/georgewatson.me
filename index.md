@@ -53,6 +53,13 @@ navtitle: ~Home
             George Watson-Hyde
           </a>
         </li>
+        <li>
+          <i class="fa-li fas fa-book"></i>
+          The StoryGraph:
+          <a href="https://app.thestorygraph.com/profile/dendodge" rel="me">
+            dendodge
+          </a>
+        </li>
       </ul>
 
       <p>

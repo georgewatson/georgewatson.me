@@ -287,16 +287,32 @@ Key to symbols:
   &bull;
   *University of York &bull; 1 May 2019*
 
-Further details available on request.
+## Other interests
+
+When I'm not working,
+you'll probably find me at my local parkrun,
+reading,
+practising my Greek,
+or exploring a nature reserve.
+My biggest weakness is YouTube videos of people playing *Cities: Skylines*.
+
+* **Languages:**
+  Greek/ελληνικά [el] (est. B1)
+* **Running PBs:** 5k:&nbsp;21:19 &bull; Half&nbsp;marathon:&nbsp;1:47:39
+
+Please feel free to get in touch
+if you'd like any more information about anything in this CV.
 
 *[BCS]: The Chartered Institute for IT (formerly British Computer Society)
 *[BPSI]: Biological Physical Sciences Institute
 *[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
+*[CV]: la: curriculum vitae (en: course of life)
 *[Dr]: Doctor
 *[DNA]: Deoxyribonucleic acid
 *[Ebor.]: la: Eboracum (en: York)
 *[ECR]: Early-career researcher
 *[ed.]: editor
+*[est.]: estimated
 *[exp.]: expires
 *[GTA]: Graduate teaching assistant
 *[IHF]: Integration host factor
@@ -304,6 +320,7 @@ Further details available on request.
 *[MInstP]: Member of the Institute of Physics
 *[ML]: machine learning
 *[MPhys (Hons)]: Master of Physics (with honours)
+*[PBs]: personal bests
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
 *[PoLNET2]: Physics of Life Network, phase 2
 *[TDA]: Temporary duties allowance
