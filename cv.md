@@ -298,7 +298,10 @@ My biggest weakness is YouTube videos of people playing *Cities: Skylines*.
 
 * **Languages:**
   Greek/ελληνικά [el] (est. B1)
-* **Running PBs:** 5k:&nbsp;21:19 &bull; Half&nbsp;marathon:&nbsp;1:47:39
+* **Running PBs:**
+  5k:&nbsp;[20:52](https://www.strava.com/activities/17469282513)
+  &bull;
+  Half&nbsp;marathon:&nbsp;[1:47:39](https://www.strava.com/activities/13962037817)
 
 Please feel free to get in touch
 if you'd like any more information about anything in this CV.
@@ -308,14 +311,14 @@ if you'd like any more information about anything in this CV.
 *[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
 *[CV]: la: curriculum vitae (en: course of life)
 *[Dr]: Doctor
-*[DNA]: Deoxyribonucleic acid
+*[DNA]: deoxyribonucleic acid
 *[Ebor.]: la: Eboracum (en: York)
-*[ECR]: Early-career researcher
+*[ECR]: early-career researcher
 *[ed.]: editor
 *[est.]: estimated
 *[exp.]: expires
-*[GTA]: Graduate teaching assistant
-*[IHF]: Integration host factor
+*[GTA]: Graduate Teaching Assistant
+*[IHF]: integration host factor
 *[MBCS]: Member of BCS, The Chartered Institute for IT (originally British Computer Society)
 *[MInstP]: Member of the Institute of Physics
 *[ML]: machine learning
@@ -323,9 +326,5 @@ if you'd like any more information about anything in this CV.
 *[PBs]: personal bests
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
 *[PoLNET2]: Physics of Life Network, phase 2
-*[TDA]: Temporary duties allowance
-*[VR]: Virtual reality
-
-<script type='text/javascript'
-  src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>
-</script>
+*[TDA]: temporary duties allowance
+*[VR]: virtual reality
