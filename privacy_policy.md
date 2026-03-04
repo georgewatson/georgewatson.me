@@ -35,10 +35,14 @@ government,
 or parents from tracking your activity.
 If you wish to secure your connection further,
 consider connecting via an anonymous proxy,
-a VPN,
-or the
+the
 [Tor](https://www.torproject.org/)
-network.
+network,
+or a VPN
+(I recommend
+[Proton VPN](https://protonvpn.com/)
+or
+[Mullvad](https://mullvad.net/en)).
 
 ### Data collection
 {:#collection}
@@ -133,6 +137,16 @@ I may store the following first-party cookies on your device:
     [this website's GitHub
     repository](https://github.com/georgewatson/georgewatson.me).
 
+These are classified as
+**functional/preference cookies**.
+They remember your preferences but are not strictly necessary for the website's operation.
+Under the GDPR,
+I rely on your consent for these cookies,
+which you provide by continuing to use the website
+and choosing not to disable them in your browser
+(see § [Opting Out](#opting-out))
+after being informed of their use.
+
 Other cookies may be stored by the following organisations.
 Links to their cookie policies are provided below.
 * [Google](https://policies.google.com/technologies/cookies)
@@ -141,7 +155,7 @@ Links to their cookie policies are provided below.
 You can probably disable cookies on a per-site basis in your browser settings.
 See your browser's help pages for information on how to do this.
 You can also delete cookies at any time.
-See the [Opting Out](#opting-out) section for more information.
+See the § [Opting Out](#opting-out) section for more information.
 
 ### Other organisations
 {:#others}
@@ -152,7 +166,7 @@ If you do not agree to their terms,
 it may be possible to disable tracking by visiting those websites.
 Otherwise,
 you can always block this content;
-see the [Opting Out](#opting-out) section for details.
+see the § [Opting Out](#opting-out) section for details.
 
 For your convenience,
 a non-exhaustive list of such organisations is provided below,
@@ -164,18 +178,6 @@ including links to their privacy policies.
 {:#analytics}
 
 This website does not use web analytics.
-
-Prior to 21 July 2020,
-[Google Analytics](https://analytics.google.com/analytics/web/) provided web
-analytics on this website.
-This consisted of aggregate data
-and does not allow me to identify you personally.
-This information is stored on Google's servers.
-See [Google's privacy policy](https://policies.google.com/privacy?hl=en) for
-more information.
-
-The Google Analytics code was never loaded if your browser sent a
-[Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) (`DNT`) header.
 
 [Netlify](https://www.netlify.com/) may record and analyse your traffic for their own purposes,
 but this information is not currently available to me.
@@ -223,9 +225,9 @@ a company based in San Francisco, California, in the United States.
 Every effort has been made to comply with the laws of
 England & Wales
 and the wider United Kingdom.
-I am not bound by the laws of any other legal system,
-and it is your responsibility to ensure that you are not breaking any local laws by
-visiting or interacting with this website.
+It is your responsibility to ensure that you are not breaking any local laws
+in your jurisdiction
+by visiting or interacting with this website.
 
 I am not responsible for the content or policies of most external websites,
 even if I embed or hyperlink to them.
@@ -238,6 +240,81 @@ and should not be viewed as an endorsement of their policies.
 Other websites will have privacy policies that differ from this one.
 It is your responsibility to ensure that you agree to the terms of any
 websites or organisations with which you choose to interact.
+
+### GDPR statement
+
+As a visitor to this website,
+you have the right to:
+
+* **access** your personal data and information about how it is processed
+* **rectification** of inaccurate personal data
+* **erasure** (the right to be forgotten) in certain circumstances
+* **restrict processing** of your personal data
+* **data portability** (the right to receive your data in a structured, commonly used format)
+* **object** to processing based on legitimate interests
+* **lodge a complaint** with the Information Commissioner's Office
+{:.compact-list}
+
+To exercise any of these rights,
+contact the data controller,
+George Watson-Hyde,
+by email at
+[privacy@georgewatson.me](mailto:privacy@georgewatson.me).
+
+The limited personal data processed by this website
+(see § [Data collection](#collection))
+is processed on the basis of legitimate interests,
+primarily the operation and security of the Web server.
+This processing is necessary to deliver content to you
+and protect against malicious activity.
+
+This website does not use automated decision-making or profiling,
+because it does not make any decisions.
+
+If you wish to exercise your right to data portability,
+I will endeavour to provide
+all pieces of your personal data to which I have access
+in a structured, commonly-used format.
+
+Data retention and sharing are described elsewhere on this page.
+
+### Children
+
+This website does not knowingly collect personal information from
+people under the age of 13.
+
+This website is operated as a personal, noncommercial blog.
+This is exempt from the Online Safety Act's regulatory framework
+under the "limited functionality" exemption
+(schedule 1, paragraph 4).
+
+I do not believe that this website contains any material harmful to children;
+furthermore,
+I do not believe that any person can in fact be harmed by the free exchange of truthful information.
+However, the Online Safety Act reflects the government's view
+that children require additional protections online.
+In keeping with this principle,
+if you are under 18,
+please ask a parent or guardian to verify that the content of this website
+is appropriate for you
+before proceeding.
+
+Parents and guardians are best placed to make judgements about
+what is suitable for the children in their care,
+and I encourage any parents reading this policy
+to take responsibility for their children's online activities,
+rather than relying on government intervention
+or the compliance and goodwill of data-hungry multinational conglomerates.
+
+In the interests of everyone's privacy,
+I do not intend to introduce intrusive age-verification technology
+on this website,
+to minimise the risk of identity theft and overreaching surveillance.
+Noting that these restrictions only apply to connections
+that appear to the server to originate within the UK,
+you may further wish to consider using privacy-preserving technologies
+like those described above
+to avoid these risks for yourself when browsing elsewhere.
 
 ### Transparency Report
 {:#transparency-report}
@@ -263,7 +340,7 @@ provided by GitHub
 if you wish to be notified of commits involving changes to this policy.
 
 If you have any queries, contact
-[george@georgewatson.me](mailto:george@georgewatson.me)
+[privacy@georgewatson.me](mailto:privacy@georgewatson.me)
 or use one of the other contact media listed on the [Contact](/contact) page.
 
 *[CDN]: Content Delivery Network
