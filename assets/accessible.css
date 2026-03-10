@@ -87,6 +87,10 @@
     position: absolute;
 }
 
+.nicetable td {
+    border: 1px solid #000;
+}
+
 .post-content p {
     max-width: 50ch;
 }
