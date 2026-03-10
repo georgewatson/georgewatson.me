@@ -26,7 +26,7 @@ navtitle: ~Home
         <li>
           <i class="fa-li fab fa-github"></i>
           GitHub:
-          <a href="https://github.com/georgewatson" rel="me">
+          <a href="https://github.com/georgewatson" rel="me authn">
             georgewatson
           </a>
         </li>
@@ -70,7 +70,7 @@ navtitle: ~Home
       </p>
 
       <p>
-        <a href="/dl/watson-hyde_george.pub" rel="pgpkey authn">
+        <a href="/dl/watson-hyde_george.pub" rel="pgpkey">
           GPG public key
         </a>
       </p>

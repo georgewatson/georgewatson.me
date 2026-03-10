@@ -2,7 +2,37 @@
 layout: page
 title: Privacy Policy
 permalink: ../privacy_policy/
+toc: true
 ---
+
+### Summary
+
+* I don't use [analytics](#analytics).
+* I don't track you.
+* My server logs
+  (managed by
+  [Netlify](https://www.netlify.com/))
+  will record [information](#data-collection) including your IP address
+  to ensure the security and stability of the server
+  (as is standard for nearly all web servers),
+  but this doesn't identify you ---
+  especially if you're using a [VPN](#connection).
+* I don't use tracking [cookies](#cookies).
+  There are a few optional preference cookies
+  but these can be easily disabled in your browser.
+* There are no adverts on this website.
+* I don't [share](#other-organisations) your data with anyone else,
+  but I do embed some fonts and scripts from other services.
+  I'm working to remove all of this embedded content
+  but it needs time.
+* I'm never going to ask you to [verify your age or identity](#children)
+  because I care about your privacy.
+* Please consider taking steps to [secure yourself](#connection)
+  and your children
+  online.
+* You can [opt out](#opting-out) of most data collection
+  using standard methods.
+* You have rights under the [GDPR](#gdpr-statement).
 
 ### Connection
 {:#connection}
@@ -23,12 +53,6 @@ and has been submitted to the Chrome preload list.
 This domain receives an [A+ rating from SSL
 Labs](https://www.ssllabs.com/ssltest/analyze.html?d=georgewatson.me).
 
-I recommend also using a private DNS protocol
-such as DNS over HTTPS or DNS over TLS
-to resolve domain names.
-Nameservers supporting these protocols include
-[1.1.1.1 by CloudFlare](https://1.1.1.1/dns/).
-
 I can do very little to prevent your internet service provider,
 employer,
 government,
@@ -44,18 +68,18 @@ or a VPN
 or
 [Mullvad](https://mullvad.net/en)).
 
+I recommend also using a private DNS protocol
+such as DNS over HTTPS or DNS over TLS
+to resolve domain names.
+Nameservers supporting these protocols include
+[1.1.1.1 by CloudFlare](https://1.1.1.1/dns/).
+Note that,
+if you are using a well configured VPN
+from a privacy-respecting provider,
+this should not be necessary.
+
 ### Data collection
 {:#collection}
-
-I offer the facility to
-subscribe to new blog posts via an
-[Atom feed](/feed.xml)
-using your favourite RSS reader.
-This does not involve giving me,
-nor any third party,
-any of your personal details
-such as your name or email address.
-You may choose to consume this Atom feed using your RSS/Atom reader of choice.
 
 Like all websites,
 some information may be stored in the server logs regarding your visit to this
@@ -73,6 +97,16 @@ These logs are handled by [Netlify](https://www.netlify.com/),
 and I have no access to them;
 [their privacy policy](https://www.netlify.com/privacy/) applies.
 
+Instead of asking for your email address,
+I offer the facility to
+subscribe to new blog posts via an
+[Atom feed](/feed.xml)
+using your favourite RSS reader.
+This does not involve giving me,
+nor any third party,
+any of your personal details.
+You may choose to consume this Atom feed using your RSS/Atom reader of choice.
+
 ### Cookies
 {:#cookies}
 
@@ -81,7 +115,7 @@ I may store the following first-party cookies on your device:
 {:.compact-list}
 * `cookieconsent_status`
   * **Purpose:**
-    Records that you have dismissed the cookie notification banner
+    Records that you have dismissed the cookie notification banner[^cookies]
   * **Content:**
     A Boolean (true/false) value
   * **Provider:**
@@ -120,6 +154,7 @@ I may store the following first-party cookies on your device:
     Stores your chosen stylesheet,
     if you choose to interact with the stylesheet selector in this website's 
     footer
+    (such as to choose dark mode or the high-accessibility option)
   * **Content:**
     The name of your chosen stylesheet;
     may be automatically set with the value `default`
@@ -135,7 +170,9 @@ I may store the following first-party cookies on your device:
   * **Source code:**
     The source code for this cookie is available in
     [this website's GitHub
-    repository](https://github.com/georgewatson/georgewatson.me).
+    repository](https://github.com/georgewatson/georgewatson.me/blob/master/assets/style_switcher.js).
+
+[^cookies]: The irony of having to set an extra cookie in order to avoid notifying you about cookies is not lost on me, but I promise it's less annoying this way.
 
 These are classified as
 **functional/preference cookies**.
@@ -147,11 +184,6 @@ and choosing not to disable them in your browser
 (see § [Opting Out](#opting-out))
 after being informed of their use.
 
-Other cookies may be stored by the following organisations.
-Links to their cookie policies are provided below.
-* [Google](https://policies.google.com/technologies/cookies)
-  (on pages with embedded content from Google services such as YouTube)
-
 You can probably disable cookies on a per-site basis in your browser settings.
 See your browser's help pages for information on how to do this.
 You can also delete cookies at any time.
@@ -160,7 +192,40 @@ See the § [Opting Out](#opting-out) section for more information.
 ### Other organisations
 {:#others}
 
-I may embed content from other organisations.
+Instead of hosting comments,
+which would require me to gather your information myself
+or embed content from a particular third-party provider
+(such as Disqus)
+who wants your information,
+this website supports
+[webmentions](https://indieweb.org/Webmention)
+on blog posts.
+This is a W3C Recommendation
+(open standard)
+allowing you to react and comment
+from your own website,
+or across various social platforms.
+To enable this to update dynamically
+and facilitate open conversations,
+I embed content from
+[Webmention.io](https://webmention.io/)
+on blog posts.
+You can push webmentions from your own website,
+but I also use
+[brid.gy](https://brid.gy/)
+to pull webmentions from 
+other platforms
+(e.g. Reddit),
+so sharing or commenting on my blog posts there should show up too.
+If you want to comment anonymously,
+services like
+[commentpara.de](https://commentpara.de/)
+facilitate this;
+you can choose the service of your choice.
+
+I may embed content
+(primarily fonts and scripts)
+from other organisations.
 This content is subject to those organisations' privacy policies.
 If you do not agree to their terms,
 it may be possible to disable tracking by visiting those websites.
@@ -173,6 +238,13 @@ a non-exhaustive list of such organisations is provided below,
 including links to their privacy policies.
 
 * [Google](https://policies.google.com/privacy)
+* [FontAwesome](https://fontawesome.com/privacy)
+* [Unpkg](https://unpkg.com/)
+{:.compact-list}
+
+I am working to remove third-party embeds wherever possible,
+such as by migrating to locally hosted scripts and font files,
+but this is a work in progress.
 
 ### Analytics
 {:#analytics}
@@ -224,10 +296,14 @@ a company based in San Francisco, California, in the United States.
 
 Every effort has been made to comply with the laws of
 England & Wales
-and the wider United Kingdom.
+and the wider United Kingdom,
+and to ensure that Netlify are not breaking any laws in their jurisdiction
+by hosting this website.
 It is your responsibility to ensure that you are not breaking any local laws
 in your jurisdiction
 by visiting or interacting with this website.
+I cannot and will not comply with laws to which I am not subject,
+including censorship or blasphemy laws that may apply in some areas.
 
 I am not responsible for the content or policies of most external websites,
 even if I embed or hyperlink to them.
@@ -281,19 +357,21 @@ Data retention and sharing are described elsewhere on this page.
 ### Children
 
 This website does not knowingly collect personal information from
-people under the age of 13.
+people under the age of 13,
+because I do not know who you are or how old you are.
 
-This website is operated as a personal, noncommercial blog.
+This website is operated as a noncommercial personal blog.
 This is exempt from the Online Safety Act's regulatory framework
 under the "limited functionality" exemption
 (schedule 1, paragraph 4).
 
 I do not believe that this website contains any material harmful to children;
 furthermore,
-I do not believe that any person can in fact be harmed by the free exchange of truthful information.
+I do not believe that any person can in fact be harmed
+by the free exchange of truthful information.
 However, the Online Safety Act reflects the government's view
 that children require additional protections online.
-In keeping with this principle,
+In compliance with this principle,
 if you are under 18,
 please ask a parent or guardian to verify that the content of this website
 is appropriate for you
@@ -301,17 +379,20 @@ before proceeding.
 
 Parents and guardians are best placed to make judgements about
 what is suitable for the children in their care,
-and I encourage any parents reading this policy
+and I encourage any parents or guardians reading this policy
 to take responsibility for their children's online activities,
 rather than relying on government intervention
-or the compliance and goodwill of data-hungry multinational conglomerates.
+or the compliance and goodwill of
+individual website operators
+and data-hungry multinational conglomerates.
 
-In the interests of everyone's privacy,
+In the interests of your privacy,
+and to minimise the risk of identity theft and overreaching surveillance,
 I do not intend to introduce intrusive age-verification technology
-on this website,
-to minimise the risk of identity theft and overreaching surveillance.
-Noting that these restrictions only apply to connections
-that appear to the server to originate within the UK,
+on this website.
+Noting that age restrictions apply only to connections
+that appear to the server to originate within certain countries
+(such as the UK),
 you may further wish to consider using privacy-preserving technologies
 like those described above
 to avoid these risks for yourself when browsing elsewhere.
@@ -355,3 +436,4 @@ or use one of the other contact media listed on the [Contact](/contact) page.
 *[TLS]: Transport Layer Security
 *[UK]: United Kingdom of Great Britain and Northern Ireland
 *[VPN]: Virtual Private Network
+*[W3C]: World Wide Web Consortium
