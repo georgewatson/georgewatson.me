@@ -35,7 +35,6 @@ toc: true
 * You have rights under the [GDPR](#gdpr-statement).
 
 ### Connection
-{:#connection}
 
 Your connection to this website is end-to-end encrypted using
 [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security).
@@ -79,7 +78,6 @@ from a privacy-respecting provider,
 this should not be necessary.
 
 ### Data collection
-{:#collection}
 
 Like all websites,
 some information may be stored in the server logs regarding your visit to this
@@ -108,7 +106,6 @@ any of your personal details.
 You may choose to consume this Atom feed using your RSS/Atom reader of choice.
 
 ### Cookies
-{:#cookies}
 
 I may store the following first-party cookies on your device:
 
@@ -190,7 +187,6 @@ You can also delete cookies at any time.
 See the § [Opting Out](#opting-out) section for more information.
 
 ### Other organisations
-{:#others}
 
 Instead of hosting comments,
 which would require me to gather your information myself
@@ -247,7 +243,6 @@ such as by migrating to locally hosted scripts and font files,
 but this is a work in progress.
 
 ### Analytics
-{:#analytics}
 
 This website does not use web analytics.
 
@@ -256,7 +251,6 @@ but this information is not currently available to me.
 [Their privacy policy](https://www.netlify.com/privacy/) applies.
 
 ### Opting Out
-{:#opting-out}
 
 You can opt out of cookies by disabling them for this website ---
 or for all websites ---
@@ -288,7 +282,6 @@ non-standard mechanisms provided by most websites in the name of GDPR
 compliance.
 
 ### Jurisdiction
-{:#jurisdiction}
 
 I reside in England, in the United Kingdom.
 Hosting is provided by [Netlify](https://www.netlify.com/),
@@ -398,7 +391,6 @@ like those described above
 to avoid these risks for yourself when browsing elsewhere.
 
 ### Transparency Report
-{:#transparency-report}
 
 * I have never received any request for personal information regarding any
   visitor to this website from a government or law enforcement agency.
@@ -410,7 +402,6 @@ The largest number of notices ever displayed above is 2.
 [What's this?](https://en.wikipedia.org/wiki/Warrant_canary)
 
 ### Updates and Queries
-{:#updates}
 
 All changes to this privacy policy will be recorded in the commit history of the
 [GitHub repository](https://github.com/georgewatson/georgewatson.me)
