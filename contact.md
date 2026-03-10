@@ -54,13 +54,8 @@ but you are free to choose either licence for any purpose.
 If you wish to obtain a licence to use any of my intellectual property under a
 different set of terms
 (without attribution,
-including explicit clauses regarding patent rights,[^patents]
+including explicit clauses regarding patent rights,
 etc.),
 please get in touch using one of the contact methods listed above.
 If your request is reasonable,
 I will try to accommodate it.
-
-[^patents]: Note, however, that no patents are currently claimed on any of my
-      intellectual property, and that it is my intent that the
-      "without limitation" line in the MIT licence text be considered
-      an explicit licence of any relevant patents.
