@@ -1,0 +1,75 @@
+/* Tufte-style sidenotes for kramdown footnotes */
+
+/* Base styles - footnotes work normally on all screens */
+.footnotes {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+/* Sidenote styles - only activate on wide screens */
+@media (min-width: 1000px) {
+  /* Hide the traditional footnotes section */
+  .footnotes {
+    display: none;
+  }
+
+  /* Style for sidenote positioning */
+  .sidenote {
+    border-left: 0;
+    text-align: right;
+    color: #777;
+    position: absolute;
+    right: 0;
+    max-width: 20%;
+    float: right;
+    margin: 0px 50px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    clear: right;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    vertical-align: baseline;
+  }
+
+  .sidenote p {
+    width: 100% !important;
+    padding-left: 0 !important;
+    text-indent: 0 !important;
+  }
+
+  .sidenote p:before {
+    display: none;
+  }
+
+  /* Remove the traditional footnote reference styling */
+  .sidenote-ref {
+    /* Kramdown creates <sup> tags with these */
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  /* Number styling for sidenote */
+  .sidenote-number {
+    color: #F33051;
+    font-weight: 700;
+  }
+
+  /* Subtle styling for the inline reference */
+  sup[id^="fnref:"] a {
+    text-decoration: none;
+    color: #F33051;
+    padding: 0 0.1rem;
+  }
+}
+
+/* Tablet/medium screens - keep as footnotes but improve styling */
+@media (min-width: 768px) and (max-width: 999px) {
+  .footnotes {
+    font-size: 0.85rem;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 4px;
+  }
+}
