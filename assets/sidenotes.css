@@ -4,6 +4,19 @@
   border-top: 1px solid;
 }
 
+/* Styling for the inline reference */
+sup[id^="fnref:"] a {
+  text-decoration: none;
+  color: #F33051;
+}
+
+sup[id^="fnref:"] a:before {
+  content: '[';
+}
+sup[id^="fnref:"] a:after {
+  content: ']';
+}
+
 /* Sidenote styles - only activate on wide screens */
 @media (min-width: 1000px) {
   /* Hide the traditional footnotes section */
@@ -39,11 +52,10 @@
     display: none;
   }
 
-  /* Remove the traditional footnote reference styling */
+  /* Align to top of text rather than sup to avoid expanding line height */
   .sidenote-ref {
-    /* Kramdown creates <sup> tags with these */
     position: relative;
-    vertical-align: baseline;
+    vertical-align: top;
   }
 
   /* Number styling for sidenote */
@@ -51,11 +63,10 @@
     color: #F33051;
     font-weight: 700;
   }
-
-  /* Subtle styling for the inline reference */
-  sup[id^="fnref:"] a {
-    text-decoration: none;
-    color: #F33051;
-    padding: 0 0.1rem;
+  .sidenote-number:before {
+    content: '[';
+  }
+  .sidenote-number:after {
+    content: ']';
   }
 }
