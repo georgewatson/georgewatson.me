@@ -45,10 +45,10 @@ Deep learning
 Technical leadership
 
 **Contact:**
-<i class="fas fa-envelope"></i>
+<i class="ph ph-envelope"></i>
 [hello@georgewatson.me](mailto:hello@georgewatson.me)
 &bull;
-<i class="fab fa-linkedin"></i>
+<i class="ph-fill ph-linkedin-logo"></i>
 [LinkedIn](https://www.linkedin.com/in/georgewatsonhyde/)
 
 ## Employment
@@ -171,13 +171,13 @@ Key to symbols:
 * **6th Molecular Microbiology Meeting**
   &bull;
   *Newcastle University &bull; 17--18 June 2019*
-  (<i class="far fa-file-pdf"></i>
+  (<i class="ph ph-file-pdf"></i>
   [PDF](/dl/2019-04-08_poster.pdf))
 * **[The Physics of Microorganisms
   II](https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=785982)**
   &bull;
   *Institute of Physics &bull; 8 April 2019*
-  (<i class="far fa-file-pdf"></i>
+  (<i class="ph ph-file-pdf"></i>
   [PDF](/dl/2019-04-08_poster.pdf) &bull;
   [Blog]({% post_url 2019-04-05-my-poster-at-the-iop-physics-of-microorganisms-ii-conference-london-8-april-2019 
   %}))
@@ -186,7 +186,7 @@ Key to symbols:
   Function](http://www.physicsoflife.org.uk/summer-school-new-approaches-to-biomolecular-function-structure-and-dynamics.html)**
   &bull;
   *Durham University &bull; 16--20 July 2018*
-  (<i class="far fa-file-pdf"></i>
+  (<i class="ph ph-file-pdf"></i>
   [PDF](/dl/2018-06-28_poster.pdf))
 
 ## Teaching &amp; Outreach

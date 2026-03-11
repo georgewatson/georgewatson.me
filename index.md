@@ -17,44 +17,42 @@ navtitle: ~Home
       <p>Find me on:</p>
       <ul class="fa-ul">
         <li>
-          <i class="fa-li fab fa-linkedin"></i>
+          <i class="fa-li ph-fill ph-linkedin-logo"></i>
           LinkedIn:
           <a href="https://www.linkedin.com/in/georgewatsonhyde/" rel="me">
             georgewatsonhyde
           </a>
         </li>
         <li>
-          <i class="fa-li fab fa-github"></i>
+          <i class="fa-li ph-fill ph-github-logo"></i>
           GitHub:
           <a href="https://github.com/georgewatson" rel="me authn">
             georgewatson
           </a>
         </li>
         <li>
-          <!-- TODO: Better icon available in latest Font Awesome version -->
-          <i class="fa-li fab fa-google"></i>
+          <i class="fa-li ph-fill ph-graduation-cap"></i>
           Google Scholar:
           <a href="https://scholar.google.com/citations?user=2vB6ObYAAAAJ" rel="me">
             George D. Watson
           </a>
         </li>
         <li>
-          <!-- TODO: Better icon available in latest Font Awesome version -->
-          <i class="fa-li fas fa-globe"></i>
+          <i class="fa-li ph-fill ph-flask"></i>
           ORCID:
           <a href="https://orcid.org/0000-0002-6524-0828" rel="me">
             0000-0002-6524-0828
           </a>
         </li> 
         <li>
-          <i class="fa-li fab fa-strava"></i>
+          <i class="fa-li ph-fill ph-person-simple-run"></i>
           Strava:
           <a href="https://www.strava.com/athletes/150450354" rel="me">
             George Watson-Hyde
           </a>
         </li>
         <li>
-          <i class="fa-li fas fa-book"></i>
+          <i class="fa-li ph-fill ph-books"></i>
           The StoryGraph:
           <a href="https://app.thestorygraph.com/profile/dendodge" rel="me">
             dendodge
