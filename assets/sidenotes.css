@@ -1,11 +1,7 @@
 /* Tufte-style sidenotes for kramdown footnotes */
 
-/* Base styles - footnotes work normally on all screens */
 .footnotes {
-  font-size: 0.9rem;
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid;
 }
 
 /* Sidenote styles - only activate on wide screens */
@@ -61,15 +57,5 @@
     text-decoration: none;
     color: #F33051;
     padding: 0 0.1rem;
-  }
-}
-
-/* Tablet/medium screens - keep as footnotes but improve styling */
-@media (min-width: 768px) and (max-width: 999px) {
-  .footnotes {
-    font-size: 0.85rem;
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 4px;
   }
 }
