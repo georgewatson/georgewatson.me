@@ -84,11 +84,14 @@ if (document.readyState === 'loading') {
   initSidenotes();
 }
 
-// Re-run on window resize (debounced)
-let resizeTimer;
+// Re-run on window resize (if size crosses 1000px threshold)
+let lastWidth = window.innerWidth;
 window.addEventListener('resize', () => {
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(() => {
+  const currentWidth = window.innerWidth;
+  const wasWide = lastWidth >= 1000;
+  const isWide = currentWidth >= 1000;
+  if (wasWide != isWide) {
     location.reload(); // Simple approach: reload on significant resize
-  }, 500);
+  }
+  lastWidth = currentWidth;
 });
