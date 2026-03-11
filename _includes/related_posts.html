@@ -19,7 +19,7 @@
   Allow manual specification of related posts.
   It is possible to exceed maxRelated here.
 {% endcomment %}
-{%- assign post_note = "<i class='fas fa-star'></i> Curated" -%}
+{%- assign post_note = "<i class='ph-fill ph-star'></i> Curated" -%}
 {%- assign note_class = "curated" -%}
 {% for post in site.posts %}
   {% if page.related contains post.url %}

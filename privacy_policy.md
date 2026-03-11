@@ -219,8 +219,7 @@ services like
 facilitate this;
 you can choose the service of your choice.
 
-I may embed content
-(primarily fonts and scripts)
+I may embed scripts
 from other organisations.
 This content is subject to those organisations' privacy policies.
 If you do not agree to their terms,
@@ -230,16 +229,20 @@ you can always block this content;
 see the § [Opting Out](#opting-out) section for details.
 
 For your convenience,
-a non-exhaustive list of such organisations is provided below,
+a list of such organisations is provided below,
 including links to their privacy policies.
 
-* [Google](https://policies.google.com/privacy)
-* [FontAwesome](https://fontawesome.com/privacy)
-* [Unpkg](https://unpkg.com/)
+* [CloudFlare](https://www.cloudflare.com/en-gb/privacypolicy/)
+  (used to serve Cookie Consent script)[^cloudflare]
 {:.compact-list}
 
+[^cloudflare]: Yes, this is ironic.
+
 I am working to remove third-party embeds wherever possible,
-such as by migrating to locally hosted scripts and font files,
+and have been actively migrating to locally hosted scripts and font files.
+I have already replaced various externally hosted scripts,
+and migrated from CDN-hosted Font Awesome
+to self-hosted [Phosphor icons](https://phosphoricons.com/),
 but this is a work in progress.
 
 ### Analytics
@@ -398,7 +401,7 @@ to avoid these risks for yourself when browsing elsewhere.
   material on this website.
 
 The largest number of notices ever displayed above is 2.
-<i class="fas fa-crow"></i>
+<i class="ph-fill ph-bird"></i>
 [What's this?](https://en.wikipedia.org/wiki/Warrant_canary)
 
 ### Updates and Queries
