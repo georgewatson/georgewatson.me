@@ -21,10 +21,9 @@ toc: true
   There are a few optional preference cookies
   but these can be easily disabled in your browser.
 * There are no adverts on this website.
-* I don't [share](#other-organisations) your data with anyone else,
-  but I do embed some fonts and scripts from other services.
-  I'm working to remove all of this embedded content
-  but it needs time.
+* I don't [share](#other-organisations) your data with anyone else.
+* I [embed content](#other-organisations) from only one other service
+  to enable you to own your comments and reactions to my blog posts.
 * I'm never going to ask you to [verify your age or identity](#children)
   because I care about your privacy.
 * Please consider taking steps to [secure yourself](#connection)
@@ -110,22 +109,6 @@ You may choose to consume this Atom feed using your RSS/Atom reader of choice.
 I may store the following first-party cookies on your device:
 
 {:.compact-list}
-* `cookieconsent_status`
-  * **Purpose:**
-    Records that you have dismissed the cookie notification banner[^cookies]
-  * **Content:**
-    A Boolean (true/false) value
-  * **Provider:**
-    [Cookie Consent by Insites](https://cookieconsent.insites.com/)
-  * **Tracking:**
-    This cookie cannot be used to identify you personally,
-    and provides no capability for cross-site tracking.
-  * **Effects if disabled:**
-    Disabling or deleting this cookie might result in you seeing the cookie
-    notification banner every time you visit this website.
-  * **Source code:**
-    The Cookie Consent by Insites source code is available
-    [on GitHub](https://github.com/insites/cookieconsent).
 * `mjx.*`
   * **Purpose:**
     Stores your
@@ -219,31 +202,13 @@ services like
 facilitate this;
 you can choose the service of your choice.
 
-I may embed scripts
-from other organisations.
-This content is subject to those organisations' privacy policies.
-If you do not agree to their terms,
-it may be possible to disable tracking by visiting those websites.
-Otherwise,
-you can always block this content;
-see the § [Opting Out](#opting-out) section for details.
-
-For your convenience,
-a list of such organisations is provided below,
-including links to their privacy policies.
-
-* [CloudFlare](https://www.cloudflare.com/en-gb/privacypolicy/)
-  (used to serve Cookie Consent script)[^cloudflare]
-{:.compact-list}
-
-[^cloudflare]: Yes, this is ironic.
-
-I am working to remove third-party embeds wherever possible,
-and have been actively migrating to locally hosted scripts and font files.
-I have already replaced various externally hosted scripts,
-and migrated from CDN-hosted Font Awesome
-to self-hosted [Phosphor icons](https://phosphoricons.com/),
-but this is a work in progress.
+I do not embed any content
+from any other organisations.
+All scripts, assets, and font files are hosted on the same server as this webpage,
+so when you make an HTTPS request to this website,
+no requests are made to any servers
+except this one
+and Webmention.io.
 
 ### Analytics
 

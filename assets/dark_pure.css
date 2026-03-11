@@ -1,4 +1,4 @@
-body {
+.body {
     color: #ccc;
     background-color: #333;
 }
@@ -21,6 +21,10 @@ code,
 
 .blog-post-title .overlay-span {
     box-shadow: #222 0.5em 0px 0px, #222 -0.5em 0px 0px;
+}
+
+.cookie-banner {
+    background-color: #222;
 }
 
 :target {
