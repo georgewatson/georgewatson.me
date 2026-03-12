@@ -1,6 +1,10 @@
 ---
 ---
 
+* {
+    box-sizing: border-box;
+}
+
 .align-center {
     display: block;
     margin-left: auto;
@@ -235,7 +239,12 @@ blockquote {
 }
 
 body {
+    padding: 0;
+    margin: 0;
     overflow-y: scroll;
+}
+
+.body {
     padding-left: 240px;
     padding-bottom: 50px;
 }
@@ -317,7 +326,7 @@ dt {
         position: absolute !important;
     }
 
-    body {
+    .body {
         background-attachment: scroll !important;
         padding-left: 0 !important;
     }
