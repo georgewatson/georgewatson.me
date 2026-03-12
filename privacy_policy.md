@@ -18,8 +18,12 @@ toc: true
   but this doesn't identify you ---
   especially if you're using a [VPN](#connection).
 * I don't use tracking [cookies](#cookies).
-  There are a few optional preference cookies
-  but these can be easily disabled in your browser.
+  To enhance accessibility,
+  optional preference cookies
+  will be set if you interact with
+  the stylesheet chooser
+  or the MathJax settings;
+  these can be easily deleted or disabled in your browser.
 * There are no adverts on this website.
 * I don't [share](#other-organisations) your data with anyone else,
   but I do embed some fonts and scripts from other services.
@@ -136,6 +140,7 @@ I may store the following first-party cookies on your device:
     Several cookies containing a series of values representing your preferences
   * **Provider:**
     [MathJax](https://www.mathjax.org/)
+    (hosted on this server, no cross-site requests)
   * **Tracking:**
     This cookie cannot be used to identify you personally,
     and provides no capability for cross-site tracking.
@@ -153,8 +158,7 @@ I may store the following first-party cookies on your device:
     footer
     (such as to choose dark mode or the high-accessibility option)
   * **Content:**
-    The name of your chosen stylesheet;
-    may be automatically set with the value `default`
+    The name of your chosen stylesheet
   * **Tracking:**
     This cookie cannot be used to identify you personally,
     and provides no capability for cross-site tracking.

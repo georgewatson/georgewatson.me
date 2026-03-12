@@ -117,20 +117,20 @@ A more detailed example:
     };
 
     var reactEmoji = {
-        'in-reply-to': '',
-        'like-of': '',
-        'repost-of': '',
-        'bookmark-of': '',
-        'mention-of': '',
-        'rsvp': '',
-        'follow-of': ''
+        'in-reply-to': '',
+        'like-of': '',
+        'repost-of': '',
+        'bookmark-of': '',
+        'mention-of': '',
+        'rsvp': '',
+        'follow-of': ''
     };
 
     var rsvpEmoji = {
-        'yes': '',
-        'no': '',
-        'interested': '',
-        'maybe': ''
+        'yes': '',
+        'no': '',
+        'interested': '',
+        'maybe': ''
     };
 
     function entities(text) {
