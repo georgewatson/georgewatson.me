@@ -7,35 +7,40 @@ toc: true
 
 ### Summary
 
-* I don't use [analytics](#analytics).
-* I don't track you.
+* Your [connection](#connection) to this website is as secure as I can reasonably make it.
+  Please consider taking steps to further secure yourself
+  and your children
+  online.
+* I will never ask you for any [personal information](#data-collection).
 * My server logs
   (managed by
   [Netlify](https://www.netlify.com/))
   will record [information](#data-collection) including your IP address
   to ensure the security and stability of the server
-  (as is standard for nearly all web servers),
+  (as is standard for nearly all Web servers),
   but this doesn't identify you ---
   especially if you're using a [VPN](#connection).
+* I don't track you.
 * I don't use tracking [cookies](#cookies).
   To enhance accessibility,
   optional preference cookies
   will be set if you interact with
   the stylesheet chooser
   or the MathJax settings;
-  these can be easily deleted or disabled in your browser.
-* There are no adverts on this website.
+  these can be easily
+  [deleted or disabled](#opting-out)
+  in your browser.
 * I don't [share](#other-organisations) your data with anyone else.
-* I [embed content](#other-organisations) from only one other service
+* I [embed content](#other-organisations) from only one other service,
+  [Webmention.io](https://webmention.io),
   to enable you to own your comments and reactions to my blog posts.
-* I'm never going to ask you to [verify your age or identity](#children)
-  because I care about your privacy.
-* Please consider taking steps to [secure yourself](#connection)
-  and your children
-  online.
+* There are no adverts on this website.
+* I don't use [analytics](#analytics).
 * You can [opt out](#opting-out) of most data collection
   using standard methods.
 * You have rights under the [GDPR](#gdpr-statement).
+* I'm never going to ask you to [verify your age or identity](#children)
+  because I care about your privacy.
 
 ### Connection
 
@@ -94,9 +99,9 @@ and the status code returned to you by the server,
 along with the date and time.
 This information does not identify you personally,
 and is necessary for the operation and stability of the server.
-These logs are handled by [Netlify](https://www.netlify.com/),
-and I have no access to them;
-[their privacy policy](https://www.netlify.com/privacy/) applies.
+These logs are handled by [Netlify](https://www.netlify.com/), and
+[their privacy policy](https://www.netlify.com/privacy/) also applies.
+I have access only to logs from the last 24 hours.
 
 Instead of asking for your email address,
 I offer the facility to
@@ -163,10 +168,11 @@ These are classified as
 They remember your preferences but are not strictly necessary for the website's operation.
 Under the GDPR,
 I rely on your consent for these cookies,
-which you provide by continuing to use the website
-and choosing not to disable them in your browser
+which you provide by interacting with these features
+and choosing not to disable these cookies in your browser
 (see § [Opting Out](#opting-out))
-after being informed of their use.
+after being informed of their use
+by the banner in the footer of every page.
 
 You can probably disable cookies on a per-site basis in your browser settings.
 See your browser's help pages for information on how to do this.
@@ -213,10 +219,12 @@ so when you make an HTTPS request to this website,
 no requests are made to any servers
 except this one
 and Webmention.io.
+You can verify this using your browser's developer tools,
+and block external requests using various browser extensions.
 
 ### Analytics
 
-This website does not use web analytics.
+This website does not use Web analytics.
 
 [Netlify](https://www.netlify.com/) may record and analyse your traffic for their own purposes,
 but this information is not currently available to me.
@@ -231,16 +239,11 @@ Existing cookies can be deleted in your browser,
 probably near where your history is stored.
 You could also choose to browse in Private/Incognito mode.
 
-You can disable embedded widgets such as YouTube videos
-by disabling JavaScript in your browser,
-or by using one of the many browser extensions that allow you to block specific
-frames of external content.
-This prevents these companies from tracking you.
-Where it is reasonable to do so, an appropriate fallback will be provided.
+Your IP address can be masked by using a Web proxy or VPN service,
+many of which are available for free
+(see § [Connection](#connection)).
 
 Your User-Agent string can probably be changed in your browser.
-Your IP address can be masked by using a web proxy or VPN service,
-many of which are available for free.
 Any referrer information can be removed from your request
 by pasting the URL directly into your address bar
 instead of following a hyperlink.
@@ -252,6 +255,25 @@ control across multiple websites.
 I consider this superior to the deliberately difficult, confusing, and
 non-standard mechanisms provided by most websites in the name of GDPR
 compliance.
+
+In particular,
+while I take pains to inform you of the cookies this website uses
+(see § [Cookies](#cookies)),
+I do not offer a homemade facility to disable them
+because you already have a better one in your browser ---
+and unlike most cookie banners,
+that one is designed to empower you,
+rather than confuse and mislead.
+If you are concerned about cookies,
+I strongly encourage you to familiarise yourself with your browser's options
+and make use of them wherever you browse.
+The fact that regulations mandate
+redundant, user-hostile banners
+instead of better privacy controls in browsers
+reveals whose interests are really being served
+by this legislation,
+and it is neither users
+nor small indie website owners.
 
 ### Jurisdiction
 
@@ -303,7 +325,7 @@ by email at
 [privacy@georgewatson.me](mailto:privacy@georgewatson.me).
 
 The limited personal data processed by this website
-(see § [Data collection](#collection))
+(see § [Data collection](#data-collection))
 is processed on the basis of legitimate interests,
 primarily the operation and security of the Web server.
 This processing is necessary to deliver content to you
@@ -316,6 +338,19 @@ If you wish to exercise your right to data portability,
 I will endeavour to provide
 all pieces of your personal data to which I have access
 in a structured, commonly-used format.
+However, note that
+the only [personal data](#data-collection) to which I have access
+are your IP address,
+User-Agent string,
+and browsing history
+on this website
+over the last 24 hours,
+all of which you probably already know
+(or can find out more easily elsewhere),
+and most of which you would need to provide to me
+in order to allow me to action your request in the first place,
+so overall you may be wasting your time
+and mine.
 
 Data retention and sharing are described elsewhere on this page.
 
@@ -359,7 +394,7 @@ Noting that age restrictions apply only to connections
 that appear to the server to originate within certain countries
 (such as the UK),
 you may further wish to consider using privacy-preserving technologies
-like those described above
+like those [described above](#connection)
 to avoid these risks for yourself when browsing elsewhere.
 
 ### Transparency Report
