@@ -1,6 +1,7 @@
 <br style="clear: both;"/>
 <footer>
   <p>
+    <i class="ph ph-copyright"></i>
     <a rel="license"
       href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>/<a
       href="/LICENSE">MIT</a>
@@ -18,13 +19,15 @@
     <i class="ph-fill ph-detective"></i>
     <a href="/privacy_policy">Privacy policy</a>
     &bull;
+    <i class="ph ph-phosphor-logo"></i>
     Icons by
     <a href="https://phosphoricons.com/">Phosphor</a>
     {% assign pages_list = (site.pages | sort: 'order') %}
   </p>
   <p>
     <i class="ph-fill ph-palette"></i>
-    Set style:
+    Set style
+    (uses a cookie):
     <a href="#" onclick="setActiveStyleSheet('default');return false;"
       >Default</a>
     &bull;
@@ -49,17 +52,15 @@
 
 <div class="cookie-banner">
   <i class='ph ph-cookie'></i>
-  I use cookies for security and customisation, but don't track you.
-  You can disable them if you like.
+  Cookies will be set if you change
+  the stylesheet
+  or your MathJax settings.
+  They can't be used to track you,
+  and you can disable them if you like.
   <a href="/privacy_policy/#cookies">Learn more</a>
 </div>
 
 <script src="/assets/style_switcher.js"></script>
 <script src="/assets/sidenotes.js"></script>
-<link rel="stylesheet" type="text/css"
-  href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script async
-  src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js">
-</script>
 
 {% include mathjax.html %}
