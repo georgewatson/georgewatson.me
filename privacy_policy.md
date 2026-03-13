@@ -168,16 +168,15 @@ These are classified as
 They remember your preferences but are not strictly necessary for the website's operation.
 Under the GDPR,
 I rely on your consent for these cookies,
-which you provide by interacting with these features
-and choosing not to disable these cookies in your browser
-(see § [Opting Out](#opting-out))
+and they are not set until you
+choose to interact with these features
 after being informed of their use
 by the banner in the footer of every page.
 
-You can probably disable cookies on a per-site basis in your browser settings.
-See your browser's help pages for information on how to do this.
-You can also delete cookies at any time.
-See the § [Opting Out](#opting-out) section for more information.
+You can withdraw this consent at any time
+by deleting or disabling these cookies in your browser.
+See your browser's help pages for information on how to do this,
+or the § [Opting Out](#opting-out) section for more information.
 
 ### Other organisations
 
@@ -275,6 +274,24 @@ by this legislation,
 and it is neither users
 nor small indie website owners.
 
+As a rule,
+browser-level privacy controls
+are superior to website-level consent mechanisms
+because they are more consistent
+and do not create a regulatory burden
+that favours large platforms
+(who can afford the cost of compliance)
+over independent website operators
+(who can't).
+Website-level regulation
+actively harms privacy
+by driving consolidation,
+and I encourage you to choose a browser
+that offers high-quality privacy controls
+in the hope that
+shifts in market share
+may eventually be reflected in updated legislation.
+
 ### Jurisdiction
 
 I reside in England, in the United Kingdom.
@@ -367,8 +384,10 @@ under the "limited functionality" exemption
 
 I do not believe that this website contains any material harmful to children;
 furthermore,
-I do not believe that any person can in fact be harmed
-by the free exchange of truthful information.
+I believe that the free exchange of information
+is an essential component of liberal democracy
+and that its benefits in aggregate
+outweigh any individual harms that may occur as a side effect.
 However, the Online Safety Act reflects the government's view
 that children require additional protections online.
 In compliance with this principle,
@@ -376,15 +395,6 @@ if you are under 18,
 please ask a parent or guardian to verify that the content of this website
 is appropriate for you
 before proceeding.
-
-Parents and guardians are best placed to make judgements about
-what is suitable for the children in their care,
-and I encourage any parents or guardians reading this policy
-to take responsibility for their children's online activities,
-rather than relying on government intervention
-or the compliance and goodwill of
-individual website operators
-and data-hungry multinational conglomerates.
 
 In the interests of your privacy,
 and to minimise the risk of identity theft and overreaching surveillance,
@@ -396,6 +406,43 @@ that appear to the server to originate within certain countries
 you may further wish to consider using privacy-preserving technologies
 like those [described above](#connection)
 to avoid these risks for yourself when browsing elsewhere.
+
+While parents and guardians are best placed to make judgements about
+the needs of the children in their care,
+I believe that
+parental engagement and harm reduction
+are more effective than
+restriction or censorship
+at tackling
+the problem of children encountering harmful content online.
+I encourage any parents or guardians reading this policy
+to engage in age-appropriate conversations about
+online risks,
+privacy,
+and media literacy,
+and to create a safe space for children to
+discuss what they encounter online.
+
+It is important to remember that,
+while some children require protection from age-inappropriate content,
+others
+(including, for example, LGBT teenagers in repressive households)
+require access to information, support, and spaces
+that their households may restrict,
+and I believe they have the right to circumvent such restrictions.
+Allowing either
+the government
+or parents
+to control what children can access
+enables both protection and repression,
+as well as directing vulnerable users to less compliant platforms,
+and it is important to understand these trade-offs.
+I have chosen to prioritise
+freedom to access information;
+parents and guardians
+concerned about their children's Internet access
+should focus on engagement and harm reduction
+to mitigate the accompanying risks.
 
 ### Transparency Report
 
@@ -430,6 +477,7 @@ or use one of the other contact media listed on the [Contact](/contact) page.
 *[HSTS]: HTTP Strict Transport Security
 *[HTTPS]: HyperText Transfer Protocol Secure
 *[IP]: Internet Protocol
+*[LGBT]: lesbian, gay, bisexual, and transgender
 *[SSL]: Secure Sockets Layer
 *[TLS]: Transport Layer Security
 *[UK]: United Kingdom of Great Britain and Northern Ireland
