@@ -326,8 +326,11 @@ dt {
         position: absolute !important;
     }
 
-    .body {
+    body {
         background-attachment: scroll !important;
+    }
+
+    .body {
         padding-left: 0 !important;
     }
 

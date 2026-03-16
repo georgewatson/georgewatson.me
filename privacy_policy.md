@@ -60,7 +60,7 @@ and has been submitted to the Chrome preload list.
 This domain receives an [A+ rating from SSL
 Labs](https://www.ssllabs.com/ssltest/analyze.html?d=georgewatson.me).
 
-I can do very little to prevent your internet service provider,
+I can do very little to prevent your Internet service provider,
 employer,
 government,
 or parents from tracking your activity.
@@ -292,6 +292,17 @@ in the hope that
 shifts in market share
 may eventually be reflected in updated legislation.
 
+I would recommend a
+free, open-source
+browser
+with a strong commitment to user privacy,
+such as
+[Firefox](https://www.firefox.com/)
+or
+[Brave](https://brave.com/),
+over those owned by large companies
+that derive most of their income from advertising.
+
 ### Jurisdiction
 
 I reside in England, in the United Kingdom.
@@ -415,6 +426,12 @@ are more effective than
 restriction or censorship
 at tackling
 the problem of children encountering harmful content online.
+Furthermore,
+restricting access to certain information
+[often makes people more curious about it](https://en.wikipedia.org/wiki/Streisand_effect)
+and enforced content restrictions
+are likely to drive children towards less compliant platforms
+with less concern for the legality and morality of their content.
 I encourage any parents or guardians reading this policy
 to engage in age-appropriate conversations about
 online risks,
@@ -423,22 +440,24 @@ and media literacy,
 and to create a safe space for children to
 discuss what they encounter online.
 
-It is important to remember that,
+It is important to recognise that,
 while some children require protection from age-inappropriate content,
 others
-(including, for example, LGBT teenagers in repressive households)
-require access to information, support, and spaces
-that their households may restrict,
+(including, for example, LGBT teenagers in repressive households
+or countries)
+require access to vital information, support, and spaces
+that their households
+or governments
+may restrict,
 and I believe they have the right to circumvent such restrictions.
 Allowing either
 the government
 or parents
 to control what children can access
-enables both protection and repression,
-as well as directing vulnerable users to less compliant platforms,
-and it is important to understand these trade-offs.
+enables both protection and repression;
 I have chosen to prioritise
-freedom to access information;
+freedom to access information,
+accepting the accompanying trade-offs;
 parents and guardians
 concerned about their children's Internet access
 should focus on engagement and harm reduction
