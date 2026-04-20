@@ -19,21 +19,30 @@ toc: true
 
 Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
 
-I'm a Senior Data Scientist
-with over 8 years of experience of
-applying machine learning, statistics, and computational modelling
-to complex research and development problems
-across academia and the public sector.
-I have a background in biological physics,
-including a PhD from the University of York,
-with a focus on DNA–protein interactions.
+I'm a Lead Machine Learning Scientist
+working in biotech.
+I'm currently
+establishing a new machine learning function
+in an established biotech company,
+focused on developing state-of-the-art AI models for aptamer discovery.
+I have a background in computational modelling of biological systems
+and over 4 years of experience of
+applying machine learning and statistics in the public sector.
 
-I specialise in
-building robust, interpretable machine learning (ML) models and tooling
-to empower decision-making in uncertain environments.
-I also provide technical leadership, mentoring, and recruitment expertise,
-and have experience developing new data and ML capability
-within complex organisations.
+I specialise in:
+- Building new data and ML capability from scratch within complex organisations
+- Leadership of large technical projects involving data science, machine learning, and AI
+- Designing and building robust, interpretable machine learning and deep learning models and tooling to empower scientific discovery and R&D
+- Line management, recruitment, and capability development
+
+I enjoy working at the interface between disciplines
+to maximise the impact of my work,
+whether by partnering with wet-lab scientists
+to integrate machine learning and simulations with real-world experiments,
+or collaborating with developers and senior leaders
+to optimise delivery of public services.
+I focus on building ML capability that delivers
+both scientific discovery and commercial value.
 
 **Skills:**
 Machine learning in Python and R
@@ -53,9 +62,14 @@ Technical leadership
 
 ## Employment
 
+* **Aptamer Group PLC**
+  (2026--)\\
+  Lead Machine Learning Scientist
+  * First hire in the new machine learning function,
+    leading development of state-of-the-art AI models for aptamer discovery
 * **Department for Work and Pensions**
-  (2022--)\\
-  Senior Data Scientist (2024--)\\
+  (2022--2026)\\
+  Senior Data Scientist (2024--2026)\\
   Data Scientist (TDA, 2023--2024)\\
   Associate Data Scientist (2022--2024)
   * Developed and applied new data science &amp; machine learning techniques,
@@ -301,11 +315,14 @@ My biggest weakness is YouTube videos of people playing *Cities: Skylines*.
 * **Running PBs:**
   5k:&nbsp;[20:52](https://www.strava.com/activities/17469282513)
   &bull;
+  10k:&nbsp;[45:37](https://www.strava.com/activities/17985258023)
+  &bull;
   Half&nbsp;marathon:&nbsp;[1:47:39](https://www.strava.com/activities/13962037817)
 
 Please feel free to get in touch
 if you'd like any more information about anything in this CV.
 
+*[AI]: artificial intelligence
 *[BCS]: The Chartered Institute for IT (formerly British Computer Society)
 *[BPSI]: Biological Physical Sciences Institute
 *[CCPBioSim]: Collaborative Computational Project for Biomolecular Simulation
@@ -324,6 +341,7 @@ if you'd like any more information about anything in this CV.
 *[ML]: machine learning
 *[MPhys (Hons)]: Master of Physics (with honours)
 *[PBs]: personal bests
+*[PLC]: Public Limited Company
 *[PhD]: la: Philosophiae Doctor (en: Doctor of Philosophy)
 *[PoLNET2]: Physics of Life Network, phase 2
 *[TDA]: temporary duties allowance

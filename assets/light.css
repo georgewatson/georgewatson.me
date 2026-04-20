@@ -45,7 +45,7 @@ i {
     --features: var(--features), 'liga' 1;
 }
 
-.cookie-banner {
+#cookie-banner {
     width: 100%;
     padding: 10px;
     background-color: #333;
@@ -206,6 +206,7 @@ a[href*="blog/meta"]:hover,
 }
 
 :target,
+#cookie-banner:target,
 .bg-yellow {
     background-color: #f3df30;
     color: #333;

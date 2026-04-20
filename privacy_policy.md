@@ -161,17 +161,17 @@ I may store the following first-party cookies on your device:
     [this website's GitHub
     repository](https://github.com/georgewatson/georgewatson.me/blob/master/assets/style_switcher.js).
 
-[^cookies]: The irony of having to set an extra cookie in order to avoid notifying you about cookies is not lost on me, but I promise it's less annoying this way.
-
 These are classified as
 **functional/preference cookies**.
-They remember your preferences but are not strictly necessary for the website's operation.
+They remember your preferences
+but are not strictly necessary for the website's operation.
 Under the GDPR,
-I rely on your consent for these cookies,
-and they are not set until you
-choose to interact with these features
+you provide consent
+by choosing to interact with these features
 after being informed of their use
-by the banner in the footer of every page.
+by the
+[notice](#cookie-banner)
+in the footer of every page.
 
 You can withdraw this consent at any time
 by deleting or disabling these cookies in your browser.
@@ -193,11 +193,6 @@ This is a W3C Recommendation
 allowing you to react and comment
 from your own website,
 or across various social platforms.
-To enable this to update dynamically
-and facilitate open conversations,
-I embed content from
-[Webmention.io](https://webmention.io/)
-on blog posts.
 You can push webmentions from your own website,
 but I also use
 [brid.gy](https://brid.gy/)
@@ -210,6 +205,12 @@ services like
 [commentpara.de](https://commentpara.de/)
 facilitate this;
 you can choose the service of your choice.
+
+To enable this to update dynamically
+and facilitate open conversations,
+I embed content from
+[Webmention.io](https://webmention.io/)
+on blog posts.
 
 I do not embed any content
 from any other organisations.
@@ -272,7 +273,7 @@ instead of better privacy controls in browsers
 reveals whose interests are really being served
 by this legislation,
 and it is neither users
-nor small indie website owners.
+nor small indie website operators.
 
 As a rule,
 browser-level privacy controls
