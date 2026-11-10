@@ -17,32 +17,27 @@ toc: true
 </a>
 {:/}
 
-Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.), MBCS
+Dr **George D. Watson-Hyde** MPhys (Hons) PhD (Ebor.)
 
-I'm a Lead Machine Learning Scientist
-working in biotech.
-I'm currently
-establishing a new machine learning function
-in an established biotech company,
-focused on developing state-of-the-art AI models for aptamer discovery.
-I have a background in computational modelling of biological systems
-and over 4 years of experience of
-applying machine learning and statistics in the public sector.
+I'm the Lead Machine Learning Scientist
+at [Aptamer Group PLC](http://aptamergroup.com/),
+where I'm developing AI models for in silico aptamer discovery.
+This means building a new team from the ground up,
+including setting the roadmap,
+leading on AI strategy,
+and establishing infrastructure and model architecture.
+I have a PhD in the biophysics of DNA–protein binding,
+the molecular basis of aptamer–target recognition,
+and have since spent over five years
+building and deploying
+machine learning and statistical systems
+in established organisations looking to make better use of their data.
 
 I specialise in:
-- Building new data and ML capability from scratch within complex organisations
-- Leadership of large technical projects involving data science, machine learning, and AI
-- Designing and building robust, interpretable machine learning and deep learning models and tooling to empower scientific discovery and R&D
-- Line management, recruitment, and capability development
-
-I enjoy working at the interface between disciplines
-to maximise the impact of my work,
-whether by partnering with wet-lab scientists
-to integrate machine learning and simulations with real-world experiments,
-or collaborating with developers and senior leaders
-to optimise delivery of public services.
-I focus on building ML capability that delivers
-both scientific discovery and commercial value.
+- Establishing new data and ML capability from scratch by building teams, processes, and technical stacks
+- Leading large, interdisciplinary technical projects using machine learning, statistics, and scientific computing to solve difficult scientific problems
+- Designing robust, interpretable machine learning models and tooling, as well as the MLOps to deploy them reliably
+- Translating between wet-lab science, machine learning, and senior leadership to accelerate scientific discovery and turn it into commercial value
 
 **Skills:**
 Machine learning in Python and R
@@ -65,8 +60,23 @@ Technical leadership
 * **Aptamer Group PLC**
   (2026--)\\
   Lead Machine Learning Scientist
-  * First hire in the new machine learning function,
-    leading development of state-of-the-art AI models for aptamer discovery
+  * As the first hire in the new machine learning (ML) team,
+    I'm establishing the company's first ML function from the ground up,
+    owning the strategy and reporting directly to senior leaders and the board.
+    This includes defining the multi-year roadmap
+    from data audit to generative design in production,
+    as well as the hiring and investment needed to deliver it.
+  * We're building an end-to-end discovery pipeline covering
+    affinity prediction,
+    epitope identification,
+    and generative sequence design,
+    integrated with wet-lab validation in a closed experimental feedback loop.
+  * As well as line managing and mentoring,
+    I have also designed and established tooling and ways of working for the team,
+    including data and code versioning,
+    experiment tracking,
+    a model registry,
+    and CI/CD.
 * **Department for Work and Pensions**
   (2022--2026)\\
   Senior Data Scientist (2024--2026)\\
@@ -269,6 +279,7 @@ Key to symbols:
 
 ## Memberships &amp; Awards
 
+<!--
 ### Memberships
 {:.no_toc}
 
@@ -282,6 +293,7 @@ Key to symbols:
   </a>
 </div>
 * **Professional Member**, BCS, The Chartered Institute for IT (MBCS)
+-->
 
 ### Awards
 {:.no_toc}
@@ -318,6 +330,8 @@ My biggest weakness is YouTube videos of people playing *Cities: Skylines*.
   10k:&nbsp;[45:37](https://www.strava.com/activities/17985258023)
   &bull;
   Half&nbsp;marathon:&nbsp;[1:47:39](https://www.strava.com/activities/13962037817)
+  &bull;
+  Marathon:&nbsp;[3:43:40](https://www.strava.com/activities/20634821308)
 
 Please feel free to get in touch
 if you'd like any more information about anything in this CV.
